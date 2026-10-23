@@ -89,7 +89,7 @@ struct ContentView: View {
                     Label("Open firmware folder", systemImage: "folder").font(.system(size: 11))
                 }.buttonStyle(.plain).foregroundStyle(Palette.ice)
             }.padding(21).frame(maxWidth: .infinity, alignment: .leading).background(.black.opacity(0.12), in: RoundedRectangle(cornerRadius: 12)).padding(14)
-            Text("RESTOREDOCK  /  1.6").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
+            Text("RESTOREDOCK  /  1.7").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
         }.background(Palette.ink).foregroundStyle(.white)
     }
 
@@ -204,6 +204,12 @@ struct ContentView: View {
                 Picker("Device family", selection: $model.family) {
                     Text("All devices").tag("All devices"); Text("iPhone").tag("iPhone"); Text("iPad").tag("iPad")
                 }.labelsHidden().frame(width: 130)
+                Picker("Sort devices", selection: $model.preferences.deviceSort) {
+                    ForEach(DeviceSortOrder.allCases) { order in
+                        Text(order.title).tag(order)
+                    }
+                }.labelsHidden().frame(width: 160)
+                    .help("Newest uses model introduction dates. Your choice is saved. Models without a known date appear first.")
             }
             HStack {
                 Text("\(model.filteredDevices.count) MODELS").font(.system(size: 9, weight: .semibold)).tracking(1.2).foregroundStyle(Palette.muted)
@@ -215,9 +221,19 @@ struct ContentView: View {
             } else {
                 ScrollView {
                     LazyVStack(spacing: 9) {
-                        ForEach(model.filteredDevices) { device in deviceRow(device) }
+                        ForEach(model.deviceSections) { section in
+                            Section {
+                                ForEach(section.devices) { device in deviceRow(device) }
+                            } header: {
+                                HStack {
+                                    Text(section.title).font(.system(size: 11, weight: .semibold))
+                                    Spacer()
+                                    Text("\(section.devices.count)").font(.system(size: 10))
+                                }.foregroundStyle(Palette.muted).padding(.vertical, 4)
+                            }
+                        }
                     }.padding(.bottom, 4)
-                }
+                }.id(model.preferences.deviceSort)
                 if model.filteredDevices.isEmpty { Text("No models match your search.").foregroundStyle(Palette.muted).frame(maxWidth: .infinity) }
             }
             HStack(spacing: 15) {

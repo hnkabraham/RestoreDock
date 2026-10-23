@@ -29,11 +29,12 @@ struct Preferences: Codable {
     var reserveGB = 20
     var destinationPath = FirmwareDestination.preferredDirectory().path
     var notifications = false
+    var deviceSort: DeviceSortOrder = .newest
 
     init() {}
 
     private enum CodingKeys: String, CodingKey {
-        case selectedIDs, allSupported, automaticDownloads, automaticallyDeleteUnsigned, intervalHours, reserveGB, destinationPath, notifications
+        case selectedIDs, allSupported, automaticDownloads, automaticallyDeleteUnsigned, intervalHours, reserveGB, destinationPath, notifications, deviceSort
     }
 
     init(from decoder: Decoder) throws {
@@ -47,7 +48,15 @@ struct Preferences: Codable {
         reserveGB = try values.decodeIfPresent(Int.self, forKey: .reserveGB) ?? reserveGB
         destinationPath = FirmwareDestination.preferredDirectory(savedPath: try values.decodeIfPresent(String.self, forKey: .destinationPath)).path
         notifications = try values.decodeIfPresent(Bool.self, forKey: .notifications) ?? notifications
+        deviceSort = (try? values.decode(String.self, forKey: .deviceSort))
+            .flatMap(DeviceSortOrder.init(rawValue:)) ?? .newest
     }
+}
+
+struct DeviceSection: Identifiable {
+    let id: String
+    let title: String
+    var devices: [DeviceFirmware]
 }
 
 struct CleanupReport: Codable {
@@ -141,10 +150,26 @@ final class AppModel: ObservableObject {
     var allDevices: [DeviceFirmware] { catalog?.devices ?? [] }
     var trackedDevices: [DeviceFirmware] { allDevices.filter { isTracked($0.id) } }
     var filteredDevices: [DeviceFirmware] {
-        allDevices.filter { device in
+        let matching = allDevices.filter { device in
             (family == "All devices" || (family == "iPhone" ? device.id.hasPrefix("iPhone") : device.id.hasPrefix("iPad"))) &&
             (search.isEmpty || "\(device.name) \(device.id) \(device.version)".localizedCaseInsensitiveContains(search))
         }
+        let followedIDs = preferences.allSupported ? Set(allDevices.map(\.id)) : preferences.selectedIDs
+        return DeviceSorter.sort(matching, order: preferences.deviceSort, followedIDs: followedIDs)
+    }
+    var deviceSections: [DeviceSection] {
+        var sections: [DeviceSection] = []
+        for device in filteredDevices {
+            let family = device.id.hasPrefix("iPhone") ? "iPhones" : "iPads"
+            let prefix = preferences.deviceSort == .followed ? (isTracked(device.id) ? "Followed " : "Other ") : ""
+            let title = prefix + family
+            if sections.last?.title == title {
+                sections[sections.count - 1].devices.append(device)
+            } else {
+                sections.append(DeviceSection(id: "\(title)-\(sections.count)", title: title, devices: [device]))
+            }
+        }
+        return sections
     }
     var readyItems: [DownloadItem] { downloads.items.filter { $0.status == .ready } }
     var pendingItems: [DownloadItem] { downloads.items.filter { $0.status != .ready } }

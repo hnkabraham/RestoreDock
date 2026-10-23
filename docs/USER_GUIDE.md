@@ -1,6 +1,6 @@
 # RestoreDock user guide
 
-RestoreDock 1.6 keeps the latest public iPhone and iPad restore firmware ready for your workbench. This guide covers downloads, imports, storage, cleanup, and the limits of signing information.
+RestoreDock 1.7 keeps the latest public iPhone and iPad restore firmware ready for your workbench. This guide covers downloads, imports, storage, cleanup, and the limits of signing information.
 
 [Back to the project README](../README.md)
 
@@ -15,6 +15,18 @@ RestoreDock 1.6 keeps the latest public iPhone and iPad restore firmware ready f
 To restore a connected device, select it in Finder, hold **Option**, and click **Restore iPhone** or **Restore iPad**, then choose the matching IPSW. Restoring erases the device. Finder and Apple perform the restore and authorize its firmware. A saved IPSW can become unusable for restoration after Apple stops signing it.
 
 Click a model's photo or name in **Devices** to browse its public IPSW history. Select a release to see its version, build, date, size, and signing status, alongside Apple's original release-notes page. Apple groups notes by major OS version; the app jumps to the matching section when available. Older or newly introduced major versions without a known article use Apple's support search. IPSW history does not include updates distributed only over the air. Signing status comes from IPSW.me when the history loads and is not a guarantee that Apple will authorize a restore. Select a signed release and click **Download IPSW** to add that exact build to your queue. The app fetches fresh signing status from IPSW.me before queuing and requires an Apple HTTPS IPSW URL and valid SHA-1 checksum. Unsigned releases cannot be queued from history. This manual action does not change the models you follow or enable automatic downloads. A paused queue stays paused. Existing downloads are reused, and verified files offer **Show in Finder**. Signing can change after queuing or downloading; Apple still decides whether a restore is allowed.
+
+## Sorting the device list
+
+Use the sort menu beside the device-family filter. Your choice is saved and restored when the app opens.
+
+- **Newest models** is the default, including after upgrading. iPhones appear first, then iPads. Each family is ordered by Apple's model announcement date, newest first, with related Wi-Fi, cellular, and regional variants kept together.
+- **Name (A–Z)** orders model families alphabetically, using natural number order, and keeps their variants together.
+- **Followed first** puts the models you follow at the top, then applies the newest-model ordering within the followed and other groups.
+
+These dates describe the hardware model, not its latest iOS or iPadOS update. Simultaneously announced models use their names as a tie-breaker. Internal revisions and regional variants share the original model-family date. New identifiers without bundled introduction data appear first within their device family in the newest modes until their dates are added; they remain searchable and selectable.
+
+Introduction dates and Apple source links are bundled in [`iPhoneModelOrder.json`](../Sources/FirmwareCore/Resources/iPhoneModelOrder.json) and [`iPadModelOrder.json`](../Sources/FirmwareCore/Resources/iPadModelOrder.json). Sorting works offline and does not require extra network requests. Keep these files current when adding known models.
 
 ## Import existing IPSWs
 

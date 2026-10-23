@@ -1,0 +1,467 @@
+[
+  {
+    "name": "iPad Air 11-inch (M4)",
+    "identifiers": [
+      "iPad16,8",
+      "iPad16,9"
+    ],
+    "introduced": "2026-03-02",
+    "precision": "day",
+    "source": "https://www.apple.com/uk/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/"
+  },
+  {
+    "name": "iPad Air 13-inch (M4)",
+    "identifiers": [
+      "iPad16,10",
+      "iPad16,11"
+    ],
+    "introduced": "2026-03-02",
+    "precision": "day",
+    "source": "https://www.apple.com/uk/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/"
+  },
+  {
+    "name": "iPad Pro 11-inch (M5)",
+    "identifiers": [
+      "iPad17,1",
+      "iPad17,2"
+    ],
+    "introduced": "2025-10-15",
+    "precision": "day",
+    "source": "https://www.apple.com/uk/newsroom/2025/10/apple-introduces-the-powerful-new-ipad-pro-with-the-m5-chip/"
+  },
+  {
+    "name": "iPad Pro 13-inch (M5)",
+    "identifiers": [
+      "iPad17,3",
+      "iPad17,4"
+    ],
+    "introduced": "2025-10-15",
+    "precision": "day",
+    "source": "https://www.apple.com/uk/newsroom/2025/10/apple-introduces-the-powerful-new-ipad-pro-with-the-m5-chip/"
+  },
+  {
+    "name": "iPad Air 11-inch (M3)",
+    "identifiers": [
+      "iPad15,3",
+      "iPad15,4"
+    ],
+    "introduced": "2025-03-04",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  {
+    "name": "iPad Air 13-inch (M3)",
+    "identifiers": [
+      "iPad15,5",
+      "iPad15,6"
+    ],
+    "introduced": "2025-03-04",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  {
+    "name": "iPad (A16)",
+    "identifiers": [
+      "iPad15,7",
+      "iPad15,8"
+    ],
+    "introduced": "2025-03-04",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  {
+    "name": "iPad mini (A17 Pro)",
+    "identifiers": [
+      "iPad16,1",
+      "iPad16,2"
+    ],
+    "introduced": "2024-10-15",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2024/10/apple-introduces-powerful-new-ipad-mini-built-for-apple-intelligence/"
+  },
+  {
+    "name": "iPad Pro 11-inch (M4)",
+    "identifiers": [
+      "iPad16,3",
+      "iPad16,4"
+    ],
+    "introduced": "2024-05-07",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/"
+  },
+  {
+    "name": "iPad Pro 13-inch (M4)",
+    "identifiers": [
+      "iPad16,5",
+      "iPad16,6"
+    ],
+    "introduced": "2024-05-07",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/"
+  },
+  {
+    "name": "iPad Air 11-inch (M2)",
+    "identifiers": [
+      "iPad14,8",
+      "iPad14,9"
+    ],
+    "introduced": "2024-05-07",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2024/05/apple-unveils-the-redesigned-11-inch-and-all-new-13-inch-ipad-air-with-m2/"
+  },
+  {
+    "name": "iPad Air 13-inch (M2)",
+    "identifiers": [
+      "iPad14,10",
+      "iPad14,11"
+    ],
+    "introduced": "2024-05-07",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2024/05/apple-unveils-the-redesigned-11-inch-and-all-new-13-inch-ipad-air-with-m2/"
+  },
+  {
+    "name": "iPad Pro 11-inch (4th generation)",
+    "identifiers": [
+      "iPad14,3",
+      "iPad14,4"
+    ],
+    "introduced": "2022-10-18",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2022/10/apple-introduces-next-generation-ipad-pro-supercharged-by-the-m2-chip/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (6th generation)",
+    "identifiers": [
+      "iPad14,5",
+      "iPad14,6"
+    ],
+    "introduced": "2022-10-18",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2022/10/apple-introduces-next-generation-ipad-pro-supercharged-by-the-m2-chip/"
+  },
+  {
+    "name": "iPad (10th generation)",
+    "identifiers": [
+      "iPad13,18",
+      "iPad13,19"
+    ],
+    "introduced": "2022-10-18",
+    "precision": "day",
+    "source": "https://www.apple.com/uk/newsroom/2022/10/apple-unveils-completely-redesigned-ipad-in-four-vibrant-colors/"
+  },
+  {
+    "name": "iPad Air (5th generation)",
+    "identifiers": [
+      "iPad13,16",
+      "iPad13,17"
+    ],
+    "introduced": "2022-03-08",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/"
+  },
+  {
+    "name": "iPad mini (6th generation)",
+    "identifiers": [
+      "iPad14,1",
+      "iPad14,2"
+    ],
+    "introduced": "2021-09-14",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2021/09/apple-unveils-new-ipad-mini-with-breakthrough-performance-in-stunning-new-design/"
+  },
+  {
+    "name": "iPad (9th generation)",
+    "identifiers": [
+      "iPad12,1",
+      "iPad12,2"
+    ],
+    "introduced": "2021-09-14",
+    "precision": "day",
+    "source": "https://www.apple.com/ca/newsroom/2021/09/apples-most-popular-ipad-delivers-even-more-performance-and-advanced-features/"
+  },
+  {
+    "name": "iPad Pro 11-inch (3rd generation)",
+    "identifiers": [
+      "iPad13,4",
+      "iPad13,5",
+      "iPad13,6",
+      "iPad13,7"
+    ],
+    "introduced": "2021-04-20",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2021/04/apple-unveils-new-ipad-pro-with-m1-chip-and-stunning-liquid-retina-xdr-display/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (5th generation)",
+    "identifiers": [
+      "iPad13,8",
+      "iPad13,9",
+      "iPad13,10",
+      "iPad13,11"
+    ],
+    "introduced": "2021-04-20",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2021/04/apple-unveils-new-ipad-pro-with-m1-chip-and-stunning-liquid-retina-xdr-display/"
+  },
+  {
+    "name": "iPad Air (4th generation)",
+    "identifiers": [
+      "iPad13,1",
+      "iPad13,2"
+    ],
+    "introduced": "2020-09-15",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2020/09/apple-unveils-all-new-ipad-air-with-a14-bionic-apples-most-advanced-chip/"
+  },
+  {
+    "name": "iPad (8th generation)",
+    "identifiers": [
+      "iPad11,6",
+      "iPad11,7"
+    ],
+    "introduced": "2020-09-15",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2020/09/apple-introduces-eighth-generation-ipad-with-a-huge-jump-in-performance/"
+  },
+  {
+    "name": "iPad Pro 11-inch (2nd generation)",
+    "identifiers": [
+      "iPad8,9",
+      "iPad8,10"
+    ],
+    "introduced": "2020-03-18",
+    "precision": "day",
+    "source": "https://www.apple.com/ca/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (4th generation)",
+    "identifiers": [
+      "iPad8,11",
+      "iPad8,12"
+    ],
+    "introduced": "2020-03-18",
+    "precision": "day",
+    "source": "https://www.apple.com/ca/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/"
+  },
+  {
+    "name": "iPad (7th generation)",
+    "identifiers": [
+      "iPad7,11",
+      "iPad7,12"
+    ],
+    "introduced": "2019-09-10",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2019/09/apple-introduces-new-version-of-the-most-popular-ipad-starting-at-329/"
+  },
+  {
+    "name": "iPad Air (3rd generation)",
+    "identifiers": [
+      "iPad11,3",
+      "iPad11,4"
+    ],
+    "introduced": "2019-03-18",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2019/03/all-new-ipad-air-and-ipad-mini-deliver-dramatic-power-and-capability/"
+  },
+  {
+    "name": "iPad mini (5th generation)",
+    "identifiers": [
+      "iPad11,1",
+      "iPad11,2"
+    ],
+    "introduced": "2019-03-18",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2019/03/all-new-ipad-air-and-ipad-mini-deliver-dramatic-power-and-capability/"
+  },
+  {
+    "name": "iPad Pro 11-inch (1st generation)",
+    "identifiers": [
+      "iPad8,1",
+      "iPad8,2",
+      "iPad8,3",
+      "iPad8,4"
+    ],
+    "introduced": "2018-10-30",
+    "precision": "day",
+    "source": "https://www.apple.com/sg/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (3rd generation)",
+    "identifiers": [
+      "iPad8,5",
+      "iPad8,6",
+      "iPad8,7",
+      "iPad8,8"
+    ],
+    "introduced": "2018-10-30",
+    "precision": "day",
+    "source": "https://www.apple.com/sg/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/"
+  },
+  {
+    "name": "iPad (6th generation)",
+    "identifiers": [
+      "iPad7,5",
+      "iPad7,6"
+    ],
+    "introduced": "2018-03-27",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2018/03/apple-introduces-new-9-7-inch-ipad-with-apple-pencil-support/"
+  },
+  {
+    "name": "iPad Pro 10.5-inch",
+    "identifiers": [
+      "iPad7,3",
+      "iPad7,4"
+    ],
+    "introduced": "2017-06-05",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (2nd generation)",
+    "identifiers": [
+      "iPad7,1",
+      "iPad7,2"
+    ],
+    "introduced": "2017-06-05",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/"
+  },
+  {
+    "name": "iPad (5th generation)",
+    "identifiers": [
+      "iPad6,11",
+      "iPad6,12"
+    ],
+    "introduced": "2017-03-21",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2017/03/new-9-7-inch-ipad-features-stunning-retina-display-and-incredible-performance/"
+  },
+  {
+    "name": "iPad Pro 9.7-inch",
+    "identifiers": [
+      "iPad6,3",
+      "iPad6,4"
+    ],
+    "introduced": "2016-03-21",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2016/03/21Apple-Introduces-9-7-inch-iPad-Pro/"
+  },
+  {
+    "name": "iPad Pro 12.9-inch (1st generation)",
+    "identifiers": [
+      "iPad6,7",
+      "iPad6,8"
+    ],
+    "introduced": "2015-09-09",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPad-Pro-Featuring-Epic-12-9-inch-Retina-Display/"
+  },
+  {
+    "name": "iPad mini (4th generation)",
+    "identifiers": [
+      "iPad5,1",
+      "iPad5,2"
+    ],
+    "introduced": "2015-09-09",
+    "precision": "day",
+    "source": "https://www.apple.com/mx/environment/pdf/products/ipad/iPadmini4_PER_sept2015.pdf"
+  },
+  {
+    "name": "iPad Air (2nd generation)",
+    "identifiers": [
+      "iPad5,3",
+      "iPad5,4"
+    ],
+    "introduced": "2014-10-16",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2014/10/16Apple-Introduces-iPad-Air-2-The-Thinnest-Most-Powerful-iPad-Ever/"
+  },
+  {
+    "name": "iPad mini (3rd generation)",
+    "identifiers": [
+      "iPad4,7",
+      "iPad4,8",
+      "iPad4,9"
+    ],
+    "introduced": "2014-10-16",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2014/10/16Apple-Introduces-iPad-Air-2-The-Thinnest-Most-Powerful-iPad-Ever/"
+  },
+  {
+    "name": "iPad Air (1st generation)",
+    "identifiers": [
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3"
+    ],
+    "introduced": "2013-10-22",
+    "precision": "day",
+    "source": "https://www.apple.com/ie/newsroom/2013/10/23Apple-Announces-iPad-Air-Dramatically-Thinner-Lighter-More-Powerful-iPad/"
+  },
+  {
+    "name": "iPad mini (2nd generation)",
+    "identifiers": [
+      "iPad4,4",
+      "iPad4,5",
+      "iPad4,6"
+    ],
+    "introduced": "2013-10-22",
+    "precision": "day",
+    "source": "https://www.apple.com/ie/newsroom/2013/10/23Apple-Announces-iPad-Air-Dramatically-Thinner-Lighter-More-Powerful-iPad/"
+  },
+  {
+    "name": "iPad (4th generation)",
+    "identifiers": [
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6"
+    ],
+    "introduced": "2012-10-23",
+    "precision": "day",
+    "source": "https://www.apple.com/ie/newsroom/2012/10/23Apple-Introduces-iPad-mini/"
+  },
+  {
+    "name": "iPad mini (1st generation)",
+    "identifiers": [
+      "iPad2,5",
+      "iPad2,6",
+      "iPad2,7"
+    ],
+    "introduced": "2012-10-23",
+    "precision": "day",
+    "source": "https://www.apple.com/ie/newsroom/2012/10/23Apple-Introduces-iPad-mini/"
+  },
+  {
+    "name": "iPad (3rd generation)",
+    "identifiers": [
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3"
+    ],
+    "introduced": "2012-03-07",
+    "precision": "day",
+    "source": "https://www.apple.com/ie/newsroom/2012/03/07Apple-Launches-New-iPad/"
+  },
+  {
+    "name": "iPad (2nd generation)",
+    "identifiers": [
+      "iPad2,1",
+      "iPad2,2",
+      "iPad2,3",
+      "iPad2,4"
+    ],
+    "introduced": "2011-03-02",
+    "precision": "day",
+    "source": "https://www.apple.com/sg/newsroom/2011/03/02Apple-Launches-iPad-2/"
+  },
+  {
+    "name": "iPad (1st generation)",
+    "identifiers": [
+      "iPad1,1"
+    ],
+    "introduced": "2010-01-27",
+    "precision": "day",
+    "source": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/"
+  }
+]

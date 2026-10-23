@@ -12,7 +12,7 @@ RestoreDock is a native macOS app for the workbench: choose the iPhone and iPad 
 
 ## Ready for your next restore
 
-- **Follow your models.** Pick individual iPhones and iPads, or follow all currently supported models. Check for new public releases automatically, with one download for firmware shared by multiple models.
+- **Follow your models.** Browse newest models first, switch to A–Z or followed models first, and keep related variants together. Pick individual iPhones and iPads, or follow all currently supported models. Check for new public releases automatically, with one download for firmware shared by multiple models.
 - **Download directly from Apple.** Firmware binaries come from Apple HTTPS hosts. RestoreDock verifies their checksum and expected size when available before marking them ready.
 - **Explore release history.** Browse each model’s IPSW history, read Apple’s release notes inside the app, and download older releases that are still reported as signed.
 - **Reuse what you have.** Import existing IPSWs from files, folders, or the Configurator cache. Verify and register them in place without copying or moving them.

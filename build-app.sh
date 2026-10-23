@@ -20,6 +20,7 @@ lipo -create "$STAGING_DIR/arm64/arm64-apple-macosx/release/RestoreDock" "$STAGI
 strip -S "$APP/Contents/MacOS/RestoreDock"
 cp Resources/Info.plist "$APP/Contents/Info.plist"
 ditto Sources/RestoreDock/Resources/DevicePhotos "$APP/Contents/Resources/DevicePhotos"
+ditto Sources/FirmwareCore/Resources "$APP/Contents/Resources/ModelOrder"
 swift Resources/MakeIcon.swift "$PWD/.build/icon.iconset" "$APP/Contents/Resources/AppIcon.icns"
 xattr -cr "$APP"
 codesign --force --sign - "$APP"

@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.macOS(.v14)],
     products: [.library(name: "FirmwareCore", targets: ["FirmwareCore"]), .executable(name: "RestoreDock", targets: ["RestoreDock"])],
     targets: [
-        .target(name: "FirmwareCore"),
+        .target(name: "FirmwareCore", resources: [.copy("Resources")]),
         .executableTarget(name: "RestoreDock", dependencies: ["FirmwareCore"], resources: [.copy("Resources/DevicePhotos")]),
         .testTarget(name: "FirmwareCoreTests", dependencies: ["FirmwareCore"])
     ],
