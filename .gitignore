@@ -1,0 +1,34 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+
+# Built applications, archives, and local firmware never belong in the repo.
+*.app/
+*.dSYM/
+*.zip
+*.ipsw
+*.resumeData
+
+# Runtime state and local test/screenshot workspaces.
+/work/
+/State/
+/queue/
+/staging/
+/downloads/
+/preferences.json
+/catalog.json
+/cleanup.json
+*.log
+
+# Local credentials and signing material.
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+
+# IDE state is personal; shared project configuration can still be committed.
+xcuserdata/
+*.xcuserstate

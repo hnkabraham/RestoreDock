@@ -1,0 +1,1214 @@
+{
+  "retrieved_at": "2026-10-23T04:13:24.609161+00:00",
+  "listings": [
+    "https://ipsw.me/product/iPhone/",
+    "https://ipsw.me/product/iPad/"
+  ],
+  "transformation": "None. Original source bytes, original format, original dimensions.",
+  "models": {
+    "iPad1,1": {
+      "name": "iPad 1",
+      "url": "https://ipsw.me/images/devices/015f46d56cc15f6cf5461be431a09a0dc9c82115.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "6f45dd86903e110def8441c2bb3190ede88132a0141d50f9aea753631991e997",
+      "filename": "6f45dd86903e110def8441c2.webp"
+    },
+    "iPad11,1": {
+      "name": "iPad mini 5 (WiFi)",
+      "url": "https://ipsw.me/images/devices/07a1c534ff7b70248dad20bf9b3ad8faac6a1235.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
+      "filename": "af32091fe7e97ab46cbde86d.webp"
+    },
+    "iPad11,2": {
+      "name": "iPad mini 5 (Cellular)",
+      "url": "https://ipsw.me/images/devices/9edfbe63487bd6e1a78d979ee82a99d1398a4dc3.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
+      "filename": "af32091fe7e97ab46cbde86d.webp"
+    },
+    "iPad11,3": {
+      "name": "iPad Air 3 (WiFi)",
+      "url": "https://ipsw.me/images/devices/81f5cfccd75e4d0b1eea2cc45cabb02d3ff2b9c4.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3fcddac2c61ab8efd215689eb5b59e54795ff0c13a6bf7aa940cccf74533a07e",
+      "filename": "3fcddac2c61ab8efd215689e.webp"
+    },
+    "iPad11,4": {
+      "name": "iPad Air 3 (Cellular)",
+      "url": "https://ipsw.me/images/devices/70b4402ab716999511420d8cd8a582e2761bc738.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
+      "filename": "af32091fe7e97ab46cbde86d.webp"
+    },
+    "iPad11,6": {
+      "name": "iPad 8 (WiFi)",
+      "url": "https://ipsw.me/images/devices/eedc089a75fa68134341c4dfba0be944c37339e9.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "a1f3ed9aff0e7798da07a0c1e8c6eadbbfc29932ec827702af8f381380e7f3cb",
+      "filename": "a1f3ed9aff0e7798da07a0c1.webp"
+    },
+    "iPad11,7": {
+      "name": "iPad 8 (Cellular)",
+      "url": "https://ipsw.me/images/devices/aff2fc5a2d45dcef34a97c4d3aa053f035fc6443.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "a1f3ed9aff0e7798da07a0c1e8c6eadbbfc29932ec827702af8f381380e7f3cb",
+      "filename": "a1f3ed9aff0e7798da07a0c1.webp"
+    },
+    "iPad12,1": {
+      "name": "iPad (WiFi, 9th generation)",
+      "url": "https://ipsw.me/images/devices/a6fefc107a44286b7d061f1d657c684c7543f35c.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c99278ec140140523ad44a361511f2ebb9f99f2a2119022da960a5a64d313564",
+      "filename": "c99278ec140140523ad44a36.webp"
+    },
+    "iPad12,2": {
+      "name": "iPad (Cellular, 9th generation)",
+      "url": "https://ipsw.me/images/devices/81c9cc8a79868955b0ef76f2eddcc074ef477e46.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c99278ec140140523ad44a361511f2ebb9f99f2a2119022da960a5a64d313564",
+      "filename": "c99278ec140140523ad44a36.webp"
+    },
+    "iPad13,1": {
+      "name": "iPad Air 4 (WiFi)",
+      "url": "https://ipsw.me/images/devices/d044893f0d83fd0ea94ea295183389e4b4695a37.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "7eeb7bca617c87edb2808f47fcdcf061fde69d1a1fda16882a82bef65776ba97",
+      "filename": "7eeb7bca617c87edb2808f47.webp"
+    },
+    "iPad13,10": {
+      "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
+      "url": "https://ipsw.me/images/devices/1ce552296d38db82a9875927cee36cffcc90198c.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad13,11": {
+      "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
+      "url": "https://ipsw.me/images/devices/9c7c0d781470dcd7156a091dea4d56987e2da502.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad13,16": {
+      "name": "iPad Air 5 (WiFi)",
+      "url": "https://ipsw.me/images/devices/2e15a70ae77cf95d337acc7ea66e0d16f8585575.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "04f8d14fcdc0c0caed98220c9c797ed63456c653e7eaa4b483c342893f8a2e4c",
+      "filename": "04f8d14fcdc0c0caed98220c.webp"
+    },
+    "iPad13,17": {
+      "name": "iPad Air 5 (Cellular)",
+      "url": "https://ipsw.me/images/devices/eddaf92fc20aa58eb02a1c46c49915049d675d88.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "04f8d14fcdc0c0caed98220c9c797ed63456c653e7eaa4b483c342893f8a2e4c",
+      "filename": "04f8d14fcdc0c0caed98220c.webp"
+    },
+    "iPad13,18": {
+      "name": "iPad (WiFi, 10th generation)",
+      "url": "https://ipsw.me/images/devices/839f9d93b71b90d342b1747202baeb51e6ba31dc.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c6ab855a7c65d027c86b70e82ba4ecd77ba3812e81b0be3871a9aa975e948648",
+      "filename": "c6ab855a7c65d027c86b70e8.webp"
+    },
+    "iPad13,19": {
+      "name": "iPad (Cellular, 10th generation)",
+      "url": "https://ipsw.me/images/devices/79d46b1e8567ab18137c50b89d3862b8273cf8d4.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c6ab855a7c65d027c86b70e82ba4ecd77ba3812e81b0be3871a9aa975e948648",
+      "filename": "c6ab855a7c65d027c86b70e8.webp"
+    },
+    "iPad13,2": {
+      "name": "iPad Air 4 (Cellular)",
+      "url": "https://ipsw.me/images/devices/e44c45cd3ade3d9053fd3a3dc98b03150c85558f.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "91ab7a5c23d557c53f19cc3cf2f041626ef5cea49cd3ff2054f6701fb58f75d9",
+      "filename": "91ab7a5c23d557c53f19cc3c.webp"
+    },
+    "iPad13,4": {
+      "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
+      "url": "https://ipsw.me/images/devices/b4e4f90825685e8d784c9c04a3c20398142959b6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad13,5": {
+      "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
+      "url": "https://ipsw.me/images/devices/f0dbc583bc86d0ee2526be1c7a221efdd34cc0b0.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad13,6": {
+      "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
+      "url": "https://ipsw.me/images/devices/97cd8dceb876eb84d540fc3c407dda4311314735.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e843e3585eb10f7cb12f2ac79260b9440d96081d12483ad6d3aca75a8cdef882",
+      "filename": "e843e3585eb10f7cb12f2ac7.webp"
+    },
+    "iPad13,7": {
+      "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
+      "url": "https://ipsw.me/images/devices/5ce35209cb7ce0c6452cafe94336eefa8a93b212.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e843e3585eb10f7cb12f2ac79260b9440d96081d12483ad6d3aca75a8cdef882",
+      "filename": "e843e3585eb10f7cb12f2ac7.webp"
+    },
+    "iPad13,8": {
+      "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
+      "url": "https://ipsw.me/images/devices/7ba68029b4e739a380139ec033e0ceba035d2b96.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad13,9": {
+      "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
+      "url": "https://ipsw.me/images/devices/81d23a2309800767536f2e5e5d3fbd2887aed9e8.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
+      "filename": "4bd01252fe03719e84a0edad.webp"
+    },
+    "iPad14,1": {
+      "name": "iPad mini 6 (WiFi)",
+      "url": "https://ipsw.me/images/devices/26a8e5395bea3420b386c06b3506e059c690bef8.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8f4b99e747c3d137a37c45cc2713b973b91c538140bfba41c31bccc184db1aec",
+      "filename": "8f4b99e747c3d137a37c45cc.webp"
+    },
+    "iPad14,10": {
+      "name": "iPad Air (M2, 13-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/3e7534962f1f749781f86caf6b723234f304238f.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "88041ca33f07e25faac58cf3e26791664a2e097b29356382bd1b2e3b40d0c3c3",
+      "filename": "88041ca33f07e25faac58cf3.webp"
+    },
+    "iPad14,11": {
+      "name": "iPad Air (M2, 13-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/e676a74f93abf0e76b378bed2e02f6801d010e63.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "88041ca33f07e25faac58cf3e26791664a2e097b29356382bd1b2e3b40d0c3c3",
+      "filename": "88041ca33f07e25faac58cf3.webp"
+    },
+    "iPad14,2": {
+      "name": "iPad mini 6 (Cellular)",
+      "url": "https://ipsw.me/images/devices/81a52b35c362b0bee5a8dc833bab74b3f5916677.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8f4b99e747c3d137a37c45cc2713b973b91c538140bfba41c31bccc184db1aec",
+      "filename": "8f4b99e747c3d137a37c45cc.webp"
+    },
+    "iPad14,3": {
+      "name": "iPad Pro (11-inch, WiFi) (4th generation)",
+      "url": "https://ipsw.me/images/devices/f6c51038520b80388a965e9444243fc7dddfe426.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
+      "filename": "47823be418009ec7f75a4ea2.webp"
+    },
+    "iPad14,4": {
+      "name": "iPad Pro (11-inch, Cellular) (4th generation)",
+      "url": "https://ipsw.me/images/devices/d5e26b0b882b4c16512e5e2fb2a029a4b5ddd94a.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
+      "filename": "47823be418009ec7f75a4ea2.webp"
+    },
+    "iPad14,5": {
+      "name": "iPad Pro (12.9-inch, WiFi) (6th generation)",
+      "url": "https://ipsw.me/images/devices/7be73192e0b768d8869602939c819319ac65b070.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
+      "filename": "47823be418009ec7f75a4ea2.webp"
+    },
+    "iPad14,6": {
+      "name": "iPad Pro (12.9-inch, Cellular) (6th generation)",
+      "url": "https://ipsw.me/images/devices/1bd8e3a133bc9e1608a7c0ed30fae6c13ec48831.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
+      "filename": "47823be418009ec7f75a4ea2.webp"
+    },
+    "iPad14,8": {
+      "name": "iPad Air (M2, 11-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/2efb4a61519a241021ef03e024532076f4ea7b2e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "a946d545e275bf656ab6578b8323e6176e93950eb4183cb39e75e2bda4da5b0b",
+      "filename": "a946d545e275bf656ab6578b.webp"
+    },
+    "iPad14,9": {
+      "name": "iPad Air (M2, 11-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/ce5d311bd3c679415eed9738c64cfa4a98f48d63.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "a946d545e275bf656ab6578b8323e6176e93950eb4183cb39e75e2bda4da5b0b",
+      "filename": "a946d545e275bf656ab6578b.webp"
+    },
+    "iPad15,3": {
+      "name": "iPad Air 11-inch (M3, WiFi)",
+      "url": "https://ipsw.me/images/devices/f1e27bec6f3291114622b8abc6d0501b39f6a0fe.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "ba855cb98495bc05d65b6d855d3e462839e38e670069ec5bed61fcdae3c27772",
+      "filename": "ba855cb98495bc05d65b6d85.webp"
+    },
+    "iPad15,4": {
+      "name": "iPad Air 11-inch (M3, Cellular)",
+      "url": "https://ipsw.me/images/devices/21756e32b55e929ef312a36f55902cfb948bb984.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "ba855cb98495bc05d65b6d855d3e462839e38e670069ec5bed61fcdae3c27772",
+      "filename": "ba855cb98495bc05d65b6d85.webp"
+    },
+    "iPad15,5": {
+      "name": "iPad Air 13-inch (M3, WiFi)",
+      "url": "https://ipsw.me/images/devices/9eb76c04803a3233c18c710feb5800512f38195b.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "9e981aaf49d0c546e0ae9e60aa21ce79eb26cb038833708936775e27e63e64ee",
+      "filename": "9e981aaf49d0c546e0ae9e60.webp"
+    },
+    "iPad15,6": {
+      "name": "iPad Air 13-inch (M3, Cellular)",
+      "url": "https://ipsw.me/images/devices/dcc715511fee177f94602e41fdb81d09b2cf9817.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "9e981aaf49d0c546e0ae9e60aa21ce79eb26cb038833708936775e27e63e64ee",
+      "filename": "9e981aaf49d0c546e0ae9e60.webp"
+    },
+    "iPad15,7": {
+      "name": "iPad (A16, WiFi)",
+      "url": "https://ipsw.me/images/devices/cdc0ac5c4fadf7f6b8544e8e0c410d992ad71eca.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "9b0d51cd6c09f12680eeea47b6c66fece65b828c7a8492f0d12262f9d7b86ed5",
+      "filename": "9b0d51cd6c09f12680eeea47.webp"
+    },
+    "iPad15,8": {
+      "name": "iPad (A16, Cellular)",
+      "url": "https://ipsw.me/images/devices/4d856647f4fc3a5d7c75c52a0a9ccbe8adb3f0a9.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "9b0d51cd6c09f12680eeea47b6c66fece65b828c7a8492f0d12262f9d7b86ed5",
+      "filename": "9b0d51cd6c09f12680eeea47.webp"
+    },
+    "iPad16,1": {
+      "name": "iPad mini (A17 Pro, WiFi)",
+      "url": "https://ipsw.me/images/devices/f3ca36d832f8f19297dc313f94dda539d2509347.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e68fa06436ca51c921359b4e37bfc37cb512750aef312986d5b0aa28796ff609",
+      "filename": "e68fa06436ca51c921359b4e.webp"
+    },
+    "iPad16,10": {
+      "name": "iPad Air 13-inch (M4, WiFi)",
+      "url": "https://ipsw.me/images/devices/a411edda1c31e12dc790b1eb8ab6b4e849e0d59d.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8017d539156179b47a432a9cd5efe709bdaf468c6b13514680dc62f045193962",
+      "filename": "8017d539156179b47a432a9c.webp"
+    },
+    "iPad16,11": {
+      "name": "iPad Air 13-inch (M4, Cellular)",
+      "url": "https://ipsw.me/images/devices/867d76e07695a18620ecec545d6628f02d3e4647.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8017d539156179b47a432a9cd5efe709bdaf468c6b13514680dc62f045193962",
+      "filename": "8017d539156179b47a432a9c.webp"
+    },
+    "iPad16,2": {
+      "name": "iPad mini (A17 Pro, Cellular)",
+      "url": "https://ipsw.me/images/devices/37b0fc4b0f1ca08dea9e599b4465be28a02b1440.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e68fa06436ca51c921359b4e37bfc37cb512750aef312986d5b0aa28796ff609",
+      "filename": "e68fa06436ca51c921359b4e.webp"
+    },
+    "iPad16,3": {
+      "name": "iPad Pro (M4, 11-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/1df9aa9508bb768fd2b6b38bb8422dab7f2a7e26.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3f6e4a5d0bc1b6f6072023c7039c0b0dbd5e11cbd35c1a7e89d95586987397dd",
+      "filename": "3f6e4a5d0bc1b6f6072023c7.webp"
+    },
+    "iPad16,4": {
+      "name": "iPad Pro (M4, 11-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/57c962dc3a376b91322b3ac597c43505e3a86d2e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3f6e4a5d0bc1b6f6072023c7039c0b0dbd5e11cbd35c1a7e89d95586987397dd",
+      "filename": "3f6e4a5d0bc1b6f6072023c7.webp"
+    },
+    "iPad16,5": {
+      "name": "iPad Pro (M4, 13-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/ad223999b2e3ddec96b6d063c80cb94881907ca6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8d6fbc8a40f1b4a118ea1c0dc8c30321001bcdff661ae9e4822e1b5e761492d8",
+      "filename": "8d6fbc8a40f1b4a118ea1c0d.webp"
+    },
+    "iPad16,6": {
+      "name": "iPad Pro (M4, 13-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/8377e5bd7852545a8dd43db12b036af1ce0b5afa.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "8d6fbc8a40f1b4a118ea1c0dc8c30321001bcdff661ae9e4822e1b5e761492d8",
+      "filename": "8d6fbc8a40f1b4a118ea1c0d.webp"
+    },
+    "iPad16,8": {
+      "name": "iPad Air 11-inch (M4, WiFi)",
+      "url": "https://ipsw.me/images/devices/08f21a088a1767593baed2b735ac5f512ab4f0be.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "394c22833d26dd5ba9f0965f2dfe205e5dceaa1bf5e3967ba74d00859fef96ab",
+      "filename": "394c22833d26dd5ba9f0965f.webp"
+    },
+    "iPad16,9": {
+      "name": "iPad Air 11-inch (M4, Cellular)",
+      "url": "https://ipsw.me/images/devices/47b5d851a4dc710f1b1e4c506575a641a20dce99.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "394c22833d26dd5ba9f0965f2dfe205e5dceaa1bf5e3967ba74d00859fef96ab",
+      "filename": "394c22833d26dd5ba9f0965f.webp"
+    },
+    "iPad17,1": {
+      "name": "iPad Pro 11-inch (M5, WiFi)",
+      "url": "https://ipsw.me/images/devices/c38edb657e9cb802d39b6e6e267fef26ae07d324.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c36df484b0d821516532b8108561f12c26f425fcc74f1b349624867e01389b9e",
+      "filename": "c36df484b0d821516532b810.webp"
+    },
+    "iPad17,2": {
+      "name": "iPad Pro 11-inch (M5, Cellular)",
+      "url": "https://ipsw.me/images/devices/120dc9b534027cf9fa92024b6733ac84070052df.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c36df484b0d821516532b8108561f12c26f425fcc74f1b349624867e01389b9e",
+      "filename": "c36df484b0d821516532b810.webp"
+    },
+    "iPad17,3": {
+      "name": "iPad Pro 13-inch (M5, WiFi)",
+      "url": "https://ipsw.me/images/devices/8612380caea4477af5984493f7f0420fd1c1428b.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e3c72fa8ae94b12612fc59b6c5bad20386338ff3a36cc9d678cab862880216ae",
+      "filename": "e3c72fa8ae94b12612fc59b6.webp"
+    },
+    "iPad17,4": {
+      "name": "iPad Pro 13-inch (M5, Cellular)",
+      "url": "https://ipsw.me/images/devices/529df80e07e630a834b4263a7c2d773bfbdfea82.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "e3c72fa8ae94b12612fc59b6c5bad20386338ff3a36cc9d678cab862880216ae",
+      "filename": "e3c72fa8ae94b12612fc59b6.webp"
+    },
+    "iPad2,1": {
+      "name": "iPad 2 (WiFi)",
+      "url": "https://ipsw.me/images/devices/d927bb97db9f67b4b0180e1821024566218e75ef.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "95e81d8646c8f502de28f6d0507e5d4dea92013e9dd2c7c3684337dd3dd50045",
+      "filename": "95e81d8646c8f502de28f6d0.webp"
+    },
+    "iPad2,2": {
+      "name": "iPad 2 (GSM)",
+      "url": "https://ipsw.me/images/devices/d991580fe4da7f54374b646b0fb26ca7157eac80.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "eb4f6910c6515ea5e7e320e25f78cfcea1d37ef8c1fa8aafca04e3ea17e9a2d4",
+      "filename": "eb4f6910c6515ea5e7e320e2.webp"
+    },
+    "iPad2,3": {
+      "name": "iPad 2 (CDMA)",
+      "url": "https://ipsw.me/images/devices/6056cf9078cfe0db0527e6eca5a40f64b78b29a1.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "eb4f6910c6515ea5e7e320e25f78cfcea1d37ef8c1fa8aafca04e3ea17e9a2d4",
+      "filename": "eb4f6910c6515ea5e7e320e2.webp"
+    },
+    "iPad2,4": {
+      "name": "iPad 2 (Mid 2012)",
+      "url": "https://ipsw.me/images/devices/3d6478f3cbadd44f2166c65e5820ac5e8e70f879.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "95e81d8646c8f502de28f6d0507e5d4dea92013e9dd2c7c3684337dd3dd50045",
+      "filename": "95e81d8646c8f502de28f6d0.webp"
+    },
+    "iPad2,5": {
+      "name": "iPad mini (WiFi)",
+      "url": "https://ipsw.me/images/devices/912a254d69a55974a44d71c6eff89d3dd9986b2a.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
+      "filename": "2d2f9b2289ba44b813257b3d.webp"
+    },
+    "iPad2,6": {
+      "name": "iPad mini (GSM)",
+      "url": "https://ipsw.me/images/devices/0f0cb4bde177a3251131c11284d981fdce687374.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
+      "filename": "2d2f9b2289ba44b813257b3d.webp"
+    },
+    "iPad2,7": {
+      "name": "iPad mini (Global)",
+      "url": "https://ipsw.me/images/devices/d81ad2095112f85cb3434b2daf52a84de2a438e6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
+      "filename": "2d2f9b2289ba44b813257b3d.webp"
+    },
+    "iPad3,1": {
+      "name": "iPad 3 (WiFi)",
+      "url": "https://ipsw.me/images/devices/8f61043399f9932dd3b0f45e13941ef3d6d8ae1e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "857aea7887f97a8202b71c873bb97f5be8963f7b36771fd37bdf736890444d03",
+      "filename": "857aea7887f97a8202b71c87.webp"
+    },
+    "iPad3,2": {
+      "name": "iPad 3 (CDMA)",
+      "url": "https://ipsw.me/images/devices/616e24cb68ba8006fcb343d06f5cd2dc0509c34c.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "a56de6d3668adea63b025dcd297aba92334afbf4f6a7cedadba27131000376bf",
+      "filename": "a56de6d3668adea63b025dcd.webp"
+    },
+    "iPad3,3": {
+      "name": "iPad 3 (GSM)",
+      "url": "https://ipsw.me/images/devices/60a206184678cbcbefbf4acb0dbf9081845e2ef4.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "857aea7887f97a8202b71c873bb97f5be8963f7b36771fd37bdf736890444d03",
+      "filename": "857aea7887f97a8202b71c87.webp"
+    },
+    "iPad3,4": {
+      "name": "iPad 4 (WiFi)",
+      "url": "https://ipsw.me/images/devices/bc4deafc7a0aefab4683be2435384c7ba012db38.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c55abf88c5af9513dea37327cf85c0a9f95dd6db5d85acd01e77e7f1c4041de9",
+      "filename": "c55abf88c5af9513dea37327.webp"
+    },
+    "iPad3,5": {
+      "name": "iPad 4 (GSM)",
+      "url": "https://ipsw.me/images/devices/adff62a4b066eafde364f376d098b6f4c62a80e5.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "32f0ff3512f5cf6afa175c89b5caeba817a29912350c9177658f8e9916202b47",
+      "filename": "32f0ff3512f5cf6afa175c89.webp"
+    },
+    "iPad3,6": {
+      "name": "iPad 4 (Global)",
+      "url": "https://ipsw.me/images/devices/5e22f81a0e208fcc94d51850ee55805060761b5c.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "32f0ff3512f5cf6afa175c89b5caeba817a29912350c9177658f8e9916202b47",
+      "filename": "32f0ff3512f5cf6afa175c89.webp"
+    },
+    "iPad4,1": {
+      "name": "iPad Air (WiFi)",
+      "url": "https://ipsw.me/images/devices/b321dbf62c9d247182e466425bba2fc04e34d3e9.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "2e9d8ecd8167675490d46389c023c138b42188cd9140b6758b9805e5e06e41ac",
+      "filename": "2e9d8ecd8167675490d46389.webp"
+    },
+    "iPad4,2": {
+      "name": "iPad Air (Cellular)",
+      "url": "https://ipsw.me/images/devices/59879b4c7cba49d3af70a3bc186f8664f0cfea30.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "7c1001a25900cb37534fc7f0a49b116d16db14a95de87e53d1adbeff50fa5d1a",
+      "filename": "7c1001a25900cb37534fc7f0.webp"
+    },
+    "iPad4,3": {
+      "name": "iPad Air (China)",
+      "url": "https://ipsw.me/images/devices/cf7c13795a886017eec4ed815a1ef02a5277a74a.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "2e9d8ecd8167675490d46389c023c138b42188cd9140b6758b9805e5e06e41ac",
+      "filename": "2e9d8ecd8167675490d46389.webp"
+    },
+    "iPad4,4": {
+      "name": "iPad mini 2 (WiFi)",
+      "url": "https://ipsw.me/images/devices/60289d683a6758badc01ba0b884fb3c9f1edbd8f.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
+      "filename": "c22eb1a17df5afbddc53d629.webp"
+    },
+    "iPad4,5": {
+      "name": "iPad mini 2 (Cellular)",
+      "url": "https://ipsw.me/images/devices/d71acfdb9558dd885d61e0d5369ed8d32725cb87.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
+      "filename": "c22eb1a17df5afbddc53d629.webp"
+    },
+    "iPad4,6": {
+      "name": "iPad mini 2 (China)",
+      "url": "https://ipsw.me/images/devices/a826af5c991f7972c7410b0e60adfba6dedaa25e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
+      "filename": "c22eb1a17df5afbddc53d629.webp"
+    },
+    "iPad4,7": {
+      "name": "iPad mini 3 (WiFi)",
+      "url": "https://ipsw.me/images/devices/0ee41f4526ae6b2e05cee276d05e920c9c0b8f93.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
+      "filename": "f7929148b4fd3d0631f93c41.webp"
+    },
+    "iPad4,8": {
+      "name": "iPad mini 3 (Cellular)",
+      "url": "https://ipsw.me/images/devices/2433c3ff04ad3f8b594cf700cf1d26c4b117329e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "433192b4c64253c7f37cc7ec5f381bc992b7b1a38f8cf7d78fc93c84672e017b",
+      "filename": "433192b4c64253c7f37cc7ec.webp"
+    },
+    "iPad4,9": {
+      "name": "iPad mini 3 (China)",
+      "url": "https://ipsw.me/images/devices/061f361779ccefd953b021b171299fbd5204ce21.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
+      "filename": "f7929148b4fd3d0631f93c41.webp"
+    },
+    "iPad5,1": {
+      "name": "iPad mini 4 (WiFi)",
+      "url": "https://ipsw.me/images/devices/c9c8e135537314e2049ce04fe4c677a1dbb0f376.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
+      "filename": "f7929148b4fd3d0631f93c41.webp"
+    },
+    "iPad5,2": {
+      "name": "iPad mini 4 (Cellular)",
+      "url": "https://ipsw.me/images/devices/6d0a4172e932ed56ba07ade9bd10995a73094b7a.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
+      "filename": "f7929148b4fd3d0631f93c41.webp"
+    },
+    "iPad5,3": {
+      "name": "iPad Air 2 (WiFi)",
+      "url": "https://ipsw.me/images/devices/8a6c5cdc342a9a0e78908bb82bc33a1cc8dd2954.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4cadd2f139f29e3637db2eaf0a2ae4c24a1835360b0ea155d10ada154bc003e9",
+      "filename": "4cadd2f139f29e3637db2eaf.webp"
+    },
+    "iPad5,4": {
+      "name": "iPad Air 2 (Cellular)",
+      "url": "https://ipsw.me/images/devices/2f40af2bf1701bc17287009775f8e4a19c1ec959.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "fb7f0fcd2d15ab7910b49e082ff696ce8799e8c46f301c30061764db91f2e6a7",
+      "filename": "fb7f0fcd2d15ab7910b49e08.webp"
+    },
+    "iPad6,11": {
+      "name": "iPad 5 (WiFi)",
+      "url": "https://ipsw.me/images/devices/7507555cb915c6333db8cb03b78e24bfddecf0c6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "b536ecdd9f6f531f676fcdb181590899109b47f8288e812c616d8db56753c327",
+      "filename": "b536ecdd9f6f531f676fcdb1.webp"
+    },
+    "iPad6,12": {
+      "name": "iPad 5 (Cellular)",
+      "url": "https://ipsw.me/images/devices/9ab1a5023a447f9378b33ee545880f82985d8b4d.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "b536ecdd9f6f531f676fcdb181590899109b47f8288e812c616d8db56753c327",
+      "filename": "b536ecdd9f6f531f676fcdb1.webp"
+    },
+    "iPad6,3": {
+      "name": "iPad Pro 9.7-inch (WiFi)",
+      "url": "https://ipsw.me/images/devices/367bf008bf9ecf61f1e239a6f6f9967a7796f06b.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
+      "filename": "57881f49633aab9652fb49b1.webp"
+    },
+    "iPad6,4": {
+      "name": "iPad Pro 9.7-inch (Cellular)",
+      "url": "https://ipsw.me/images/devices/45f427f8a3098171efb75c12c097fff3d2d97184.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "306a4380e79b431078b8efd9321cfbb9b2232ff52ac8a903def5e1f6f620762e",
+      "filename": "306a4380e79b431078b8efd9.webp"
+    },
+    "iPad6,7": {
+      "name": "iPad Pro 12.9-inch (WiFi)",
+      "url": "https://ipsw.me/images/devices/3e90454f900084af3bcf23174d06009c95d34f92.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "697d19eb753c7efde6a6579944a90cb256033aeb237c719e6e589e9def6cbcf3",
+      "filename": "697d19eb753c7efde6a65799.webp"
+    },
+    "iPad6,8": {
+      "name": "iPad Pro 12.9-inch (Cellular)",
+      "url": "https://ipsw.me/images/devices/8f1fff3251704d3c066b33ee722b988c980e5a3d.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "825482dece6183a3cbd0fadca8a4b60fa3f10aaa5e537be0829e779ce360a812",
+      "filename": "825482dece6183a3cbd0fadc.webp"
+    },
+    "iPad7,1": {
+      "name": "iPad Pro 2 (12.9-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/86a63f43298a9de30efe4c0be4d7c98b5085180c.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "ecb5017a088dc400788e2ef742ff82f9e22809b2167388fd3322c0967be6acec",
+      "filename": "ecb5017a088dc400788e2ef7.webp"
+    },
+    "iPad7,11": {
+      "name": "iPad 7 (WiFi)",
+      "url": "https://ipsw.me/images/devices/c112aa862718877891b810e56ae213259f08760d.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "7f5641edafb145c901edf63cf2ddc12a048b067e8ad6b0d4faddebb6eef3c137",
+      "filename": "7f5641edafb145c901edf63c.webp"
+    },
+    "iPad7,12": {
+      "name": "iPad 7 (Cellular)",
+      "url": "https://ipsw.me/images/devices/dce0f0cd21a6cb781123c8d3111d2bfee5592ed6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "7f5641edafb145c901edf63cf2ddc12a048b067e8ad6b0d4faddebb6eef3c137",
+      "filename": "7f5641edafb145c901edf63c.webp"
+    },
+    "iPad7,2": {
+      "name": "iPad Pro 2 (12.9-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/526de350025cd95b9b398c0c2ed39add0cee33c0.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "ecb5017a088dc400788e2ef742ff82f9e22809b2167388fd3322c0967be6acec",
+      "filename": "ecb5017a088dc400788e2ef7.webp"
+    },
+    "iPad7,3": {
+      "name": "iPad Pro (10.5-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/cdb8869cec199ccdc8f40ee09ee1b6038cfa4b48.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
+      "filename": "57881f49633aab9652fb49b1.webp"
+    },
+    "iPad7,4": {
+      "name": "iPad Pro (10.5-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/39bb3347137a3313f8c9bde8cb56bde7690c6b41.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
+      "filename": "57881f49633aab9652fb49b1.webp"
+    },
+    "iPad7,5": {
+      "name": "iPad 6 (WiFi)",
+      "url": "https://ipsw.me/images/devices/24148999a3877ee48e9eb3cb79f0073585f650fe.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
+      "filename": "57881f49633aab9652fb49b1.webp"
+    },
+    "iPad7,6": {
+      "name": "iPad 6 (Cellular)",
+      "url": "https://ipsw.me/images/devices/87993140eb4b75d83bc93e54606d27a71504171e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
+      "filename": "57881f49633aab9652fb49b1.webp"
+    },
+    "iPad8,1": {
+      "name": "iPad Pro 3 (11-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/f3024852a7bb3126635fd01af8033671f3fa7b20.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
+      "filename": "4f5e24918cb9b1965f79bd35.webp"
+    },
+    "iPad8,10": {
+      "name": "iPad Pro 4 (11-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/385f6911c7d3627ec7093fa739f6131fb9dedb38.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
+      "filename": "c234f847a336f73f18d30957.webp"
+    },
+    "iPad8,11": {
+      "name": "iPad Pro 4 (12.9-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/75c146d576c6ed6579521cd6a447d5dcfb8806e6.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
+      "filename": "c234f847a336f73f18d30957.webp"
+    },
+    "iPad8,12": {
+      "name": "iPad Pro 4 (12.9-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/b9510aa5d2479e88a427e561da32379b7b69f098.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
+      "filename": "c234f847a336f73f18d30957.webp"
+    },
+    "iPad8,2": {
+      "name": "iPad Pro 3 (11-inch, WiFi, 1TB Model)",
+      "url": "https://ipsw.me/images/devices/9968042f0dc9bdfd4cf0139684d746387f0efe9a.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
+      "filename": "4f5e24918cb9b1965f79bd35.webp"
+    },
+    "iPad8,3": {
+      "name": "iPad Pro 3 (11-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/4c755c6a9eb559c5bc6566d3aaf9a84bf5526b16.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
+      "filename": "4f5e24918cb9b1965f79bd35.webp"
+    },
+    "iPad8,4": {
+      "name": "iPad Pro 3 (11-inch, Cellular, 1TB Model)",
+      "url": "https://ipsw.me/images/devices/baa74c7b204b4f75e42bec4865531ebdb1b0e970.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
+      "filename": "4f5e24918cb9b1965f79bd35.webp"
+    },
+    "iPad8,5": {
+      "name": "iPad Pro 3 (12.9-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/317eaf31a9abcafbad9887c4f31439364bd6563e.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
+      "filename": "3e85b100aa09ae92892567d2.webp"
+    },
+    "iPad8,6": {
+      "name": "iPad Pro 3 (12.9-inch, WiFi, 1TB Model)",
+      "url": "https://ipsw.me/images/devices/455bedc9ca7a8bf4f006b45f8714913171ee9582.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
+      "filename": "3e85b100aa09ae92892567d2.webp"
+    },
+    "iPad8,7": {
+      "name": "iPad Pro 3 (12.9-inch, Cellular)",
+      "url": "https://ipsw.me/images/devices/ea7e207b4c3ff6ca9055efe448fad28948f45aba.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
+      "filename": "3e85b100aa09ae92892567d2.webp"
+    },
+    "iPad8,8": {
+      "name": "iPad Pro 3 (12.9-inch, Cellular, 1TB Model)",
+      "url": "https://ipsw.me/images/devices/a6fa76fd3f84d3ccdf084d460464146e231a0e0f.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
+      "filename": "3e85b100aa09ae92892567d2.webp"
+    },
+    "iPad8,9": {
+      "name": "iPad Pro 4 (11-inch, WiFi)",
+      "url": "https://ipsw.me/images/devices/d2cc85e219afc0c8fdcd76bb2af8dcfee35893a5.webp",
+      "listing": "https://ipsw.me/product/iPad/",
+      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
+      "filename": "c234f847a336f73f18d30957.webp"
+    },
+    "iPhone1,1": {
+      "name": "iPhone 2G",
+      "url": "https://ipsw.me/images/devices/94fb69cdb7102e42c748660a50c96259818af99d.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "51720fd69f246118f65f68634688642fadfe49755b573b96f268404d7f48ed06",
+      "filename": "51720fd69f246118f65f6863.webp"
+    },
+    "iPhone1,2": {
+      "name": "iPhone 3G",
+      "url": "https://ipsw.me/images/devices/f005f7dd7505fa45c487c762eecc42cae2a5246c.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "05064dcaefd2fbc38d1608c1b8a28ffa56e5cda605b7768ca6f771d6bb4cfd68",
+      "filename": "05064dcaefd2fbc38d1608c1.webp"
+    },
+    "iPhone10,1": {
+      "name": "iPhone 8 (Global)",
+      "url": "https://ipsw.me/images/devices/446bec7c6d378a22c9f24d8e22908538d6480a40.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e6a30189c62a6c9dee20ea110e54e8d51546e69494d3b751d5587eb4d6bac148",
+      "filename": "e6a30189c62a6c9dee20ea11.webp"
+    },
+    "iPhone10,2": {
+      "name": "iPhone 8 Plus (Global)",
+      "url": "https://ipsw.me/images/devices/854eec195f99467bc0b36b2d93c3e7933d5196b8.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "764a9244e9b8a3fcb85fa3bc24d5a649e0fff7d3d4f9a7de37c9f89533d6b55e",
+      "filename": "764a9244e9b8a3fcb85fa3bc.webp"
+    },
+    "iPhone10,3": {
+      "name": "iPhone X (Global)",
+      "url": "https://ipsw.me/images/devices/6a5e430271e5cd9cbce6eac350af2fbf0c8b73c2.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "319ecad78d99ace9485a133485ff37e395e467ca2348e3f60a9dfb58c59818b2",
+      "filename": "319ecad78d99ace9485a1334.webp"
+    },
+    "iPhone10,4": {
+      "name": "iPhone 8 (GSM)",
+      "url": "https://ipsw.me/images/devices/3a98f19842c3ffa5a28b8e5b43381cbb75984b9b.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e6a30189c62a6c9dee20ea110e54e8d51546e69494d3b751d5587eb4d6bac148",
+      "filename": "e6a30189c62a6c9dee20ea11.webp"
+    },
+    "iPhone10,5": {
+      "name": "iPhone 8 Plus (GSM)",
+      "url": "https://ipsw.me/images/devices/80f1bc74c4644fe16d1b826ae21ec869a48cbe1f.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "764a9244e9b8a3fcb85fa3bc24d5a649e0fff7d3d4f9a7de37c9f89533d6b55e",
+      "filename": "764a9244e9b8a3fcb85fa3bc.webp"
+    },
+    "iPhone10,6": {
+      "name": "iPhone X (GSM)",
+      "url": "https://ipsw.me/images/devices/f323e4b1a1f7a3c08cd30acf9605b5c75b607162.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "319ecad78d99ace9485a133485ff37e395e467ca2348e3f60a9dfb58c59818b2",
+      "filename": "319ecad78d99ace9485a1334.webp"
+    },
+    "iPhone11,2": {
+      "name": "iPhone XS",
+      "url": "https://ipsw.me/images/devices/c09a8924aff18cdfda0974a48dd09df0901019d6.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ee429e1963aa678560964a577aadbf3d1a6e584de61ad3e03592cedf22b25cca",
+      "filename": "ee429e1963aa678560964a57.webp"
+    },
+    "iPhone11,4": {
+      "name": "iPhone XS Max (China)",
+      "url": "https://ipsw.me/images/devices/8b86c4317877de7ae6e7cc7556f4f716993fe330.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ee429e1963aa678560964a577aadbf3d1a6e584de61ad3e03592cedf22b25cca",
+      "filename": "ee429e1963aa678560964a57.webp"
+    },
+    "iPhone11,6": {
+      "name": "iPhone XS Max",
+      "url": "https://ipsw.me/images/devices/c98d303ae1279c693ea6da7f097e9d0c5e945e5f.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ee429e1963aa678560964a577aadbf3d1a6e584de61ad3e03592cedf22b25cca",
+      "filename": "ee429e1963aa678560964a57.webp"
+    },
+    "iPhone11,8": {
+      "name": "iPhone XR",
+      "url": "https://ipsw.me/images/devices/955c31562c230f90a30f761ed1ae6c97aefa2bac.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "0cc75d511c8336c979e6ce42273dd5aca6cca5fcf065ea46e760c3a6ba7e1a69",
+      "filename": "0cc75d511c8336c979e6ce42.webp"
+    },
+    "iPhone12,1": {
+      "name": "iPhone 11",
+      "url": "https://ipsw.me/images/devices/b2cf31eb0ff5e8702d6c42a6f8b2ec4609931727.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ed29c3739e36672709d6d247c7b87043a810b4a25459084d2fc7f7a8ad3a56f4",
+      "filename": "ed29c3739e36672709d6d247.webp"
+    },
+    "iPhone12,3": {
+      "name": "iPhone 11 Pro",
+      "url": "https://ipsw.me/images/devices/c0f054a7baaf8e0ab43336208f3d3810d4e4500f.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ed29c3739e36672709d6d247c7b87043a810b4a25459084d2fc7f7a8ad3a56f4",
+      "filename": "ed29c3739e36672709d6d247.webp"
+    },
+    "iPhone12,5": {
+      "name": "iPhone 11 Pro Max",
+      "url": "https://ipsw.me/images/devices/622e05f9d2519140b1d013403c78f69598db6fea.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ed29c3739e36672709d6d247c7b87043a810b4a25459084d2fc7f7a8ad3a56f4",
+      "filename": "ed29c3739e36672709d6d247.webp"
+    },
+    "iPhone12,8": {
+      "name": "iPhone SE (2020)",
+      "url": "https://ipsw.me/images/devices/dea51d9bdb5c7dc5f3124557085d595ebf049106.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "dfa709b64c28b51e9dc135519a363ef183dbfb144269fb12e4112ca474b74571",
+      "filename": "dfa709b64c28b51e9dc13551.webp"
+    },
+    "iPhone13,1": {
+      "name": "iPhone 12 mini",
+      "url": "https://ipsw.me/images/devices/005a9d7548ba11a3c86b270f289f743f2313be1f.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "dbdf1dff2edba8671401a3b9b4bc19465ea1133a6eda999aab6b1c67c063c86d",
+      "filename": "dbdf1dff2edba8671401a3b9.webp"
+    },
+    "iPhone13,2": {
+      "name": "iPhone 12",
+      "url": "https://ipsw.me/images/devices/e9a333a57694a97cb63752d56e4fdef7a8f06ae6.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "a729d7a4beeba55075759facf5a37d545566e9ec7850e56b52e44fb4e0500df8",
+      "filename": "a729d7a4beeba55075759fac.webp"
+    },
+    "iPhone13,3": {
+      "name": "iPhone 12 Pro",
+      "url": "https://ipsw.me/images/devices/e1ff7bbcd3e810873070d5d8f4fc54e8d8171a24.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "34a924e66971d211108ec94da9a2fe1e29f6236798c640aeaa5b31974db616f5",
+      "filename": "34a924e66971d211108ec94d.webp"
+    },
+    "iPhone13,4": {
+      "name": "iPhone 12 Pro Max",
+      "url": "https://ipsw.me/images/devices/dae9f2ca878e1719d2515ab35678ab0e35a53f9d.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "c65145159db1e4937191efdae461e8591569683fc101d8e78853e02f0c9b5613",
+      "filename": "c65145159db1e4937191efda.webp"
+    },
+    "iPhone14,2": {
+      "name": "iPhone 13 Pro",
+      "url": "https://ipsw.me/images/devices/9b4f7744a0d3f3996a952a7ff14f96c1bee4053b.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "8cd163db2f7a850ef89144b3cafa2790840bdf567f02353cb84c6946a7a5f444",
+      "filename": "8cd163db2f7a850ef89144b3.webp"
+    },
+    "iPhone14,3": {
+      "name": "iPhone 13 Pro Max",
+      "url": "https://ipsw.me/images/devices/c618fdc99a745d4d971f55190da357defe014e81.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "8cd163db2f7a850ef89144b3cafa2790840bdf567f02353cb84c6946a7a5f444",
+      "filename": "8cd163db2f7a850ef89144b3.webp"
+    },
+    "iPhone14,4": {
+      "name": "iPhone 13 mini",
+      "url": "https://ipsw.me/images/devices/b0e51705066f0981cfe23d989a57cbc9c5606f23.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "b37b6e32f732ea079543724b336efcbde32449dc59fbf6f7e45261b9ebe34c15",
+      "filename": "b37b6e32f732ea079543724b.webp"
+    },
+    "iPhone14,5": {
+      "name": "iPhone 13",
+      "url": "https://ipsw.me/images/devices/27c25bd7762a838b295a81e20ea3e19105c8a803.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "a7a8e95a458edc6692e1c0735f22dcb68e4831345a9374c6426adce2558d8f3d",
+      "filename": "a7a8e95a458edc6692e1c073.webp"
+    },
+    "iPhone14,6": {
+      "name": "iPhone SE (3rd generation)",
+      "url": "https://ipsw.me/images/devices/a88e812b0f83cddd273d46dc44a898ec6dd7c90d.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "fa9182234acadb75773369351c470e7ff42bf5b59a69b013ab96c3655af60bb5",
+      "filename": "fa9182234acadb7577336935.webp"
+    },
+    "iPhone14,7": {
+      "name": "iPhone 14",
+      "url": "https://ipsw.me/images/devices/4ea44d41f1cc3a3a91229b490ba0fed2b6de19c3.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "2ad6d5b7408e3f09f221eda1720a9fd4396bc795d492d9268ca6c949f5eda221",
+      "filename": "2ad6d5b7408e3f09f221eda1.webp"
+    },
+    "iPhone14,8": {
+      "name": "iPhone 14 Plus",
+      "url": "https://ipsw.me/images/devices/310f3c8e8fcf1e3cc1ab0f7db2b4735b0523cd4b.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "257ae8122f1435294e8ead28be431c54cf046fc343120c38028d50f3efdbe566",
+      "filename": "257ae8122f1435294e8ead28.webp"
+    },
+    "iPhone15,2": {
+      "name": "iPhone 14 Pro",
+      "url": "https://ipsw.me/images/devices/7eff2dfbf230b0887bfc32187f3b7f0e7f450713.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "6474e8a689c8fc5290f7b968724597222c709036646a417ec2a6eb268c075aa4",
+      "filename": "6474e8a689c8fc5290f7b968.webp"
+    },
+    "iPhone15,3": {
+      "name": "iPhone 14 Pro Max",
+      "url": "https://ipsw.me/images/devices/c960a752fbc08daf5cddda1a271edb270a0f8520.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "fae67484a7ca634df28d53ad0ca14e3f660d9620699f4ade2721fd772aeedaad",
+      "filename": "fae67484a7ca634df28d53ad.webp"
+    },
+    "iPhone15,4": {
+      "name": "iPhone 15",
+      "url": "https://ipsw.me/images/devices/dfb49c5b8fb0023e4ab060c49ae89b57e5ad2190.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "4ed341366065664dea17bd9d984a66876482875132b035fe75d00962e6aed3f0",
+      "filename": "4ed341366065664dea17bd9d.webp"
+    },
+    "iPhone15,5": {
+      "name": "iPhone 15 Plus",
+      "url": "https://ipsw.me/images/devices/69d6770ff6f8c43513bece77d72e2842ede23cd2.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "3f5dc569d43f152cb137866d7665ccaa963029e57ad1735da2b23e039c9d8b6f",
+      "filename": "3f5dc569d43f152cb137866d.webp"
+    },
+    "iPhone16,1": {
+      "name": "iPhone 15 Pro",
+      "url": "https://ipsw.me/images/devices/c7b539e24c240eb0ab24ebd608712494d3f4fd02.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "5277eea85aae9808b28c0a25cb2b28e2be03737b43854cbd0ca4b859a77e5711",
+      "filename": "5277eea85aae9808b28c0a25.webp"
+    },
+    "iPhone16,2": {
+      "name": "iPhone 15 Pro Max",
+      "url": "https://ipsw.me/images/devices/b19ea241d6859cf7dd785b2b987ac27c9e700489.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "6f8b401e6b1faa209acda25a7edbf72c0473124f239bb74a1cbe6848a5da61b8",
+      "filename": "6f8b401e6b1faa209acda25a.webp"
+    },
+    "iPhone17,1": {
+      "name": "iPhone 16 Pro",
+      "url": "https://ipsw.me/images/devices/6f2efda860b18f66237c05852665b12b6833c1fc.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e80da6ecc79ab6a1638d257e5e25d618a5d36eab8c83753e8e137018e8c82de6",
+      "filename": "e80da6ecc79ab6a1638d257e.webp"
+    },
+    "iPhone17,2": {
+      "name": "iPhone 16 Pro Max",
+      "url": "https://ipsw.me/images/devices/9ec271b39b94169fb12b3f567a86e7adde280d47.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "4dd4828dec6946bf828293b5b56d1d6f10a58906285471285d7c868abb8404b2",
+      "filename": "4dd4828dec6946bf828293b5.webp"
+    },
+    "iPhone17,3": {
+      "name": "iPhone 16",
+      "url": "https://ipsw.me/images/devices/d6eb976c75dac562fc7e68b64d747fe9513cd089.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "a2aa5f6fb58478240a3d768e802b255177c6f870151717e5a12367c127d36438",
+      "filename": "a2aa5f6fb58478240a3d768e.webp"
+    },
+    "iPhone17,4": {
+      "name": "iPhone 16 Plus",
+      "url": "https://ipsw.me/images/devices/250967caa105b20934cbc42f232ae20602dde014.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "671f35e65311c2d341e8a5ad47529b13e7a1158f09d36b828fb57a6bad2560bb",
+      "filename": "671f35e65311c2d341e8a5ad.webp"
+    },
+    "iPhone17,5": {
+      "name": "iPhone 16e",
+      "url": "https://ipsw.me/images/devices/2ee8526b37e7094a07b57c9ccc93abe3d7407161.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "3125628ed2c861c8346c632247d1815652b0e19289017540c27f1f8c8b464285",
+      "filename": "3125628ed2c861c8346c6322.webp"
+    },
+    "iPhone18,1": {
+      "name": "iPhone 17 Pro",
+      "url": "https://ipsw.me/images/devices/9d3cf7526b0aaf77625151a23362cccb4f7f33be.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "0948e4cbee91f4b06a961a5b8016c469d4be378ba85c4cf07dede383db127fa3",
+      "filename": "0948e4cbee91f4b06a961a5b.webp"
+    },
+    "iPhone18,2": {
+      "name": "iPhone 17 Pro Max",
+      "url": "https://ipsw.me/images/devices/86ba355d188876aa696ce2a63794f29c33d80ef2.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "58cb8401205cc98c8fa5f310481484bf607d98693fa8ed1f1ddeec6f877dba54",
+      "filename": "58cb8401205cc98c8fa5f310.webp"
+    },
+    "iPhone18,3": {
+      "name": "iPhone 17",
+      "url": "https://ipsw.me/images/devices/223fe4f0a1b965c485d16e50f9754878032f4993.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "1e43bddf03705d64d590f25d158501bd53dcfd8b8435779067f909e850d53f9b",
+      "filename": "1e43bddf03705d64d590f25d.webp"
+    },
+    "iPhone18,4": {
+      "name": "iPhone Air",
+      "url": "https://ipsw.me/images/devices/aa58359dea54a4a1d8b076ca2dcce740cd60bd30.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ff355b5db082f3dd9f5eb2b94faa421115c06c7746d2a8cfb2eb3dc863140349",
+      "filename": "ff355b5db082f3dd9f5eb2b9.webp"
+    },
+    "iPhone18,5": {
+      "name": "iPhone 17e",
+      "url": "https://ipsw.me/images/devices/c886907b8dbc0a01e7c2e65483927bfd99bd998d.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "fb62bffa8b71054f599cfdd383caf2b0bcec6ebdf8374fb9fd867af789dfdf13",
+      "filename": "fb62bffa8b71054f599cfdd3.webp"
+    },
+    "iPhone19,2": {
+      "name": "iPhone 18 Pro",
+      "url": "https://ipsw.me/images/devices/12d3d38645c5be1f4587184f5f42bd23fc07d9b8.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e594e16f4cdee9dfe04e78440de7701a511a9aaf9ddecb5cadd78a6ba0f51fa1",
+      "filename": "e594e16f4cdee9dfe04e7844.webp"
+    },
+    "iPhone19,3": {
+      "name": "iPhone 18 Pro Max (US)",
+      "url": "https://ipsw.me/images/devices/dbc42b5cf32dfc002b66783478a92616d755a025.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "2d91dfb13306e4c98ca1d767078617d9b2d71416a30d81fd06c55b9c766276fb",
+      "filename": "2d91dfb13306e4c98ca1d767.webp"
+    },
+    "iPhone19,4": {
+      "name": "iPhone Duo",
+      "url": "https://ipsw.me/images/devices/e13c0f2e5722540d45107e666ca9d94da371af09.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "5aa4932023e7046df99c189586bc2ee1393f35e3e86e95132fd8512de94ff2e6",
+      "filename": "5aa4932023e7046df99c1895.webp"
+    },
+    "iPhone19,7": {
+      "name": "iPhone 18 Pro Max",
+      "url": "https://ipsw.me/images/devices/af6adec8aedc82f780d3c1a3f1155513c33530e3.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "2d91dfb13306e4c98ca1d767078617d9b2d71416a30d81fd06c55b9c766276fb",
+      "filename": "2d91dfb13306e4c98ca1d767.webp"
+    },
+    "iPhone2,1": {
+      "name": "iPhone 3GS",
+      "url": "https://ipsw.me/images/devices/bd68092b8841baa6ef36321af526876f3558aef0.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "94e76e2a4cb0b380098b8e65b9d80111e4e04398d22b650bfe995d43cf78663e",
+      "filename": "94e76e2a4cb0b380098b8e65.webp"
+    },
+    "iPhone3,1": {
+      "name": "iPhone 4 (GSM)",
+      "url": "https://ipsw.me/images/devices/99f47530aa998c676c9da88ab7194df6729fa482.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "28fc4b024eab9041ee2e762f1e8c1f9b409dd3d4362a28b74ac4cba6c7bc75d4",
+      "filename": "28fc4b024eab9041ee2e762f.webp"
+    },
+    "iPhone3,2": {
+      "name": "iPhone 4 (GSM / 2012)",
+      "url": "https://ipsw.me/images/devices/529444afd24295c60181650e50b4715cea51b492.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "104fd010489f07d77eafaef04ea5393e0db6f4b06096fcd63ae24b15a08e5ebb",
+      "filename": "104fd010489f07d77eafaef0.webp"
+    },
+    "iPhone3,3": {
+      "name": "iPhone 4 (CDMA)",
+      "url": "https://ipsw.me/images/devices/677a4ad55a4c5e327f4f4c10fba20b74468b2d3c.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "0808dc01b9d839ab53654fb8f555e72280638c3bd579c6c55a9047055b37da82",
+      "filename": "0808dc01b9d839ab53654fb8.webp"
+    },
+    "iPhone4,1": {
+      "name": "iPhone 4s",
+      "url": "https://ipsw.me/images/devices/b66ed9c2b009d5d857c663381a568965a3cb9daf.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "8ae559d8895742f46754b667863b0d532cabede22e51ab500a70d9eee57fc34c",
+      "filename": "8ae559d8895742f46754b667.webp"
+    },
+    "iPhone5,1": {
+      "name": "iPhone 5 (GSM)",
+      "url": "https://ipsw.me/images/devices/3c7ac44ba4bca9c61a32cc89fc60e613b4f8e28a.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "97d4a4078c5027d00d2595ec3bb8351bd217e894397da6abf9f3cfae5520ddee",
+      "filename": "97d4a4078c5027d00d2595ec.webp"
+    },
+    "iPhone5,2": {
+      "name": "iPhone 5 (Global)",
+      "url": "https://ipsw.me/images/devices/12929d8528a0cb2d2b7d6f02c6d9ab61d59ed425.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "f781018e2a1ff580977ed8d41885db9521fbbcc9719ee53ee1585e80b9757e1e",
+      "filename": "f781018e2a1ff580977ed8d4.webp"
+    },
+    "iPhone5,3": {
+      "name": "iPhone 5c (GSM)",
+      "url": "https://ipsw.me/images/devices/531cf6cde9a5db3c7228e55a6007083096340c59.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "a5bbd407ceb04e21cab4a1aaf333e6521afcb78b11f69d2e9b93ba4d4678f1a2",
+      "filename": "a5bbd407ceb04e21cab4a1aa.webp"
+    },
+    "iPhone5,4": {
+      "name": "iPhone 5c (Global)",
+      "url": "https://ipsw.me/images/devices/c657b5be598a8263419147a755647868cae78938.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "7d1fdd7ef51e91c59c10c1d52c6a57e4a84aa8d23d3e1d28b0a563cdbc7388e8",
+      "filename": "7d1fdd7ef51e91c59c10c1d5.webp"
+    },
+    "iPhone6,1": {
+      "name": "iPhone 5s (GSM)",
+      "url": "https://ipsw.me/images/devices/4d89b209e7c224a4f57a3c4aed0f2cca87ee55e7.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "ea28247963f1cc161bca1a99905c3beccedc41295a9ed7310256c7c53845243b",
+      "filename": "ea28247963f1cc161bca1a99.webp"
+    },
+    "iPhone6,2": {
+      "name": "iPhone 5s (Global)",
+      "url": "https://ipsw.me/images/devices/b1578c720837786a15b90fcccf3213c9d285e44b.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "cfc160365ea7239ebb595f517d60d836a566c0e17e52cae5dd3a75080f40b099",
+      "filename": "cfc160365ea7239ebb595f51.webp"
+    },
+    "iPhone7,1": {
+      "name": "iPhone 6+",
+      "url": "https://ipsw.me/images/devices/a5b90af902bc843c4f301c73b3babe1ab16a08ee.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "8e13348c5ca691a7fbca83fede053a8177843fe2efdbbfee8dbf6a30556222e9",
+      "filename": "8e13348c5ca691a7fbca83fe.webp"
+    },
+    "iPhone7,2": {
+      "name": "iPhone 6",
+      "url": "https://ipsw.me/images/devices/e44bc3d3e604597f06e7b33bc1ec9dc72a2fb670.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "fd966920421ac865baa2ab72d9fd36094e58ee694fe23aff282d07eb3056338e",
+      "filename": "fd966920421ac865baa2ab72.webp"
+    },
+    "iPhone8,1": {
+      "name": "iPhone 6s",
+      "url": "https://ipsw.me/images/devices/e5fd20a50ad488b712624cd8f0560511dea52458.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "4970eecff1decc0f5c194def0ecfaac197fc539bfb366d2bd2b7dd13d9144b75",
+      "filename": "4970eecff1decc0f5c194def.webp"
+    },
+    "iPhone8,2": {
+      "name": "iPhone 6s+",
+      "url": "https://ipsw.me/images/devices/996d69bbcd38cd3e73081ecbf0b66332cd5c39fb.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "74b41e7596e5a2a3e500949301eef21ba828b0813d8722fa8f9c53afa8716bc9",
+      "filename": "74b41e7596e5a2a3e5009493.webp"
+    },
+    "iPhone8,4": {
+      "name": "iPhone SE",
+      "url": "https://ipsw.me/images/devices/776da1247cee331824ea38b64b4aacae90b90ff3.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "bbb6704455685bf57df15fa484bc8534b9507f847e0b04162b94564a725d7004",
+      "filename": "bbb6704455685bf57df15fa4.webp"
+    },
+    "iPhone9,1": {
+      "name": "iPhone 7 (Global)",
+      "url": "https://ipsw.me/images/devices/b7368649ec8965c05167f45f866a9b0a316f8727.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e6a30189c62a6c9dee20ea110e54e8d51546e69494d3b751d5587eb4d6bac148",
+      "filename": "e6a30189c62a6c9dee20ea11.webp"
+    },
+    "iPhone9,2": {
+      "name": "iPhone 7 Plus (Global)",
+      "url": "https://ipsw.me/images/devices/fbeb64f9239cb433001316158b3194a8ee5fbb8b.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "764a9244e9b8a3fcb85fa3bc24d5a649e0fff7d3d4f9a7de37c9f89533d6b55e",
+      "filename": "764a9244e9b8a3fcb85fa3bc.webp"
+    },
+    "iPhone9,3": {
+      "name": "iPhone 7 (GSM)",
+      "url": "https://ipsw.me/images/devices/dc8964ebb640c44194c7fdc9d8dfea98b23650d1.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "e6a30189c62a6c9dee20ea110e54e8d51546e69494d3b751d5587eb4d6bac148",
+      "filename": "e6a30189c62a6c9dee20ea11.webp"
+    },
+    "iPhone9,4": {
+      "name": "iPhone 7 Plus (GSM)",
+      "url": "https://ipsw.me/images/devices/ebf7d8830925074c84703066004486128b797a63.webp",
+      "listing": "https://ipsw.me/product/iPhone/",
+      "sha256": "764a9244e9b8a3fcb85fa3bc24d5a649e0fff7d3d4f9a7de37c9f89533d6b55e",
+      "filename": "764a9244e9b8a3fcb85fa3bc.webp"
+    }
+  }
+}
