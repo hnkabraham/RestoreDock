@@ -78,7 +78,7 @@ Apple supplies firmware metadata and binaries:
 - [Apple Software Lookup Service](https://gdmf.apple.com/v2/pmv), described in [Apple's deployment documentation](https://developer.apple.com/documentation/devicemanagement/deploying-software-updates-using-declarative-management)
 - [IPSW.me device metadata](https://api.ipsw.me/v4/devices) supplies optional human-readable model names. If it is unavailable, hardware identifiers remain usable.
 - [IPSW.me's API](https://ipswdownloads.docs.apiary.io/) supplies per-model public IPSW history, signing status, download URLs, sizes, and checksums when you open a model. Signing status is fetched again before a historical release is queued. Apple's own Support pages provide the embedded release notes.
-- Product photos are copied from the image links in [IPSW.me's iPhone catalog](https://ipsw.me/product/iPhone/) and [iPad catalog](https://ipsw.me/product/iPad/). The app includes original image files for instant, offline display. Exact source URLs and model mappings are included alongside the assets. See [third-party notices](../THIRD_PARTY_NOTICES.md). Future models without a bundled photo use a device symbol until the photo collection is refreshed.
+- Bundled iPhone photos use original images from [Apple technical specifications](https://www.apple.com/iphone-17/specs/) and [Apple’s model identification pages](https://support.apple.com/en-us/108044), through explicit hardware-identifier mappings. iPad photos come from [IPSW.me's iPad catalog](https://ipsw.me/product/iPad/). Future or unmapped models can use the IPSW.me baseline until an explicit Apple photo mapping is added. Not every device photo is sourced directly from Apple. The original bytes and formats are preserved; photos are bundled for offline display and are not fetched at runtime. Exact source URLs and model mappings are included alongside the assets. See [third-party notices](../THIRD_PARTY_NOTICES.md). Future models without a bundled photo use a device symbol until the collection is refreshed.
 
 Automatic discovery fetches the same complete metadata catalogs, then requests the Apple files you select. Opening a model's history, checking a historical download, importing an IPSW, previewing cleanup, or running enabled cleanup sends the relevant model identifiers to IPSW.me. Viewing release notes loads the corresponding Apple Support page in an embedded browser using an ephemeral website data store. The app has no analytics, accounts, or cloud synchronization. Firmware defaults to the existing Configurator cache or `~/Downloads/RestoreDock/` as described above.
 
@@ -130,3 +130,21 @@ Tests cover public-release filtering, new-model discovery, numeric version order
 - `Resources/`: app metadata, procedural icon source, and `update-device-photos.py` to refresh the copied photo collection before rebuilding.
 - `Sources/RestoreDock/Resources/DevicePhotos/`: bundled product photos, model mapping, and source attribution.
 - `build-app.sh`: reproducible universal app packaging.
+
+## Refreshing product photos
+
+Run the photo updater from the repository root before rebuilding the app. Apple photo overrides are defined in [`Resources/apple-iphone-photos.json`](../Resources/apple-iphone-photos.json), with exact Apple hardware identifiers and original source URLs. They override the IPSW.me baseline only for their listed models; the updater does not guess images from model names.
+
+To refresh only the Apple photos while retaining the bundled baseline for other devices:
+
+```sh
+python3 Resources/update-device-photos.py --apple-only
+```
+
+To refresh the IPSW.me baseline and then apply the Apple overrides:
+
+```sh
+python3 Resources/update-device-photos.py
+```
+
+The updater saves original image bytes and formats, deduplicates identical content, and updates the bundled manifest, provenance, and source notes. Rebuild the app to include the refreshed collection. This is a maintainer step, not a runtime network request made when a user opens Devices.

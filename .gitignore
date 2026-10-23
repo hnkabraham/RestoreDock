@@ -2,6 +2,8 @@
 .swiftpm/
 dist/
 .DS_Store
+__pycache__/
+*.py[cod]
 
 # Built applications, archives, and local firmware never belong in the repo.
 *.app/

@@ -1,0 +1,515 @@
+[
+  {
+    "name": "iPhone",
+    "identifiers": [
+      "iPhone1,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone-original-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 3G",
+    "identifiers": [
+      "iPhone1,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3g-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 3G heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 8",
+    "identifiers": [
+      "iPhone10,1",
+      "iPhone10,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8/iphone-8-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 8 heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 8 Plus",
+    "identifiers": [
+      "iPhone10,2",
+      "iPhone10,5"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-8-plus/iphone-8plus-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 8 Plus heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone X",
+    "identifiers": [
+      "iPhone10,3",
+      "iPhone10,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-x-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone X heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone XS",
+    "identifiers": [
+      "iPhone11,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone XS heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone XS Max",
+    "identifiers": [
+      "iPhone11,4",
+      "iPhone11,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xs-max-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone XS Max heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone XR",
+    "identifiers": [
+      "iPhone11,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone XR heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 11",
+    "identifiers": [
+      "iPhone12,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11-colors.jpg",
+    "note": "Apple Support model-identification color image; technical-spec page has no header image."
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "identifiers": [
+      "iPhone12,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro.jpg",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone 11 Pro Max",
+    "identifiers": [
+      "iPhone12,5"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/identify-iphone-11pro-max.jpg",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone SE (2nd generation)",
+    "identifiers": [
+      "iPhone12,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-2nd-gen-colors.jpg",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone 12 mini",
+    "identifiers": [
+      "iPhone13,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-mini-colors.png",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone 12",
+    "identifiers": [
+      "iPhone13,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/2021-iphone12-colors.png",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "identifiers": [
+      "iPhone13,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro/iphone12-pro-colors.jpg",
+    "note": "Apple Support model-identification color lineup, chosen because the tech-spec header is a small strip of separate phones."
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "identifiers": [
+      "iPhone13,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-12-pro-max/iphone12-pro-max-colors.jpg",
+    "note": "Apple Support model-identification color image; technical-spec page has no header image."
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "identifiers": [
+      "iPhone14,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/111871",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111871_iphone13-pro-colors-480.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 13 Pro Max",
+    "identifiers": [
+      "iPhone14,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/111870",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111870_iphone13-pro-max-colors-480.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 13 mini",
+    "identifiers": [
+      "iPhone14,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/111873",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111872_iphone13-mini-colors-480.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 13",
+    "identifiers": [
+      "iPhone14,5"
+    ],
+    "page_url": "https://support.apple.com/en-us/111872",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111872_iphone13-colors-480.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone SE (3rd generation)",
+    "identifiers": [
+      "iPhone14,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/111866",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111866_sp867-iphone-se-3gen.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 14",
+    "identifiers": [
+      "iPhone14,7"
+    ],
+    "page_url": "https://support.apple.com/en-us/111850",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same back-only color lineup on the 14 and 14 Plus pages."
+  },
+  {
+    "name": "iPhone 14 Plus",
+    "identifiers": [
+      "iPhone14,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/111854",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same back-only color lineup on the 14 and 14 Plus pages."
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "identifiers": [
+      "iPhone15,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/111849",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111846_sp875-sp876-iphone14-pro-promax.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same front/back color lineup on the 14 Pro and 14 Pro Max pages."
+  },
+  {
+    "name": "iPhone 14 Pro Max",
+    "identifiers": [
+      "iPhone15,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/111846",
+    "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111846_sp875-sp876-iphone14-pro-promax.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same front/back color lineup on the 14 Pro and 14 Pro Max pages."
+  },
+  {
+    "name": "iPhone 15",
+    "identifiers": [
+      "iPhone15,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/111831",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 15 Plus",
+    "identifiers": [
+      "iPhone15,5"
+    ],
+    "page_url": "https://support.apple.com/en-us/111830",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_plus_hero.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "identifiers": [
+      "iPhone16,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/111829",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_pro.png",
+    "note": "Header product/color image from Apple Support technical specifications. Back-only color lineup."
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "identifiers": [
+      "iPhone16,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/111828",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-15-pro-max.png",
+    "note": "Header product/color image from Apple Support technical specifications. Back-only color lineup."
+  },
+  {
+    "name": "iPhone 16 Pro",
+    "identifiers": [
+      "iPhone17,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/121031",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same image bytes on the 16 Pro and 16 Pro Max pages."
+  },
+  {
+    "name": "iPhone 16 Pro Max",
+    "identifiers": [
+      "iPhone17,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/121032",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same image bytes on the 16 Pro and 16 Pro Max pages."
+  },
+  {
+    "name": "iPhone 16",
+    "identifiers": [
+      "iPhone17,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/121029",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same image bytes on the 16 and 16 Plus pages."
+  },
+  {
+    "name": "iPhone 16 Plus",
+    "identifiers": [
+      "iPhone17,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/121030",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same image bytes on the 16 and 16 Plus pages."
+  },
+  {
+    "name": "iPhone 16e",
+    "identifiers": [
+      "iPhone17,5"
+    ],
+    "page_url": "https://support.apple.com/en-us/122208",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122208-iphone-16e.png",
+    "note": "Header product/color image from Apple Support technical specifications."
+  },
+  {
+    "name": "iPhone 17 Pro",
+    "identifiers": [
+      "iPhone18,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/125090",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same front/back color lineup on both Pro size pages."
+  },
+  {
+    "name": "iPhone 17 Pro Max",
+    "identifiers": [
+      "iPhone18,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/125091",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "note": "Header product/color image from Apple Support technical specifications. Apple uses the same front/back color lineup on both Pro size pages."
+  },
+  {
+    "name": "iPhone 17",
+    "identifiers": [
+      "iPhone18,3"
+    ],
+    "page_url": "https://www.apple.com/iphone-17/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-17/i/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-17/i/images/specs/finish_iphone__ethij3blo76u_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone Air",
+    "identifiers": [
+      "iPhone18,4"
+    ],
+    "page_url": "https://www.apple.com/iphone-air/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-air/i/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-air/i/images/specs/hero_iphone__cy6k7iq5t38m_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone 17e",
+    "identifiers": [
+      "iPhone18,5"
+    ],
+    "page_url": "https://www.apple.com/iphone-17e/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-17e/e/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-17e/e/images/specs/iphone17e__fzi44vngldui_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone 18 Pro",
+    "identifiers": [
+      "iPhone19,2"
+    ],
+    "page_url": "https://www.apple.com/iphone-18-pro/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-18-pro/c/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-18-pro/c/images/specs/hero_iphone_pro__c4tp3byhboeq_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone 18 Pro Max",
+    "identifiers": [
+      "iPhone19,3",
+      "iPhone19,7"
+    ],
+    "page_url": "https://www.apple.com/iphone-18-pro/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-18-pro/c/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-18-pro/c/images/specs/hero_iphone_pro_max__d6uwp7l2or8m_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone Duo",
+    "identifiers": [
+      "iPhone19,4"
+    ],
+    "page_url": "https://www.apple.com/iphone-duo/specs/",
+    "stylesheet_url": "https://www.apple.com/v/iphone-duo/d/built/styles/specs.built.css",
+    "image_url": "https://www.apple.com/v/iphone-duo/d/images/specs/hero__dbnzxlb3ia2q_large_2x.jpg",
+    "note": "Original Apple tech specs finish/hero product photo."
+  },
+  {
+    "name": "iPhone 3GS",
+    "identifiers": [
+      "iPhone2,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone3gs-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 3GS heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 4",
+    "identifiers": [
+      "iPhone3,1",
+      "iPhone3,2",
+      "iPhone3,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 4 heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 4s",
+    "identifiers": [
+      "iPhone4,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone4s-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 4s heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 5",
+    "identifiers": [
+      "iPhone5,1",
+      "iPhone5,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 5 heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 5c",
+    "identifiers": [
+      "iPhone5,3",
+      "iPhone5,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5c-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 5c heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 5s",
+    "identifiers": [
+      "iPhone6,1",
+      "iPhone6,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone5s-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 5s heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 6 Plus",
+    "identifiers": [
+      "iPhone7,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6plus-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 6 Plus heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 6",
+    "identifiers": [
+      "iPhone7,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-iphone6-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 6 heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 6s",
+    "identifiers": [
+      "iPhone8,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6s-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 6s heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 6s Plus",
+    "identifiers": [
+      "iPhone8,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-6splus-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 6s Plus heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone SE (1st generation)",
+    "identifiers": [
+      "iPhone8,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-se/iphone-se-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone SE (1st generation) heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 7",
+    "identifiers": [
+      "iPhone9,1",
+      "iPhone9,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7/iphone7-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 7 heading. Cellular variants share the same product appearance."
+  },
+  {
+    "name": "iPhone 7 Plus",
+    "identifiers": [
+      "iPhone9,2",
+      "iPhone9,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108044",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/iphone/iphone-7-plus/iphone7plus-colors.jpg",
+    "note": "Original Apple Support model-identification product photo, explicitly shown under the iPhone 7 Plus heading. Cellular variants share the same product appearance."
+  }
+]
