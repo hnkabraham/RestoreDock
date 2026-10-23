@@ -13,6 +13,7 @@ RestoreDock is a native macOS app for the workbench: choose the iPhone and iPad 
 ## Ready for your next restore
 
 - **Follow your models.** Browse newest models first, switch to A–Z or followed models first, and keep related variants together. Pick individual iPhones and iPads, or follow all currently supported models. Check for new public releases automatically, with one download for firmware shared by multiple models.
+- **Find models in your firmware folder.** Read existing IPSWs to suggest devices to follow, including shared or renamed files. Review the suggestions and choose models explicitly; your existing follows and automatic-download setting stay intact.
 - **Download directly from Apple.** Firmware binaries come from Apple HTTPS hosts. RestoreDock verifies their checksum and expected size when available before marking them ready.
 - **Explore release history.** Browse each model’s IPSW history, read Apple’s release notes inside the app, and download older releases that are still reported as signed.
 - **Reuse what you have.** Import existing IPSWs from files, folders, or the Configurator cache. Verify and register them in place without copying or moving them.
@@ -31,6 +32,10 @@ RestoreDock is a native macOS app for the workbench: choose the iPhone and iPad 
 | ![Release history with Apple release notes](docs/screenshots/history.png) | ![Storage breakdown using sample library data](docs/screenshots/storage.png) |
 | Choose a release, inspect signing status, and read Apple’s notes. | Usage by model or version, with a read-only cleanup preview. **This screenshot uses sample library data.** |
 
+![Choose models found in existing IPSWs](docs/screenshots/follow-models.jpg)
+
+*Review models found in your firmware folder and follow only those you choose. This screenshot uses sample IPSW fixtures.*
+
 ![Import existing IPSWs](docs/screenshots/import.png)
 
 *Import verifies existing files and adds them to the library where they are. New imports are protected from automatic cleanup by default.*
@@ -42,7 +47,7 @@ RestoreDock is a native macOS app for the workbench: choose the iPhone and iPad 
 3. Choose a destination in **Settings**. RestoreDock uses the Configurator firmware cache when it already exists; otherwise fresh setups use `~/Downloads/RestoreDock/`.
 4. Enable automatic downloads. The default check interval is six hours. Leave the app open; closing its window keeps the menu bar companion running.
 
-Checks and downloads run while the app is open and your Mac is awake. An optional login setting helps keep it available. Use **Storage → Import existing IPSWs** to register files you already have.
+Checks and downloads run while the app is open and your Mac is awake. An optional login setting helps keep it available. If your firmware folder already contains IPSWs, a read-only scan can offer models to follow. Open **Review models** in the banner or **Devices → Scan firmware folder**. Scanning identifies models locally; use **Storage → Import existing IPSWs** to verify and register existing files for reuse. [More about model suggestions](docs/USER_GUIDE.md#find-models-in-existing-firmware).
 
 The downloadable app is **ad-hoc signed and not notarized**. macOS may require you to approve opening it in **System Settings → Privacy & Security** after the first attempt. Only do so for a copy you trust. You can also build the app locally.
 
@@ -71,7 +76,7 @@ export SWIFTPM_MODULECACHE_OVERRIDE="$PWD/.build/ModuleCache"
 swift test --disable-sandbox --build-system native --cache-path "$PWD/.build/cache"
 ```
 
-The suite covers catalogs, download validation and persistence, historical releases, imports, storage accounting, and conservative cleanup decisions. An optional live metadata test is documented in the [user guide](docs/USER_GUIDE.md#tests); it downloads no firmware. A complete multi-GB IPSW transfer has not yet been exercised as part of release validation.
+The suite covers catalogs, download validation and persistence, historical releases, local firmware scans and follow selections, imports, storage accounting, and conservative cleanup decisions. An optional live metadata test is documented in the [user guide](docs/USER_GUIDE.md#tests); it downloads no firmware. A complete multi-GB IPSW transfer has not yet been exercised as part of release validation.
 
 ## A few things to know
 

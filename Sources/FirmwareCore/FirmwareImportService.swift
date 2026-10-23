@@ -245,7 +245,7 @@ struct FirmwareImportFileIdentity: Equatable, Sendable {
 
 /// A bounded stdout pipe avoids writing untrusted archive entries to disk.
 /// Cancellation and the timeout kill only the child process this reader owns.
-private final class ManifestReader: @unchecked Sendable {
+final class ManifestReader: @unchecked Sendable {
     static let maximumBytes = 8 * 1_024 * 1_024
     private let lock = NSLock()
     private var process: Process?

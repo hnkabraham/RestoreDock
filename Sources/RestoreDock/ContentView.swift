@@ -30,6 +30,19 @@ struct ContentView: View {
                         if model.errorMessage != nil { Button { model.errorMessage = nil } label: { Image(systemName: "xmark") }.buttonStyle(.plain) }
                     }.font(.system(size: 12)).foregroundStyle(Color(red: 0.54, green: 0.28, blue: 0.08)).padding(14).background(Color.orange.opacity(0.09))
                 }
+                if model.hasFirmwareModelSuggestions {
+                    HStack(spacing: 13) {
+                        Image(systemName: "doc.zipper").font(.system(size: 19)).foregroundStyle(Palette.blue)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Follow models found in your firmware?").font(.system(size: 12, weight: .semibold))
+                            Text("\(model.firmwareSuggestionDevices.count) \(model.firmwareSuggestionDevices.count == 1 ? "model in existing IPSWs isn’t" : "models in existing IPSWs aren’t") followed yet.")
+                                .font(.system(size: 11)).foregroundStyle(Palette.muted)
+                        }
+                        Spacer()
+                        Button("Not now") { model.dismissFirmwareSuggestions() }.buttonStyle(SecondaryButtonStyle())
+                        Button("Review models") { model.reviewFirmwareSuggestions() }.buttonStyle(PrimaryButtonStyle())
+                    }.padding(16).background(Palette.ice.opacity(0.55))
+                }
                 Group {
                     switch model.screen {
                     case .library: overview
@@ -45,6 +58,9 @@ struct ContentView: View {
                 DeviceDetailView(device: device).environmentObject(model)
             }
             .sheet(isPresented: $model.showImport) { FirmwareImportView().environmentObject(model) }
+            .sheet(isPresented: $model.showFirmwareSuggestions, onDismiss: model.firmwareSuggestionsDidDismiss) {
+                FirmwareFollowSuggestionsView().environmentObject(model)
+            }
             .confirmationDialog("Enable automatic deletion?", isPresented: $confirmAutomaticCleanup, titleVisibility: .visible) {
                 Button("Enable automatic deletion", role: .destructive) { model.setAutomaticCleanup(true) }
                 Button("Cancel", role: .cancel) { }
@@ -89,7 +105,7 @@ struct ContentView: View {
                     Label("Open firmware folder", systemImage: "folder").font(.system(size: 11))
                 }.buttonStyle(.plain).foregroundStyle(Palette.ice)
             }.padding(21).frame(maxWidth: .infinity, alignment: .leading).background(.black.opacity(0.12), in: RoundedRectangle(cornerRadius: 12)).padding(14)
-            Text("RESTOREDOCK  /  1.7.1").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
+            Text("RESTOREDOCK  /  1.8").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
         }.background(Palette.ink).foregroundStyle(.white)
     }
 
@@ -213,6 +229,9 @@ struct ContentView: View {
             }
             HStack {
                 Text("\(model.filteredDevices.count) MODELS").font(.system(size: 9, weight: .semibold)).tracking(1.2).foregroundStyle(Palette.muted)
+                Button { model.scanFirmwareFolder() } label: {
+                    Label("Scan firmware folder", systemImage: "doc.text.magnifyingglass")
+                }.buttonStyle(.plain).font(.system(size: 11, weight: .medium)).foregroundStyle(Palette.blue).padding(.leading, 12)
                 Spacer()
                 Text("\(model.trackedDevices.count) selected · \(model.uniqueTrackedCount) unique IPSWs").font(.system(size: 11)).foregroundStyle(Palette.blue)
             }
@@ -339,6 +358,10 @@ struct ContentView: View {
                 settingsGroup("STORAGE") {
                     settingRow("Firmware library", detail: (model.preferences.destinationPath as NSString).abbreviatingWithTildeInPath) { Button("Choose folder…") { model.chooseFolder() }.buttonStyle(SecondaryButtonStyle()) }
                     Text("Folder changes apply to downloads that haven’t started. Started and completed downloads keep their original folder.").font(.system(size: 10)).foregroundStyle(Palette.muted)
+                    Divider()
+                    settingRow("Follow models from existing firmware", detail: "Scan this folder and its subfolders, then choose which detected models to follow. Files stay untouched.") {
+                        Button("Scan firmware folder") { model.scanFirmwareFolder() }.buttonStyle(SecondaryButtonStyle())
+                    }
                     Divider()
                     settingRow("Apple Configurator firmware cache", detail: model.isUsingConfiguratorDirectory && model.configuratorDirectoryExists ? "Your downloads are saved to Configurator’s firmware folder." : model.configuratorDirectoryExists ? "This Mac already has a Configurator firmware folder. Use it for new downloads." : "The cache folder isn’t here yet. Create it and use it for new downloads.") {
                         if model.isUsingConfiguratorDirectory && model.configuratorDirectoryExists {

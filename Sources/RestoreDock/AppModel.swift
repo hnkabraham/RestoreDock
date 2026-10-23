@@ -30,11 +30,12 @@ struct Preferences: Codable {
     var destinationPath = FirmwareDestination.preferredDirectory().path
     var notifications = false
     var deviceSort: DeviceSortOrder = .newest
+    var reviewedFirmwareModelIDsByFolder: [String: Set<String>] = [:]
 
     init() {}
 
     private enum CodingKeys: String, CodingKey {
-        case selectedIDs, allSupported, automaticDownloads, automaticallyDeleteUnsigned, intervalHours, reserveGB, destinationPath, notifications, deviceSort
+        case selectedIDs, allSupported, automaticDownloads, automaticallyDeleteUnsigned, intervalHours, reserveGB, destinationPath, notifications, deviceSort, reviewedFirmwareModelIDsByFolder
     }
 
     init(from decoder: Decoder) throws {
@@ -50,6 +51,7 @@ struct Preferences: Codable {
         notifications = try values.decodeIfPresent(Bool.self, forKey: .notifications) ?? notifications
         deviceSort = (try? values.decode(String.self, forKey: .deviceSort))
             .flatMap(DeviceSortOrder.init(rawValue:)) ?? .newest
+        reviewedFirmwareModelIDsByFolder = (try? values.decode([String: Set<String>].self, forKey: .reviewedFirmwareModelIDsByFolder)) ?? [:]
     }
 }
 
@@ -99,6 +101,13 @@ final class AppModel: ObservableObject {
     @Published private(set) var storageError: String?
     @Published private(set) var cleanupPreview: FirmwareStorageCleanupPreview?
     @Published private(set) var previewingCleanup = false
+    @Published var showFirmwareSuggestions = false
+    @Published private(set) var scanningFirmwareModels = false
+    @Published private(set) var firmwareScanProgress = ""
+    @Published private(set) var firmwareScanReport: FirmwareModelScanReport?
+    @Published private(set) var firmwareScanError: String?
+    @Published private(set) var firmwareScanFolderPath = ""
+    @Published var selectedFirmwareSuggestionIDs: Set<String> = []
     let downloads: DownloadManager
     let stateDirectory: URL
     private var timer: Timer?
@@ -114,6 +123,9 @@ final class AppModel: ObservableObject {
     private var storageTask: Task<Void, Never>?
     private var previewTask: Task<Void, Never>?
     private var lastLibraryInventory: [DownloadItem] = []
+    private var firmwareModelScanTask: Task<Void, Never>?
+    private var firmwareModelScanGeneration = UUID()
+    private var firmwareScanIncludesReviewed = false
 
     init() {
         // Keep the original state location so existing libraries and preferences
@@ -227,6 +239,7 @@ final class AppModel: ObservableObject {
             errorMessage = "Couldn't refresh the firmware catalog. \(error.localizedDescription) Your saved library is still available."
         }
         startCleanupIfDue()
+        scanFirmwareFolder(manually: false)
     }
 
     func setAutomaticCleanup(_ enabled: Bool) {
@@ -332,6 +345,7 @@ final class AppModel: ObservableObject {
         importTask?.cancel()
         storageTask?.cancel()
         previewTask?.cancel()
+        firmwareModelScanTask?.cancel()
         downloads.shutdown()
     }
     func chooseFolder() {
@@ -355,6 +369,8 @@ final class AppModel: ObservableObject {
             errorMessage = nil
             preferences.destinationPath = directory.path
             downloads.destinationDirectory = directory
+            resetFirmwareModelScan()
+            scanFirmwareFolder(manually: false)
         } catch { errorMessage = "Couldn't use the firmware folder: \(error.localizedDescription)" }
     }
     func revealLibrary() {
@@ -411,6 +427,134 @@ final class AppModel: ObservableObject {
 }
 
 extension AppModel {
+    var firmwareSuggestionDevices: [DeviceFirmware] {
+        guard let report = firmwareScanReport, firmwareScanFolderIsCurrent else { return [] }
+        let followed = preferences.allSupported ? Set(allDevices.map(\.id)) : preferences.selectedIDs
+        let reviewed = firmwareScanIncludesReviewed ? [] : preferences.reviewedFirmwareModelIDsByFolder[firmwareScanFolderPath, default: []]
+        return FirmwareFollowSuggestionPolicy.eligibleDevices(report: report, catalog: allDevices,
+            followedIDs: followed, reviewedIDs: reviewed)
+    }
+
+    var unavailableFirmwareModelIDs: [String] {
+        guard let report = firmwareScanReport, firmwareScanFolderIsCurrent else { return [] }
+        return report.modelIdentifiers.subtracting(Set(allDevices.map(\.id))).sorted()
+    }
+
+    private var firmwareScanFolderIsCurrent: Bool {
+        firmwareScanFolderPath == URL(fileURLWithPath: preferences.destinationPath, isDirectory: true).standardizedFileURL.path
+    }
+
+    var hasFirmwareModelSuggestions: Bool {
+        !scanningFirmwareModels && !firmwareSuggestionDevices.isEmpty
+    }
+
+    func reviewFirmwareSuggestions() {
+        selectedFirmwareSuggestionIDs = Set(firmwareSuggestionDevices.map(\.id))
+        showFirmwareSuggestions = true
+    }
+
+    func scanFirmwareFolder(manually: Bool = true) {
+        guard !isShuttingDown else { return }
+        if manually {
+            firmwareScanIncludesReviewed = true
+            showFirmwareSuggestions = true
+        } else {
+            guard !preferences.allSupported, !showFirmwareSuggestions else { return }
+        }
+        if scanningFirmwareModels {
+            // A manual request can review the background scan already in flight.
+            return
+        }
+        let folder = URL(fileURLWithPath: preferences.destinationPath, isDirectory: true).standardizedFileURL
+        if !manually, !FirmwareDestination.directoryExists(at: folder) {
+            resetFirmwareModelScan()
+            return
+        }
+        firmwareScanIncludesReviewed = manually
+        firmwareScanFolderPath = folder.path
+        firmwareScanReport = nil
+        firmwareScanError = nil
+        selectedFirmwareSuggestionIDs = []
+        firmwareScanProgress = "Finding IPSWs in your firmware folder…"
+        scanningFirmwareModels = true
+        let generation = UUID()
+        firmwareModelScanGeneration = generation
+        firmwareModelScanTask = Task {
+            defer {
+                if firmwareModelScanGeneration == generation {
+                    scanningFirmwareModels = false
+                    firmwareModelScanTask = nil
+                }
+            }
+            do {
+                let report = try await FirmwareModelScanService().scan(directory: folder) { message in
+                    Task { @MainActor in
+                        guard self.firmwareModelScanGeneration == generation, self.scanningFirmwareModels,
+                              self.firmwareModelScanTask?.isCancelled != true else { return }
+                        self.firmwareScanProgress = message
+                    }
+                }
+                try Task.checkCancellation()
+                guard !isShuttingDown, firmwareModelScanGeneration == generation, firmwareScanFolderIsCurrent else { return }
+                firmwareScanReport = report
+                selectedFirmwareSuggestionIDs = Set(firmwareSuggestionDevices.map(\.id))
+                firmwareScanProgress = "Scan finished · \(report.files.count) IPSWs identified · \(report.issues.count) skipped"
+            } catch is CancellationError {
+                if firmwareModelScanGeneration == generation { firmwareScanProgress = "Scan stopped. No models were followed." }
+            } catch {
+                guard firmwareModelScanGeneration == generation else { return }
+                firmwareScanError = "Couldn't scan this folder: \(error.localizedDescription)"
+                firmwareScanProgress = ""
+            }
+        }
+    }
+
+    func cancelFirmwareModelScan() {
+        firmwareModelScanTask?.cancel()
+        if scanningFirmwareModels { firmwareScanProgress = "Stopping scan…" }
+    }
+
+    private func resetFirmwareModelScan() {
+        firmwareModelScanTask?.cancel()
+        firmwareModelScanTask = nil
+        firmwareModelScanGeneration = UUID()
+        scanningFirmwareModels = false
+        firmwareScanReport = nil
+        firmwareScanError = nil
+        firmwareScanProgress = ""
+        selectedFirmwareSuggestionIDs = []
+    }
+
+    func dismissFirmwareSuggestions() {
+        guard !scanningFirmwareModels else { return }
+        rememberFirmwareSuggestionReview()
+        showFirmwareSuggestions = false
+    }
+
+    func firmwareSuggestionsDidDismiss() {
+        // Covers Escape and the system sheet dismissal as well as the buttons.
+        rememberFirmwareSuggestionReview()
+    }
+
+    private func rememberFirmwareSuggestionReview() {
+        guard !scanningFirmwareModels, let report = firmwareScanReport, firmwareScanFolderIsCurrent else { return }
+        let known = report.modelIdentifiers.intersection(Set(allDevices.map(\.id)))
+        preferences.reviewedFirmwareModelIDsByFolder[firmwareScanFolderPath, default: []].formUnion(known)
+        firmwareScanIncludesReviewed = false
+    }
+
+    func followSelectedFirmwareModels() {
+        guard !scanningFirmwareModels, firmwareScanFolderIsCurrent else { return }
+        let selected = FirmwareFollowSuggestionPolicy.selectedIDs(selectedFirmwareSuggestionIDs,
+            eligibleDevices: firmwareSuggestionDevices)
+        guard !selected.isEmpty else { return }
+        // Preserve existing follows and leave automation under the user's control.
+        preferences.selectedIDs.formUnion(selected)
+        rememberFirmwareSuggestionReview()
+        showFirmwareSuggestions = false
+        if preferences.automaticDownloads { enqueueTracked(automatically: true) }
+    }
+
     private var libraryInventory: [DownloadItem] {
         downloads.items.filter { $0.status == .ready || $0.completedAt != nil }
     }

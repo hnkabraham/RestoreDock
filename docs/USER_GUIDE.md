@@ -1,6 +1,6 @@
 # RestoreDock user guide
 
-RestoreDock 1.7 keeps the latest public iPhone and iPad restore firmware ready for your workbench. This guide covers downloads, imports, storage, cleanup, and the limits of signing information.
+RestoreDock 1.8 keeps the latest public iPhone and iPad restore firmware ready for your workbench. This guide covers downloads, model suggestions from existing firmware, imports, storage, cleanup, and the limits of signing information.
 
 [Back to the project README](../README.md)
 
@@ -27,6 +27,16 @@ Use the sort menu beside the device-family filter. Your choice is saved and rest
 These dates describe the hardware model, not its latest iOS or iPadOS update. Simultaneously announced models use their names as a tie-breaker. Internal revisions and regional variants share the original model-family date. New identifiers without bundled introduction data appear first within their device family in the newest modes until their dates are added; they remain searchable and selectable.
 
 Introduction dates and Apple source links are bundled in [`iPhoneModelOrder.json`](../Sources/FirmwareCore/Resources/iPhoneModelOrder.json) and [`iPadModelOrder.json`](../Sources/FirmwareCore/Resources/iPadModelOrder.json). Sorting works offline and does not require extra network requests. Keep these files current when adding known models.
+
+## Find models in existing firmware
+
+RestoreDock scans your selected firmware folder after catalog refreshes and when you choose another firmware folder. If it finds models you do not follow yet, a **Review models** banner invites you to choose them. You can also start a scan from **Devices → Scan firmware folder**, **Storage → Find models to follow**, or **Settings → Storage → Scan firmware folder**.
+
+The scan reads device information inside local IPSWs, including files in subfolders. Renamed files work, and a shared IPSW can suggest several compatible models. Hidden files, packages, and symbolic links are skipped. Malformed or unreadable archives are listed with an explanation; identifiers absent from the current device catalog are shown as unavailable. Only models in that catalog can be followed.
+
+Review the checked models, deselect any you do not want, then click **Follow N models**. Your existing follows stay selected. If automatic downloads are already on, the newly followed models join the usual latest-firmware download process; if they are off, they stay off. **Not now** remembers the reviewed models for this folder so automatic scans do not keep asking. A manual scan includes previously declined models, allowing you to reconsider. Use **Stop scan** to cancel without following anything.
+
+The scan makes no network requests and leaves files in place. It identifies device compatibility from metadata; it does not verify the complete archive, check signing status, or add files to the download library. Use the import flow below to verify existing IPSWs and register them for reuse. The separate catalog refresh uses the app’s normal network sources.
 
 ## Import existing IPSWs
 
@@ -72,6 +82,7 @@ This places completed IPSWs in that folder; it does not register files in a Conf
 
 - Discovers current public releases and supported hardware dynamically from Apple. This includes older hardware still listed for public security releases.
 - Lets you follow individual models or all supported models. One IPSW shared by several models is downloaded once.
+- Reads existing IPSWs locally to suggest models to follow, with a review step before adding selections.
 - Downloads firmware only over HTTPS from Apple hosts, including validation of redirects.
 - Verifies the file size when known, ZIP header, and metadata's SHA-1 checksum before publishing a completed `.ipsw`. Automatic latest-release checksums come from Apple's catalog; historical checksums come from IPSW.me metadata. All firmware binaries download directly from Apple.
 - Persists the queue and selections; supports pause, resume, retry, and optional completion notifications.
@@ -92,7 +103,7 @@ Apple supplies firmware metadata and binaries:
 - [IPSW.me's API](https://ipswdownloads.docs.apiary.io/) supplies per-model public IPSW history, signing status, download URLs, sizes, and checksums when you open a model. Signing status is fetched again before a historical release is queued. Apple's own Support pages provide the embedded release notes.
 - Bundled iPhone and iPad photos use original images from [Apple technical specifications](https://www.apple.com/iphone-17/specs/) and Apple’s [iPhone](https://support.apple.com/en-us/108044) and [iPad model identification pages](https://support.apple.com/en-us/108043), through explicit hardware-identifier mappings. All current bundled models use Apple photos. Future or unmapped models can use the IPSW.me baseline until an Apple mapping is added. The original bytes and formats are preserved; photos are bundled for offline display and are not fetched at runtime. Exact source URLs and model mappings are included alongside the assets. See [third-party notices](../THIRD_PARTY_NOTICES.md). Future models without a bundled photo use a device symbol until the collection is refreshed.
 
-Automatic discovery fetches the same complete metadata catalogs, then requests the Apple files you select. Opening a model's history, checking a historical download, importing an IPSW, previewing cleanup, or running enabled cleanup sends the relevant model identifiers to IPSW.me. Viewing release notes loads the corresponding Apple Support page in an embedded browser using an ephemeral website data store. The app has no analytics, accounts, or cloud synchronization. Firmware defaults to the existing Configurator cache or `~/Downloads/RestoreDock/` as described above.
+Automatic discovery fetches the same complete metadata catalogs, then requests the Apple files you select. Scanning the firmware folder for model suggestions is local and makes no network requests; reviewed suggestions are remembered locally for each folder. Opening a model's history, checking a historical download, importing an IPSW, previewing cleanup, or running enabled cleanup sends the relevant model identifiers to IPSW.me. Viewing release notes loads the corresponding Apple Support page in an embedded browser using an ephemeral website data store. The app has no analytics, accounts, or cloud synchronization. Firmware defaults to the existing Configurator cache or `~/Downloads/RestoreDock/` as described above.
 
 ### Compatibility with earlier versions
 
@@ -132,7 +143,7 @@ To include a metadata-only check against the live Apple catalogs:
 RESTOREDOCK_LIVE_TEST=1 swift test --disable-sandbox --build-system native --cache-path "$PWD/.build/cache"
 ```
 
-Tests cover public-release filtering, new-model discovery, numeric version ordering, Apple URL restrictions, deduplication, persistence, checksum verification, filename collision handling, storage guards, release-history parsing, signed-release download eligibility, historical queue persistence and deduplication, conservative cleanup decisions, verified file removal, automatic re-download suppression, Configurator folder selection and creation, verified imports, in-place registration, physical-file deduplication, storage measurement, and cleanup previews. Folder tests use temporary directories. Live metadata testing downloads no firmware binaries. A full multi-GB IPSW transfer has not been run as part of this build.
+Tests cover public-release filtering, new-model discovery, numeric version ordering, Apple URL restrictions, deduplication, persistence, checksum verification, filename collision handling, storage guards, release-history parsing, signed-release download eligibility, historical queue persistence and deduplication, conservative cleanup decisions, verified file removal, automatic re-download suppression, Configurator folder selection and creation, local firmware scans and follow-selection preservation, verified imports, in-place registration, physical-file deduplication, storage measurement, and cleanup previews. Folder tests use temporary directories. Live metadata testing downloads no firmware binaries. A full multi-GB IPSW transfer has not been run as part of this build.
 
 ## Source layout
 

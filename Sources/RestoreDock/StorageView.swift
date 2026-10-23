@@ -56,6 +56,9 @@ struct StorageView: View {
                 Button { model.showImport = true } label: {
                     Label("Import existing IPSWs", systemImage: "square.and.arrow.down")
                 }.buttonStyle(PrimaryButtonStyle())
+                Button { model.scanFirmwareFolder() } label: {
+                    Label("Find models to follow", systemImage: "doc.text.magnifyingglass")
+                }.buttonStyle(SecondaryButtonStyle())
                 Button { model.refreshStorage() } label: {
                     Label("Refresh sizes", systemImage: "arrow.clockwise")
                 }.buttonStyle(SecondaryButtonStyle()).disabled(model.storageRefreshing)
