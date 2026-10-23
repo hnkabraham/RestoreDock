@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh original device photos, preferring verified Apple iPhone overrides.
+"""Refresh original device photos, preferring verified Apple iPhone and iPad overrides.
 
 IPSW.me supplies the model baseline and fallback photos. No firmware is downloaded
 and no images are cropped, resized, recolored, retouched, or generated.
@@ -48,7 +48,7 @@ class SafeRedirect(HTTPRedirectHandler):
 
 def fetch(url, hosts=frozenset({"ipsw.me"})):
     checked_url(url, hosts)
-    request = Request(url, headers={"User-Agent": "RestoreDock-PhotoUpdater/1.6"})
+    request = Request(url, headers={"User-Agent": "RestoreDock-PhotoUpdater/1.7"})
     with build_opener(SafeRedirect(hosts)).open(request, timeout=30) as response:
         checked_url(response.geturl(), hosts)
         data = response.read(LIMIT + 1)
@@ -171,9 +171,9 @@ def apply_overrides(devices, overrides):
                 raise ValueError("Apple override notes must be strings")
             optional["note"] = entry["note"]
         for identifier in identifiers:
-            if (not isinstance(identifier, str) or not re.fullmatch(r"iPhone\d+,\d+", identifier)
+            if (not isinstance(identifier, str) or not re.fullmatch(r"(?:iPhone|iPad)\d+,\d+", identifier)
                     or identifier not in devices or identifier in seen):
-                raise ValueError(f"Unknown, duplicate, or non-iPhone override identifier: {identifier}")
+                raise ValueError(f"Unknown, duplicate, or unsupported override identifier: {identifier}")
             seen.add(identifier)
             fallback = {key: devices[identifier][key] for key in ("name", "url", "listing")}
             devices[identifier] = dict(name=entry["name"], url=url, provider="Apple",
@@ -185,17 +185,19 @@ def source_notes(metadata, manifest):
     models = metadata["models"]
     apple = sum(item["provider"] == "Apple" for item in models.values())
     counts = {family: sum(identifier.startswith(family) for identifier in manifest) for family in PAGES}
+    apple_counts = {family: sum(identifier.startswith(family) and item["provider"] == "Apple"
+                                for identifier, item in models.items()) for family in PAGES}
     return f"""# Device photo sources
 
-RestoreDock prefers verified iPhone photographs from Apple's technical specifications and model-identification pages. IPSW Downloads supplies the model baseline and photos for iPads and iPhones without an Apple override.
+RestoreDock prefers verified iPhone and iPad photographs from Apple's technical specifications and model-identification pages. IPSW Downloads supplies the model baseline and fallback photos for models without an Apple override.
 
-- Apple photos: {apple} iPhone model identifiers.
-- IPSW.me fallback photos: {len(models) - apple} model identifiers ({counts['iPhone'] - apple} iPhone and {counts['iPad']} iPad).
+- Apple photos: {apple} model identifiers ({apple_counts['iPhone']} iPhone and {apple_counts['iPad']} iPad).
+- IPSW.me fallback photos: {len(models) - apple} model identifiers ({counts['iPhone'] - apple_counts['iPhone']} iPhone and {counts['iPad'] - apple_counts['iPad']} iPad).
 - Baseline listings: https://ipsw.me/product/iPhone/ and https://ipsw.me/product/iPad/
 - Manifest updated: {metadata['updated_at']}
 - Coverage: {counts['iPhone']} iPhone identifiers and {counts['iPad']} iPad identifiers, using {len(set(manifest.values()))} unique image files.
 
-`Resources/apple-iphone-photos.json` records reviewed Apple page/image URLs and exact model identifiers. Overrides apply only to identifiers present in the IPSW.me baseline; unlisted models retain their listing's photo. `manifest.json` maps identifiers to bundled files. `provenance.json` records each provider, source page, original image URL, retrieval time, and SHA-256, plus baseline provenance for Apple overrides.
+`Resources/apple-iphone-photos.json` and `Resources/apple-ipad-photos.json` record reviewed Apple page/image URLs and exact model identifiers. Overrides apply only to identifiers present in the IPSW.me baseline; unlisted models retain their listing's photo. `manifest.json` maps identifiers to bundled files. `provenance.json` records each provider, source page, original image URL, retrieval time, and SHA-256, plus baseline provenance for Apple overrides.
 
 Original source bytes, image formats, and dimensions are preserved. No cropping, resizing, retouching, recoloring, conversion, or generated imagery is applied. Identical content is deduplicated by SHA-256. These are third-party photographs; copyright and other rights remain with their respective owners.
 
@@ -208,10 +210,18 @@ def main():
     parser.add_argument("--html-dir", type=Path, help="Reuse iphone.html and ipad.html baseline listings")
     parser.add_argument("--cache-dir", type=Path, help="Keep original image bytes, keyed by full URL")
     parser.add_argument("--output", type=Path, default=ROOT / "Sources/RestoreDock/Resources/DevicePhotos")
-    parser.add_argument("--apple-overrides", type=Path, default=ROOT / "Resources/apple-iphone-photos.json")
+    parser.add_argument("--apple-overrides", type=Path, action="append",
+                        help="Reviewed JSON mapping; repeat to combine files (default: both bundled Apple mappings)")
     parser.add_argument("--apple-only", action="store_true", help="Reuse the bundled baseline and unchanged photos")
     args = parser.parse_args()
-    overrides = json.loads(args.apple_overrides.read_text())
+    override_files = args.apple_overrides or [ROOT / "Resources/apple-iphone-photos.json",
+                                            ROOT / "Resources/apple-ipad-photos.json"]
+    overrides = []
+    for path in override_files:
+        entries = json.loads(path.read_text())
+        if not isinstance(entries, list):
+            raise ValueError(f"Apple overrides must be a JSON array: {path}")
+        overrides.extend(entries)
     old_manifest, old_models, photos = existing_assets(args.output, args.apple_only)
     devices = baseline(args, old_models)
     apply_overrides(devices, overrides)

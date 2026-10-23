@@ -22,6 +22,10 @@ RestoreDock is a native macOS app for the workbench: choose the iPhone and iPad 
 
 ## Take a look
 
+![iPad library with Apple product photos](docs/screenshots/ipads.png)
+
+*Apple product photos cover every bundled iPad, iPad Air, iPad mini, and iPad Pro model, including Wi-Fi and cellular variants.*
+
 | Release history | Storage breakdown |
 | --- | --- |
 | ![Release history with Apple release notes](docs/screenshots/history.png) | ![Storage breakdown using sample library data](docs/screenshots/storage.png) |
@@ -80,7 +84,7 @@ The suite covers catalogs, download validation and persistence, historical relea
 
 Apple supplies the latest-release catalogs and all firmware downloads. [IPSW.me](https://ipsw.me/) supplies model names, release histories, signing status, and historical checksums. Apple Support supplies the embedded release notes. Relevant model identifiers are sent to IPSW.me when a feature needs their metadata.
 
-Bundled iPhone photos use original assets from [Apple technical specifications](https://www.apple.com/iphone-17/specs/) and [Apple’s model identification pages](https://support.apple.com/en-us/108044). iPad photos come from [IPSW.me](https://ipsw.me/product/iPad/). Future or unmapped models can use the IPSW.me baseline until an explicit Apple photo mapping is added. The original image bytes and formats are preserved, and the photos display offline without fetching images at runtime. See the [photo refresh instructions](docs/USER_GUIDE.md#refreshing-product-photos) for exact model mappings and provenance.
+Bundled iPhone and iPad photos use original assets from [Apple technical specifications](https://www.apple.com/iphone-17/specs/) and Apple’s [iPhone](https://support.apple.com/en-us/108044) and [iPad model identification pages](https://support.apple.com/en-us/108043). All 172 bundled model identifiers have an explicit Apple photo mapping, including 105 iPad variants across 45 generations and sizes. Future or unmapped models can use the IPSW.me baseline until an Apple mapping is added. The original image bytes and formats are preserved, and the photos display offline without fetching images at runtime. See the [photo refresh instructions](docs/USER_GUIDE.md#refreshing-product-photos) for exact model mappings and provenance.
 
 RestoreDock has no analytics, user accounts, or cloud synchronization. See the [user guide](docs/USER_GUIDE.md#sources-and-privacy) for data sources, local storage, and compatibility with earlier versions, and [third-party notices](THIRD_PARTY_NOTICES.md) for photo attribution.
 

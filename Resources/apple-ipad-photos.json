@@ -1,0 +1,467 @@
+[
+  {
+    "name": "iPad Air 11-inch (M4)",
+    "identifiers": [
+      "iPad16,8",
+      "iPad16,9"
+    ],
+    "page_url": "https://support.apple.com/en-us/126471",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png",
+    "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo."
+  },
+  {
+    "name": "iPad Air 13-inch (M4)",
+    "identifiers": [
+      "iPad16,10",
+      "iPad16,11"
+    ],
+    "page_url": "https://support.apple.com/en-us/126472",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m4.png",
+    "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (M5)",
+    "identifiers": [
+      "iPad17,1",
+      "iPad17,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-11in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages."
+  },
+  {
+    "name": "iPad Pro 13-inch (M5)",
+    "identifiers": [
+      "iPad17,3",
+      "iPad17,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-13in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages."
+  },
+  {
+    "name": "iPad Air 11-inch (M3)",
+    "identifiers": [
+      "iPad15,3",
+      "iPad15,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Air 13-inch (M3)",
+    "identifiers": [
+      "iPad15,5",
+      "iPad15,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad (A16)",
+    "identifiers": [
+      "iPad15,7",
+      "iPad15,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad.png",
+    "note": "Original Apple model-identification photo under the iPad (A16) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages."
+  },
+  {
+    "name": "iPad mini (A17 Pro)",
+    "identifiers": [
+      "iPad16,1",
+      "iPad16,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/121456",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iPad_mini_A17_Pro_Wi-Fi_Lineup_Print__USEN.png",
+    "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (M4)",
+    "identifiers": [
+      "iPad16,3",
+      "iPad16,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 13-inch (M4)",
+    "identifiers": [
+      "iPad16,5",
+      "iPad16,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Air 11-inch (M2)",
+    "identifiers": [
+      "iPad14,8",
+      "iPad14,9"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Air 13-inch (M2)",
+    "identifiers": [
+      "iPad14,10",
+      "iPad14,11"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (4th generation)",
+    "identifiers": [
+      "iPad14,3",
+      "iPad14,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (6th generation)",
+    "identifiers": [
+      "iPad14,5",
+      "iPad14,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (10th generation)",
+    "identifiers": [
+      "iPad13,18",
+      "iPad13,19"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+    "note": "Original Apple model-identification photo under the iPad (10th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Air (5th generation)",
+    "identifiers": [
+      "iPad13,16",
+      "iPad13,17"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad mini (6th generation)",
+    "identifiers": [
+      "iPad14,1",
+      "iPad14,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad (9th generation)",
+    "identifiers": [
+      "iPad12,1",
+      "iPad12,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+    "note": "Original Apple model-identification photo under the iPad (9th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (3rd generation)",
+    "identifiers": [
+      "iPad13,4",
+      "iPad13,5",
+      "iPad13,6",
+      "iPad13,7"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (5th generation)",
+    "identifiers": [
+      "iPad13,8",
+      "iPad13,9",
+      "iPad13,10",
+      "iPad13,11"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Air (4th generation)",
+    "identifiers": [
+      "iPad13,1",
+      "iPad13,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad (8th generation)",
+    "identifiers": [
+      "iPad11,6",
+      "iPad11,7"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+    "note": "Original Apple model-identification photo under the iPad (8th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (2nd generation)",
+    "identifiers": [
+      "iPad8,9",
+      "iPad8,10"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (4th generation)",
+    "identifiers": [
+      "iPad8,11",
+      "iPad8,12"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (7th generation)",
+    "identifiers": [
+      "iPad7,11",
+      "iPad7,12"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+    "note": "Original Apple model-identification photo under the iPad (7th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Air (3rd generation)",
+    "identifiers": [
+      "iPad11,3",
+      "iPad11,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad mini (5th generation)",
+    "identifiers": [
+      "iPad11,1",
+      "iPad11,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Pro 11-inch (1st generation)",
+    "identifiers": [
+      "iPad8,1",
+      "iPad8,2",
+      "iPad8,3",
+      "iPad8,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 11-inch heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (3rd generation)",
+    "identifiers": [
+      "iPad8,5",
+      "iPad8,6",
+      "iPad8,7",
+      "iPad8,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (6th generation)",
+    "identifiers": [
+      "iPad7,5",
+      "iPad7,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+    "note": "Original Apple model-identification photo under the iPad (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 10.5-inch",
+    "identifiers": [
+      "iPad7,3",
+      "iPad7,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro (10.5-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (2nd generation)",
+    "identifiers": [
+      "iPad7,1",
+      "iPad7,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+    "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (5th generation)",
+    "identifiers": [
+      "iPad6,11",
+      "iPad6,12"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+    "note": "Original Apple model-identification photo under the iPad (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 9.7-inch",
+    "identifiers": [
+      "iPad6,3",
+      "iPad6,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+    "note": "Original Apple model-identification photo under the iPad Pro (9.7-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad Pro 12.9-inch (1st generation)",
+    "identifiers": [
+      "iPad6,7",
+      "iPad6,8"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+    "note": "Original Apple model-identification photo under the iPad Pro (12.9-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad mini (4th generation)",
+    "identifiers": [
+      "iPad5,1",
+      "iPad5,2"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Air (2nd generation)",
+    "identifiers": [
+      "iPad5,3",
+      "iPad5,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad mini (3rd generation)",
+    "identifiers": [
+      "iPad4,7",
+      "iPad4,8",
+      "iPad4,9"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad Air (1st generation)",
+    "identifiers": [
+      "iPad4,1",
+      "iPad4,2",
+      "iPad4,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad mini (2nd generation)",
+    "identifiers": [
+      "iPad4,4",
+      "iPad4,5",
+      "iPad4,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad (4th generation)",
+    "identifiers": [
+      "iPad3,4",
+      "iPad3,5",
+      "iPad3,6"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-4gen.png",
+    "note": "Original Apple model-identification photo under the iPad (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad mini (1st generation)",
+    "identifiers": [
+      "iPad2,5",
+      "iPad2,6",
+      "iPad2,7"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini.png",
+    "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo."
+  },
+  {
+    "name": "iPad (3rd generation)",
+    "identifiers": [
+      "iPad3,1",
+      "iPad3,2",
+      "iPad3,3"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-3gen.png",
+    "note": "Original Apple model-identification photo under the iPad (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (2nd generation)",
+    "identifiers": [
+      "iPad2,1",
+      "iPad2,2",
+      "iPad2,3",
+      "iPad2,4"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+    "note": "Original Apple model-identification photo under the iPad 2 heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  },
+  {
+    "name": "iPad (1st generation)",
+    "identifiers": [
+      "iPad1,1"
+    ],
+    "page_url": "https://support.apple.com/en-us/108043",
+    "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad.png",
+    "note": "Original Apple model-identification photo under the iPad heading, showing the full device. Wi-Fi and cellular variants share the product photo."
+  }
+]

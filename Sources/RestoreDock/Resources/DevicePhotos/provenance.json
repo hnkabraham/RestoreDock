@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T05:54:27.989686+00:00",
+  "updated_at": "2026-10-23T06:25:28.758393+00:00",
   "listings": [
     "https://ipsw.me/product/iPhone/",
     "https://ipsw.me/product/iPad/"
@@ -7,1159 +7,1789 @@
   "transformation": "None. Original source bytes, original format, original dimensions.",
   "models": {
     "iPad1,1": {
-      "name": "iPad 1",
-      "url": "https://ipsw.me/images/devices/015f46d56cc15f6cf5461be431a09a0dc9c82115.webp",
+      "name": "iPad (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "6f45dd86903e110def8441c2.webp",
-      "sha256": "6f45dd86903e110def8441c2bb3190ede88132a0141d50f9aea753631991e997",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 1",
+        "url": "https://ipsw.me/images/devices/015f46d56cc15f6cf5461be431a09a0dc9c82115.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "8812630441dedb504c1042e7.png",
+      "sha256": "8812630441dedb504c1042e75d3e5edea819a346e6398f4c815fd6b963016660",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,1": {
-      "name": "iPad mini 5 (WiFi)",
-      "url": "https://ipsw.me/images/devices/07a1c534ff7b70248dad20bf9b3ad8faac6a1235.webp",
+      "name": "iPad mini (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "af32091fe7e97ab46cbde86d.webp",
-      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 5 (WiFi)",
+        "url": "https://ipsw.me/images/devices/07a1c534ff7b70248dad20bf9b3ad8faac6a1235.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2ff07b9612e7eb427476a777.png",
+      "sha256": "2ff07b9612e7eb427476a77703d5f02013f19dfecbe883279509b15dc9b3e212",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,2": {
-      "name": "iPad mini 5 (Cellular)",
-      "url": "https://ipsw.me/images/devices/9edfbe63487bd6e1a78d979ee82a99d1398a4dc3.webp",
+      "name": "iPad mini (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-5gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "af32091fe7e97ab46cbde86d.webp",
-      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 5 (Cellular)",
+        "url": "https://ipsw.me/images/devices/9edfbe63487bd6e1a78d979ee82a99d1398a4dc3.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2ff07b9612e7eb427476a777.png",
+      "sha256": "2ff07b9612e7eb427476a77703d5f02013f19dfecbe883279509b15dc9b3e212",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,3": {
-      "name": "iPad Air 3 (WiFi)",
-      "url": "https://ipsw.me/images/devices/81f5cfccd75e4d0b1eea2cc45cabb02d3ff2b9c4.webp",
+      "name": "iPad Air (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3fcddac2c61ab8efd215689e.webp",
-      "sha256": "3fcddac2c61ab8efd215689eb5b59e54795ff0c13a6bf7aa940cccf74533a07e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 3 (WiFi)",
+        "url": "https://ipsw.me/images/devices/81f5cfccd75e4d0b1eea2cc45cabb02d3ff2b9c4.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "a6fd8081b6b6dbbcdd03241c.png",
+      "sha256": "a6fd8081b6b6dbbcdd03241c54b5e03472bb7925f3700ab0d0706e5339408029",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,4": {
-      "name": "iPad Air 3 (Cellular)",
-      "url": "https://ipsw.me/images/devices/70b4402ab716999511420d8cd8a582e2761bc738.webp",
+      "name": "iPad Air (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-3gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "af32091fe7e97ab46cbde86d.webp",
-      "sha256": "af32091fe7e97ab46cbde86dd33a94e055bffcf974eaa206c35da299f387b294",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 3 (Cellular)",
+        "url": "https://ipsw.me/images/devices/70b4402ab716999511420d8cd8a582e2761bc738.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "a6fd8081b6b6dbbcdd03241c.png",
+      "sha256": "a6fd8081b6b6dbbcdd03241c54b5e03472bb7925f3700ab0d0706e5339408029",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,6": {
-      "name": "iPad 8 (WiFi)",
-      "url": "https://ipsw.me/images/devices/eedc089a75fa68134341c4dfba0be944c37339e9.webp",
+      "name": "iPad (8th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "a1f3ed9aff0e7798da07a0c1.webp",
-      "sha256": "a1f3ed9aff0e7798da07a0c1e8c6eadbbfc29932ec827702af8f381380e7f3cb",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 8 (WiFi)",
+        "url": "https://ipsw.me/images/devices/eedc089a75fa68134341c4dfba0be944c37339e9.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (8th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "2d98f9eb497b9085d27543df.png",
+      "sha256": "2d98f9eb497b9085d27543df188a14483cdd80492935ede9cb680b1f21413c13",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad11,7": {
-      "name": "iPad 8 (Cellular)",
-      "url": "https://ipsw.me/images/devices/aff2fc5a2d45dcef34a97c4d3aa053f035fc6443.webp",
+      "name": "iPad (8th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-8th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "a1f3ed9aff0e7798da07a0c1.webp",
-      "sha256": "a1f3ed9aff0e7798da07a0c1e8c6eadbbfc29932ec827702af8f381380e7f3cb",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 8 (Cellular)",
+        "url": "https://ipsw.me/images/devices/aff2fc5a2d45dcef34a97c4d3aa053f035fc6443.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (8th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "2d98f9eb497b9085d27543df.png",
+      "sha256": "2d98f9eb497b9085d27543df188a14483cdd80492935ede9cb680b1f21413c13",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad12,1": {
-      "name": "iPad (WiFi, 9th generation)",
-      "url": "https://ipsw.me/images/devices/a6fefc107a44286b7d061f1d657c684c7543f35c.webp",
+      "name": "iPad (9th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c99278ec140140523ad44a36.webp",
-      "sha256": "c99278ec140140523ad44a361511f2ebb9f99f2a2119022da960a5a64d313564",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (WiFi, 9th generation)",
+        "url": "https://ipsw.me/images/devices/a6fefc107a44286b7d061f1d657c684c7543f35c.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (9th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "276f66f511773a6d79cbdc19.png",
+      "sha256": "276f66f511773a6d79cbdc194489bcea0bc22f078ec355e251eac4b8da7da83f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad12,2": {
-      "name": "iPad (Cellular, 9th generation)",
-      "url": "https://ipsw.me/images/devices/81c9cc8a79868955b0ef76f2eddcc074ef477e46.webp",
+      "name": "iPad (9th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-2021-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c99278ec140140523ad44a36.webp",
-      "sha256": "c99278ec140140523ad44a361511f2ebb9f99f2a2119022da960a5a64d313564",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (Cellular, 9th generation)",
+        "url": "https://ipsw.me/images/devices/81c9cc8a79868955b0ef76f2eddcc074ef477e46.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (9th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "276f66f511773a6d79cbdc19.png",
+      "sha256": "276f66f511773a6d79cbdc194489bcea0bc22f078ec355e251eac4b8da7da83f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,1": {
-      "name": "iPad Air 4 (WiFi)",
-      "url": "https://ipsw.me/images/devices/d044893f0d83fd0ea94ea295183389e4b4695a37.webp",
+      "name": "iPad Air (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "7eeb7bca617c87edb2808f47.webp",
-      "sha256": "7eeb7bca617c87edb2808f47fcdcf061fde69d1a1fda16882a82bef65776ba97",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 4 (WiFi)",
+        "url": "https://ipsw.me/images/devices/d044893f0d83fd0ea94ea295183389e4b4695a37.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2b6c6ba8874e42841b9682e0.png",
+      "sha256": "2b6c6ba8874e42841b9682e033bad41779d3f476aff9f14843f9d6500bc9fb8a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,10": {
-      "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
-      "url": "https://ipsw.me/images/devices/1ce552296d38db82a9875927cee36cffcc90198c.webp",
+      "name": "iPad Pro 12.9-inch (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
+        "url": "https://ipsw.me/images/devices/1ce552296d38db82a9875927cee36cffcc90198c.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "24fa4f39451ef731001971f9.png",
+      "sha256": "24fa4f39451ef731001971f9b9ced6104349a3d02ebea5709ffef6fba9b6b1bc",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,11": {
-      "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
-      "url": "https://ipsw.me/images/devices/9c7c0d781470dcd7156a091dea4d56987e2da502.webp",
+      "name": "iPad Pro 12.9-inch (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, Cellular) (5th generation)",
+        "url": "https://ipsw.me/images/devices/9c7c0d781470dcd7156a091dea4d56987e2da502.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "24fa4f39451ef731001971f9.png",
+      "sha256": "24fa4f39451ef731001971f9b9ced6104349a3d02ebea5709ffef6fba9b6b1bc",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,16": {
-      "name": "iPad Air 5 (WiFi)",
-      "url": "https://ipsw.me/images/devices/2e15a70ae77cf95d337acc7ea66e0d16f8585575.webp",
+      "name": "iPad Air (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "04f8d14fcdc0c0caed98220c.webp",
-      "sha256": "04f8d14fcdc0c0caed98220c9c797ed63456c653e7eaa4b483c342893f8a2e4c",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 5 (WiFi)",
+        "url": "https://ipsw.me/images/devices/2e15a70ae77cf95d337acc7ea66e0d16f8585575.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "8353c46649d0b70e93d64de1.png",
+      "sha256": "8353c46649d0b70e93d64de137a9ce3495b7542c1ee751bf563a664b0abb10bf",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,17": {
-      "name": "iPad Air 5 (Cellular)",
-      "url": "https://ipsw.me/images/devices/eddaf92fc20aa58eb02a1c46c49915049d675d88.webp",
+      "name": "iPad Air (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad-air-5th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "04f8d14fcdc0c0caed98220c.webp",
-      "sha256": "04f8d14fcdc0c0caed98220c9c797ed63456c653e7eaa4b483c342893f8a2e4c",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 5 (Cellular)",
+        "url": "https://ipsw.me/images/devices/eddaf92fc20aa58eb02a1c46c49915049d675d88.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "8353c46649d0b70e93d64de1.png",
+      "sha256": "8353c46649d0b70e93d64de137a9ce3495b7542c1ee751bf563a664b0abb10bf",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,18": {
-      "name": "iPad (WiFi, 10th generation)",
-      "url": "https://ipsw.me/images/devices/839f9d93b71b90d342b1747202baeb51e6ba31dc.webp",
+      "name": "iPad (10th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c6ab855a7c65d027c86b70e8.webp",
-      "sha256": "c6ab855a7c65d027c86b70e82ba4ecd77ba3812e81b0be3871a9aa975e948648",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (WiFi, 10th generation)",
+        "url": "https://ipsw.me/images/devices/839f9d93b71b90d342b1747202baeb51e6ba31dc.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (10th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0ddb7c4efaad9edf45e7ddce.png",
+      "sha256": "0ddb7c4efaad9edf45e7ddcefce681e3397a6a0809fe589e3d992c1c8ebb1e4b",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,19": {
-      "name": "iPad (Cellular, 10th generation)",
-      "url": "https://ipsw.me/images/devices/79d46b1e8567ab18137c50b89d3862b8273cf8d4.webp",
+      "name": "iPad (10th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-10-gen-ipad.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c6ab855a7c65d027c86b70e8.webp",
-      "sha256": "c6ab855a7c65d027c86b70e82ba4ecd77ba3812e81b0be3871a9aa975e948648",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (Cellular, 10th generation)",
+        "url": "https://ipsw.me/images/devices/79d46b1e8567ab18137c50b89d3862b8273cf8d4.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (10th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0ddb7c4efaad9edf45e7ddce.png",
+      "sha256": "0ddb7c4efaad9edf45e7ddcefce681e3397a6a0809fe589e3d992c1c8ebb1e4b",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,2": {
-      "name": "iPad Air 4 (Cellular)",
-      "url": "https://ipsw.me/images/devices/e44c45cd3ade3d9053fd3a3dc98b03150c85558f.webp",
+      "name": "iPad Air (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-air-4th-gen-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "91ab7a5c23d557c53f19cc3c.webp",
-      "sha256": "91ab7a5c23d557c53f19cc3cf2f041626ef5cea49cd3ff2054f6701fb58f75d9",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 4 (Cellular)",
+        "url": "https://ipsw.me/images/devices/e44c45cd3ade3d9053fd3a3dc98b03150c85558f.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2b6c6ba8874e42841b9682e0.png",
+      "sha256": "2b6c6ba8874e42841b9682e033bad41779d3f476aff9f14843f9d6500bc9fb8a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,4": {
-      "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
-      "url": "https://ipsw.me/images/devices/b4e4f90825685e8d784c9c04a3c20398142959b6.webp",
+      "name": "iPad Pro 11-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
+        "url": "https://ipsw.me/images/devices/b4e4f90825685e8d784c9c04a3c20398142959b6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "b4602d4d074fe484c196dfb8.png",
+      "sha256": "b4602d4d074fe484c196dfb8f5a6935e751afeae9c9380932500384fc7f10860",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,5": {
-      "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
-      "url": "https://ipsw.me/images/devices/f0dbc583bc86d0ee2526be1c7a221efdd34cc0b0.webp",
+      "name": "iPad Pro 11-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
+        "url": "https://ipsw.me/images/devices/f0dbc583bc86d0ee2526be1c7a221efdd34cc0b0.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "b4602d4d074fe484c196dfb8.png",
+      "sha256": "b4602d4d074fe484c196dfb8f5a6935e751afeae9c9380932500384fc7f10860",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,6": {
-      "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
-      "url": "https://ipsw.me/images/devices/97cd8dceb876eb84d540fc3c407dda4311314735.webp",
+      "name": "iPad Pro 11-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e843e3585eb10f7cb12f2ac7.webp",
-      "sha256": "e843e3585eb10f7cb12f2ac79260b9440d96081d12483ad6d3aca75a8cdef882",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, WiFi) (3rd generation)",
+        "url": "https://ipsw.me/images/devices/97cd8dceb876eb84d540fc3c407dda4311314735.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "b4602d4d074fe484c196dfb8.png",
+      "sha256": "b4602d4d074fe484c196dfb8f5a6935e751afeae9c9380932500384fc7f10860",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,7": {
-      "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
-      "url": "https://ipsw.me/images/devices/5ce35209cb7ce0c6452cafe94336eefa8a93b212.webp",
+      "name": "iPad Pro 11-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-11-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e843e3585eb10f7cb12f2ac7.webp",
-      "sha256": "e843e3585eb10f7cb12f2ac79260b9440d96081d12483ad6d3aca75a8cdef882",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, Cellular) (3rd generation)",
+        "url": "https://ipsw.me/images/devices/5ce35209cb7ce0c6452cafe94336eefa8a93b212.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "b4602d4d074fe484c196dfb8.png",
+      "sha256": "b4602d4d074fe484c196dfb8f5a6935e751afeae9c9380932500384fc7f10860",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,8": {
-      "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
-      "url": "https://ipsw.me/images/devices/7ba68029b4e739a380139ec033e0ceba035d2b96.webp",
+      "name": "iPad Pro 12.9-inch (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
+        "url": "https://ipsw.me/images/devices/7ba68029b4e739a380139ec033e0ceba035d2b96.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "24fa4f39451ef731001971f9.png",
+      "sha256": "24fa4f39451ef731001971f9b9ced6104349a3d02ebea5709ffef6fba9b6b1bc",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad13,9": {
-      "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
-      "url": "https://ipsw.me/images/devices/81d23a2309800767536f2e5e5d3fbd2887aed9e8.webp",
+      "name": "iPad Pro 12.9-inch (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4bd01252fe03719e84a0edad.webp",
-      "sha256": "4bd01252fe03719e84a0edad127ddff35e7ca8e73813310e6e182ff158f841c4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, WiFi) (5th generation)",
+        "url": "https://ipsw.me/images/devices/81d23a2309800767536f2e5e5d3fbd2887aed9e8.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "24fa4f39451ef731001971f9.png",
+      "sha256": "24fa4f39451ef731001971f9b9ced6104349a3d02ebea5709ffef6fba9b6b1bc",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,1": {
-      "name": "iPad mini 6 (WiFi)",
-      "url": "https://ipsw.me/images/devices/26a8e5395bea3420b386c06b3506e059c690bef8.webp",
+      "name": "iPad mini (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8f4b99e747c3d137a37c45cc.webp",
-      "sha256": "8f4b99e747c3d137a37c45cc2713b973b91c538140bfba41c31bccc184db1aec",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 6 (WiFi)",
+        "url": "https://ipsw.me/images/devices/26a8e5395bea3420b386c06b3506e059c690bef8.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "d26ae262891e427fdadb0571.png",
+      "sha256": "d26ae262891e427fdadb057134a7e08126afbda84d543fa7a7acb8ba145659c1",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,10": {
-      "name": "iPad Air (M2, 13-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/3e7534962f1f749781f86caf6b723234f304238f.webp",
+      "name": "iPad Air 13-inch (M2)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "88041ca33f07e25faac58cf3.webp",
-      "sha256": "88041ca33f07e25faac58cf3e26791664a2e097b29356382bd1b2e3b40d0c3c3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (M2, 13-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/3e7534962f1f749781f86caf6b723234f304238f.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "f74a90d77e046ef505786f8d.png",
+      "sha256": "f74a90d77e046ef505786f8da3d1cb4463c4848c1a9bef408dca9082dd0dddc6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,11": {
-      "name": "iPad Air (M2, 13-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/e676a74f93abf0e76b378bed2e02f6801d010e63.webp",
+      "name": "iPad Air 13-inch (M2)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-3.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "88041ca33f07e25faac58cf3.webp",
-      "sha256": "88041ca33f07e25faac58cf3e26791664a2e097b29356382bd1b2e3b40d0c3c3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (M2, 13-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/e676a74f93abf0e76b378bed2e02f6801d010e63.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "f74a90d77e046ef505786f8d.png",
+      "sha256": "f74a90d77e046ef505786f8da3d1cb4463c4848c1a9bef408dca9082dd0dddc6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,2": {
-      "name": "iPad mini 6 (Cellular)",
-      "url": "https://ipsw.me/images/devices/81a52b35c362b0bee5a8dc833bab74b3f5916677.webp",
+      "name": "iPad mini (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-mini-2021-colors.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8f4b99e747c3d137a37c45cc.webp",
-      "sha256": "8f4b99e747c3d137a37c45cc2713b973b91c538140bfba41c31bccc184db1aec",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 6 (Cellular)",
+        "url": "https://ipsw.me/images/devices/81a52b35c362b0bee5a8dc833bab74b3f5916677.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "d26ae262891e427fdadb0571.png",
+      "sha256": "d26ae262891e427fdadb057134a7e08126afbda84d543fa7a7acb8ba145659c1",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,3": {
-      "name": "iPad Pro (11-inch, WiFi) (4th generation)",
-      "url": "https://ipsw.me/images/devices/f6c51038520b80388a965e9444243fc7dddfe426.webp",
+      "name": "iPad Pro 11-inch (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "47823be418009ec7f75a4ea2.webp",
-      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, WiFi) (4th generation)",
+        "url": "https://ipsw.me/images/devices/f6c51038520b80388a965e9444243fc7dddfe426.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0c5b0d8d24aed774bffa742c.png",
+      "sha256": "0c5b0d8d24aed774bffa742c073e4d25e831decf26966fac4ea74b7ba08a72f5",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,4": {
-      "name": "iPad Pro (11-inch, Cellular) (4th generation)",
-      "url": "https://ipsw.me/images/devices/d5e26b0b882b4c16512e5e2fb2a029a4b5ddd94a.webp",
+      "name": "iPad Pro 11-inch (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-11-inch-4gen-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "47823be418009ec7f75a4ea2.webp",
-      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (11-inch, Cellular) (4th generation)",
+        "url": "https://ipsw.me/images/devices/d5e26b0b882b4c16512e5e2fb2a029a4b5ddd94a.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0c5b0d8d24aed774bffa742c.png",
+      "sha256": "0c5b0d8d24aed774bffa742c073e4d25e831decf26966fac4ea74b7ba08a72f5",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,5": {
-      "name": "iPad Pro (12.9-inch, WiFi) (6th generation)",
-      "url": "https://ipsw.me/images/devices/7be73192e0b768d8869602939c819319ac65b070.webp",
+      "name": "iPad Pro 12.9-inch (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "47823be418009ec7f75a4ea2.webp",
-      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, WiFi) (6th generation)",
+        "url": "https://ipsw.me/images/devices/7be73192e0b768d8869602939c819319ac65b070.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "ca91704dfa195f35672ffb59.png",
+      "sha256": "ca91704dfa195f35672ffb5929164f2b1c1d83bf469f1a831d3530bc1803e667",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,6": {
-      "name": "iPad Pro (12.9-inch, Cellular) (6th generation)",
-      "url": "https://ipsw.me/images/devices/1bd8e3a133bc9e1608a7c0ed30fae6c13ec48831.webp",
+      "name": "iPad Pro 12.9-inch (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/fall-2022-12-9-inch-6gen-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "47823be418009ec7f75a4ea2.webp",
-      "sha256": "47823be418009ec7f75a4ea22a4f66d71ff0394f1f1257169629ec890580903e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (12.9-inch, Cellular) (6th generation)",
+        "url": "https://ipsw.me/images/devices/1bd8e3a133bc9e1608a7c0ed30fae6c13ec48831.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "ca91704dfa195f35672ffb59.png",
+      "sha256": "ca91704dfa195f35672ffb5929164f2b1c1d83bf469f1a831d3530bc1803e667",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,8": {
-      "name": "iPad Air (M2, 11-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/2efb4a61519a241021ef03e024532076f4ea7b2e.webp",
+      "name": "iPad Air 11-inch (M2)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "a946d545e275bf656ab6578b.webp",
-      "sha256": "a946d545e275bf656ab6578b8323e6176e93950eb4183cb39e75e2bda4da5b0b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (M2, 11-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/2efb4a61519a241021ef03e024532076f4ea7b2e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3f2d1a6424cbd01b8b5690b2.png",
+      "sha256": "3f2d1a6424cbd01b8b5690b2e98a34a1daa393194ede1616121500a67e4a371f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad14,9": {
-      "name": "iPad Air (M2, 11-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/ce5d311bd3c679415eed9738c64cfa4a98f48d63.webp",
+      "name": "iPad Air 11-inch (M2)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "a946d545e275bf656ab6578b.webp",
-      "sha256": "a946d545e275bf656ab6578b8323e6176e93950eb4183cb39e75e2bda4da5b0b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (M2, 11-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/ce5d311bd3c679415eed9738c64cfa4a98f48d63.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3f2d1a6424cbd01b8b5690b2.png",
+      "sha256": "3f2d1a6424cbd01b8b5690b2e98a34a1daa393194ede1616121500a67e4a371f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,3": {
-      "name": "iPad Air 11-inch (M3, WiFi)",
-      "url": "https://ipsw.me/images/devices/f1e27bec6f3291114622b8abc6d0501b39f6a0fe.webp",
+      "name": "iPad Air 11-inch (M3)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "ba855cb98495bc05d65b6d85.webp",
-      "sha256": "ba855cb98495bc05d65b6d855d3e462839e38e670069ec5bed61fcdae3c27772",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 11-inch (M3, WiFi)",
+        "url": "https://ipsw.me/images/devices/f1e27bec6f3291114622b8abc6d0501b39f6a0fe.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3f2d1a6424cbd01b8b5690b2.png",
+      "sha256": "3f2d1a6424cbd01b8b5690b2e98a34a1daa393194ede1616121500a67e4a371f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,4": {
-      "name": "iPad Air 11-inch (M3, Cellular)",
-      "url": "https://ipsw.me/images/devices/21756e32b55e929ef312a36f55902cfb948bb984.webp",
+      "name": "iPad Air 11-inch (M3)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-11.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "ba855cb98495bc05d65b6d85.webp",
-      "sha256": "ba855cb98495bc05d65b6d855d3e462839e38e670069ec5bed61fcdae3c27772",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 11-inch (M3, Cellular)",
+        "url": "https://ipsw.me/images/devices/21756e32b55e929ef312a36f55902cfb948bb984.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3f2d1a6424cbd01b8b5690b2.png",
+      "sha256": "3f2d1a6424cbd01b8b5690b2e98a34a1daa393194ede1616121500a67e4a371f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,5": {
-      "name": "iPad Air 13-inch (M3, WiFi)",
-      "url": "https://ipsw.me/images/devices/9eb76c04803a3233c18c710feb5800512f38195b.webp",
+      "name": "iPad Air 13-inch (M3)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "9e981aaf49d0c546e0ae9e60.webp",
-      "sha256": "9e981aaf49d0c546e0ae9e60aa21ce79eb26cb038833708936775e27e63e64ee",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 13-inch (M3, WiFi)",
+        "url": "https://ipsw.me/images/devices/9eb76c04803a3233c18c710feb5800512f38195b.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "f74a90d77e046ef505786f8d.png",
+      "sha256": "f74a90d77e046ef505786f8da3d1cb4463c4848c1a9bef408dca9082dd0dddc6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,6": {
-      "name": "iPad Air 13-inch (M3, Cellular)",
-      "url": "https://ipsw.me/images/devices/dcc715511fee177f94602e41fdb81d09b2cf9817.webp",
+      "name": "iPad Air 13-inch (M3)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad-air-13.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "9e981aaf49d0c546e0ae9e60.webp",
-      "sha256": "9e981aaf49d0c546e0ae9e60aa21ce79eb26cb038833708936775e27e63e64ee",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 13-inch (M3, Cellular)",
+        "url": "https://ipsw.me/images/devices/dcc715511fee177f94602e41fdb81d09b2cf9817.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "f74a90d77e046ef505786f8d.png",
+      "sha256": "f74a90d77e046ef505786f8da3d1cb4463c4848c1a9bef408dca9082dd0dddc6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,7": {
-      "name": "iPad (A16, WiFi)",
-      "url": "https://ipsw.me/images/devices/cdc0ac5c4fadf7f6b8544e8e0c410d992ad71eca.webp",
+      "name": "iPad (A16)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "9b0d51cd6c09f12680eeea47.webp",
-      "sha256": "9b0d51cd6c09f12680eeea47b6c66fece65b828c7a8492f0d12262f9d7b86ed5",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (A16, WiFi)",
+        "url": "https://ipsw.me/images/devices/cdc0ac5c4fadf7f6b8544e8e0c410d992ad71eca.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (A16) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "7e7d367051e95dda22ca68f1.png",
+      "sha256": "7e7d367051e95dda22ca68f1fc1afd8b4f5f29451d962e30d07fc3bd1a8464f2",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad15,8": {
-      "name": "iPad (A16, Cellular)",
-      "url": "https://ipsw.me/images/devices/4d856647f4fc3a5d7c75c52a0a9ccbe8adb3f0a9.webp",
+      "name": "iPad (A16)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2025-ipad.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "9b0d51cd6c09f12680eeea47.webp",
-      "sha256": "9b0d51cd6c09f12680eeea47b6c66fece65b828c7a8492f0d12262f9d7b86ed5",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad (A16, Cellular)",
+        "url": "https://ipsw.me/images/devices/4d856647f4fc3a5d7c75c52a0a9ccbe8adb3f0a9.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (A16) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "7e7d367051e95dda22ca68f1.png",
+      "sha256": "7e7d367051e95dda22ca68f1fc1afd8b4f5f29451d962e30d07fc3bd1a8464f2",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,1": {
-      "name": "iPad mini (A17 Pro, WiFi)",
-      "url": "https://ipsw.me/images/devices/f3ca36d832f8f19297dc313f94dda539d2509347.webp",
+      "name": "iPad mini (A17 Pro)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iPad_mini_A17_Pro_Wi-Fi_Lineup_Print__USEN.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/121456",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e68fa06436ca51c921359b4e.webp",
-      "sha256": "e68fa06436ca51c921359b4e37bfc37cb512750aef312986d5b0aa28796ff609",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini (A17 Pro, WiFi)",
+        "url": "https://ipsw.me/images/devices/f3ca36d832f8f19297dc313f94dda539d2509347.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "aeebdab4036011d4e4f481e1.png",
+      "sha256": "aeebdab4036011d4e4f481e1ad62250ec6a001591a4b4d9ad1b908b838166730",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,10": {
-      "name": "iPad Air 13-inch (M4, WiFi)",
-      "url": "https://ipsw.me/images/devices/a411edda1c31e12dc790b1eb8ab6b4e849e0d59d.webp",
+      "name": "iPad Air 13-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/126472",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8017d539156179b47a432a9c.webp",
-      "sha256": "8017d539156179b47a432a9cd5efe709bdaf468c6b13514680dc62f045193962",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 13-inch (M4, WiFi)",
+        "url": "https://ipsw.me/images/devices/a411edda1c31e12dc790b1eb8ab6b4e849e0d59d.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "df160b8e13839f037048f16a.png",
+      "sha256": "df160b8e13839f037048f16a397a2cb88756f79f4481482f129dc6057d8ae68a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,11": {
-      "name": "iPad Air 13-inch (M4, Cellular)",
-      "url": "https://ipsw.me/images/devices/867d76e07695a18620ecec545d6628f02d3e4647.webp",
+      "name": "iPad Air 13-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-13-inch-m4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/126472",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8017d539156179b47a432a9c.webp",
-      "sha256": "8017d539156179b47a432a9cd5efe709bdaf468c6b13514680dc62f045193962",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 13-inch (M4, Cellular)",
+        "url": "https://ipsw.me/images/devices/867d76e07695a18620ecec545d6628f02d3e4647.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "df160b8e13839f037048f16a.png",
+      "sha256": "df160b8e13839f037048f16a397a2cb88756f79f4481482f129dc6057d8ae68a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,2": {
-      "name": "iPad mini (A17 Pro, Cellular)",
-      "url": "https://ipsw.me/images/devices/37b0fc4b0f1ca08dea9e599b4465be28a02b1440.webp",
+      "name": "iPad mini (A17 Pro)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iPad_mini_A17_Pro_Wi-Fi_Lineup_Print__USEN.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/121456",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e68fa06436ca51c921359b4e.webp",
-      "sha256": "e68fa06436ca51c921359b4e37bfc37cb512750aef312986d5b0aa28796ff609",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini (A17 Pro, Cellular)",
+        "url": "https://ipsw.me/images/devices/37b0fc4b0f1ca08dea9e599b4465be28a02b1440.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "aeebdab4036011d4e4f481e1.png",
+      "sha256": "aeebdab4036011d4e4f481e1ad62250ec6a001591a4b4d9ad1b908b838166730",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,3": {
-      "name": "iPad Pro (M4, 11-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/1df9aa9508bb768fd2b6b38bb8422dab7f2a7e26.webp",
+      "name": "iPad Pro 11-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3f6e4a5d0bc1b6f6072023c7.webp",
-      "sha256": "3f6e4a5d0bc1b6f6072023c7039c0b0dbd5e11cbd35c1a7e89d95586987397dd",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (M4, 11-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/1df9aa9508bb768fd2b6b38bb8422dab7f2a7e26.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "d81bbc69ecf1eb87c84d26fe.png",
+      "sha256": "d81bbc69ecf1eb87c84d26fe6bd2b84366d5002ee77eb840656b90b38f805a30",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,4": {
-      "name": "iPad Pro (M4, 11-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/57c962dc3a376b91322b3ac597c43505e3a86d2e.webp",
+      "name": "iPad Pro 11-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3f6e4a5d0bc1b6f6072023c7.webp",
-      "sha256": "3f6e4a5d0bc1b6f6072023c7039c0b0dbd5e11cbd35c1a7e89d95586987397dd",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (M4, 11-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/57c962dc3a376b91322b3ac597c43505e3a86d2e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "d81bbc69ecf1eb87c84d26fe.png",
+      "sha256": "d81bbc69ecf1eb87c84d26fe6bd2b84366d5002ee77eb840656b90b38f805a30",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,5": {
-      "name": "iPad Pro (M4, 13-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/ad223999b2e3ddec96b6d063c80cb94881907ca6.webp",
+      "name": "iPad Pro 13-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8d6fbc8a40f1b4a118ea1c0d.webp",
-      "sha256": "8d6fbc8a40f1b4a118ea1c0dc8c30321001bcdff661ae9e4822e1b5e761492d8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (M4, 13-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/ad223999b2e3ddec96b6d063c80cb94881907ca6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "1f0cfd2dac4f67e5c36ffbe9.png",
+      "sha256": "1f0cfd2dac4f67e5c36ffbe947f4084ac7cfd9f980a3c30f480bea9c96f8b89f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,6": {
-      "name": "iPad Pro (M4, 13-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/8377e5bd7852545a8dd43db12b036af1ce0b5afa.webp",
+      "name": "iPad Pro 13-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/spring-2024-1.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "8d6fbc8a40f1b4a118ea1c0d.webp",
-      "sha256": "8d6fbc8a40f1b4a118ea1c0dc8c30321001bcdff661ae9e4822e1b5e761492d8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (M4, 13-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/8377e5bd7852545a8dd43db12b036af1ce0b5afa.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M4) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "1f0cfd2dac4f67e5c36ffbe9.png",
+      "sha256": "1f0cfd2dac4f67e5c36ffbe947f4084ac7cfd9f980a3c30f480bea9c96f8b89f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,8": {
-      "name": "iPad Air 11-inch (M4, WiFi)",
-      "url": "https://ipsw.me/images/devices/08f21a088a1767593baed2b735ac5f512ab4f0be.webp",
+      "name": "iPad Air 11-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/126471",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "394c22833d26dd5ba9f0965f.webp",
-      "sha256": "394c22833d26dd5ba9f0965f2dfe205e5dceaa1bf5e3967ba74d00859fef96ab",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 11-inch (M4, WiFi)",
+        "url": "https://ipsw.me/images/devices/08f21a088a1767593baed2b735ac5f512ab4f0be.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "b7e556f10617ab7d816c5344.png",
+      "sha256": "b7e556f10617ab7d816c534493c01f0cc43115f46ea494b88b60268dc1c333ec",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad16,9": {
-      "name": "iPad Air 11-inch (M4, Cellular)",
-      "url": "https://ipsw.me/images/devices/47b5d851a4dc710f1b1e4c506575a641a20dce99.webp",
+      "name": "iPad Air 11-inch (M4)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/126471",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "394c22833d26dd5ba9f0965f.webp",
-      "sha256": "394c22833d26dd5ba9f0965f2dfe205e5dceaa1bf5e3967ba74d00859fef96ab",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 11-inch (M4, Cellular)",
+        "url": "https://ipsw.me/images/devices/47b5d851a4dc710f1b1e4c506575a641a20dce99.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original full-device front/back product photo from this exact model's Apple Support tech-specs header. Preferred to the marketing specs page's edge-only finish image so the device remains recognizable at thumbnail size. Wi-Fi and Cellular variants share this product photo.",
+      "filename": "b7e556f10617ab7d816c5344.png",
+      "sha256": "b7e556f10617ab7d816c534493c01f0cc43115f46ea494b88b60268dc1c333ec",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad17,1": {
-      "name": "iPad Pro 11-inch (M5, WiFi)",
-      "url": "https://ipsw.me/images/devices/c38edb657e9cb802d39b6e6e267fef26ae07d324.webp",
+      "name": "iPad Pro 11-inch (M5)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-11in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c36df484b0d821516532b810.webp",
-      "sha256": "c36df484b0d821516532b8108561f12c26f425fcc74f1b349624867e01389b9e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 11-inch (M5, WiFi)",
+        "url": "https://ipsw.me/images/devices/c38edb657e9cb802d39b6e6e267fef26ae07d324.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "d81bbc69ecf1eb87c84d26fe.png",
+      "sha256": "d81bbc69ecf1eb87c84d26fe6bd2b84366d5002ee77eb840656b90b38f805a30",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad17,2": {
-      "name": "iPad Pro 11-inch (M5, Cellular)",
-      "url": "https://ipsw.me/images/devices/120dc9b534027cf9fa92024b6733ac84070052df.webp",
+      "name": "iPad Pro 11-inch (M5)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-11in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c36df484b0d821516532b810.webp",
-      "sha256": "c36df484b0d821516532b8108561f12c26f425fcc74f1b349624867e01389b9e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 11-inch (M5, Cellular)",
+        "url": "https://ipsw.me/images/devices/120dc9b534027cf9fa92024b6733ac84070052df.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "d81bbc69ecf1eb87c84d26fe.png",
+      "sha256": "d81bbc69ecf1eb87c84d26fe6bd2b84366d5002ee77eb840656b90b38f805a30",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad17,3": {
-      "name": "iPad Pro 13-inch (M5, WiFi)",
-      "url": "https://ipsw.me/images/devices/8612380caea4477af5984493f7f0420fd1c1428b.webp",
+      "name": "iPad Pro 13-inch (M5)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-13in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e3c72fa8ae94b12612fc59b6.webp",
-      "sha256": "e3c72fa8ae94b12612fc59b6c5bad20386338ff3a36cc9d678cab862880216ae",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 13-inch (M5, WiFi)",
+        "url": "https://ipsw.me/images/devices/8612380caea4477af5984493f7f0420fd1c1428b.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "1f0cfd2dac4f67e5c36ffbe9.png",
+      "sha256": "1f0cfd2dac4f67e5c36ffbe947f4084ac7cfd9f980a3c30f480bea9c96f8b89f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad17,4": {
-      "name": "iPad Pro 13-inch (M5, Cellular)",
-      "url": "https://ipsw.me/images/devices/529df80e07e630a834b4263a7c2d773bfbdfea82.webp",
+      "name": "iPad Pro 13-inch (M5)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/fall-2025-ipad-pro-m5-13in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "e3c72fa8ae94b12612fc59b6.webp",
-      "sha256": "e3c72fa8ae94b12612fc59b6c5bad20386338ff3a36cc9d678cab862880216ae",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 13-inch (M5, Cellular)",
+        "url": "https://ipsw.me/images/devices/529df80e07e630a834b4263a7c2d773bfbdfea82.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 13-inch (M5) heading, showing the full device. Wi-Fi and cellular variants share the product photo. Chosen over edge-only finish swatches on current marketing specs pages.",
+      "filename": "1f0cfd2dac4f67e5c36ffbe9.png",
+      "sha256": "1f0cfd2dac4f67e5c36ffbe947f4084ac7cfd9f980a3c30f480bea9c96f8b89f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,1": {
-      "name": "iPad 2 (WiFi)",
-      "url": "https://ipsw.me/images/devices/d927bb97db9f67b4b0180e1821024566218e75ef.webp",
+      "name": "iPad (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "95e81d8646c8f502de28f6d0.webp",
-      "sha256": "95e81d8646c8f502de28f6d0507e5d4dea92013e9dd2c7c3684337dd3dd50045",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 2 (WiFi)",
+        "url": "https://ipsw.me/images/devices/d927bb97db9f67b4b0180e1821024566218e75ef.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad 2 heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "af42afa7eac557ae1a33663e.png",
+      "sha256": "af42afa7eac557ae1a33663e1ce641eeb7c54394ad90d6ca372c4004aedb42e8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,2": {
-      "name": "iPad 2 (GSM)",
-      "url": "https://ipsw.me/images/devices/d991580fe4da7f54374b646b0fb26ca7157eac80.webp",
+      "name": "iPad (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "eb4f6910c6515ea5e7e320e2.webp",
-      "sha256": "eb4f6910c6515ea5e7e320e25f78cfcea1d37ef8c1fa8aafca04e3ea17e9a2d4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 2 (GSM)",
+        "url": "https://ipsw.me/images/devices/d991580fe4da7f54374b646b0fb26ca7157eac80.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad 2 heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "af42afa7eac557ae1a33663e.png",
+      "sha256": "af42afa7eac557ae1a33663e1ce641eeb7c54394ad90d6ca372c4004aedb42e8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,3": {
-      "name": "iPad 2 (CDMA)",
-      "url": "https://ipsw.me/images/devices/6056cf9078cfe0db0527e6eca5a40f64b78b29a1.webp",
+      "name": "iPad (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "eb4f6910c6515ea5e7e320e2.webp",
-      "sha256": "eb4f6910c6515ea5e7e320e25f78cfcea1d37ef8c1fa8aafca04e3ea17e9a2d4",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 2 (CDMA)",
+        "url": "https://ipsw.me/images/devices/6056cf9078cfe0db0527e6eca5a40f64b78b29a1.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad 2 heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "af42afa7eac557ae1a33663e.png",
+      "sha256": "af42afa7eac557ae1a33663e1ce641eeb7c54394ad90d6ca372c4004aedb42e8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,4": {
-      "name": "iPad 2 (Mid 2012)",
-      "url": "https://ipsw.me/images/devices/3d6478f3cbadd44f2166c65e5820ac5e8e70f879.webp",
+      "name": "iPad (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-2gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "95e81d8646c8f502de28f6d0.webp",
-      "sha256": "95e81d8646c8f502de28f6d0507e5d4dea92013e9dd2c7c3684337dd3dd50045",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 2 (Mid 2012)",
+        "url": "https://ipsw.me/images/devices/3d6478f3cbadd44f2166c65e5820ac5e8e70f879.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad 2 heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "af42afa7eac557ae1a33663e.png",
+      "sha256": "af42afa7eac557ae1a33663e1ce641eeb7c54394ad90d6ca372c4004aedb42e8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,5": {
-      "name": "iPad mini (WiFi)",
-      "url": "https://ipsw.me/images/devices/912a254d69a55974a44d71c6eff89d3dd9986b2a.webp",
+      "name": "iPad mini (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "2d2f9b2289ba44b813257b3d.webp",
-      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini (WiFi)",
+        "url": "https://ipsw.me/images/devices/912a254d69a55974a44d71c6eff89d3dd9986b2a.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3ea4b9d2ac7ce4b89c6e0449.png",
+      "sha256": "3ea4b9d2ac7ce4b89c6e044981c44294705fd83764915193ae5f188f6d85268f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,6": {
-      "name": "iPad mini (GSM)",
-      "url": "https://ipsw.me/images/devices/0f0cb4bde177a3251131c11284d981fdce687374.webp",
+      "name": "iPad mini (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "2d2f9b2289ba44b813257b3d.webp",
-      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini (GSM)",
+        "url": "https://ipsw.me/images/devices/0f0cb4bde177a3251131c11284d981fdce687374.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3ea4b9d2ac7ce4b89c6e0449.png",
+      "sha256": "3ea4b9d2ac7ce4b89c6e044981c44294705fd83764915193ae5f188f6d85268f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad2,7": {
-      "name": "iPad mini (Global)",
-      "url": "https://ipsw.me/images/devices/d81ad2095112f85cb3434b2daf52a84de2a438e6.webp",
+      "name": "iPad mini (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "2d2f9b2289ba44b813257b3d.webp",
-      "sha256": "2d2f9b2289ba44b813257b3d4c3edd81cc5883351e8559237f4cc4c6c255848b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini (Global)",
+        "url": "https://ipsw.me/images/devices/d81ad2095112f85cb3434b2daf52a84de2a438e6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "3ea4b9d2ac7ce4b89c6e0449.png",
+      "sha256": "3ea4b9d2ac7ce4b89c6e044981c44294705fd83764915193ae5f188f6d85268f",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,1": {
-      "name": "iPad 3 (WiFi)",
-      "url": "https://ipsw.me/images/devices/8f61043399f9932dd3b0f45e13941ef3d6d8ae1e.webp",
+      "name": "iPad (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-3gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "857aea7887f97a8202b71c87.webp",
-      "sha256": "857aea7887f97a8202b71c873bb97f5be8963f7b36771fd37bdf736890444d03",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 3 (WiFi)",
+        "url": "https://ipsw.me/images/devices/8f61043399f9932dd3b0f45e13941ef3d6d8ae1e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "1b9c128c231e7c48a3ec287d.png",
+      "sha256": "1b9c128c231e7c48a3ec287d47a9b290e4f990bc3a2359911a311a5a127c2023",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,2": {
-      "name": "iPad 3 (CDMA)",
-      "url": "https://ipsw.me/images/devices/616e24cb68ba8006fcb343d06f5cd2dc0509c34c.webp",
+      "name": "iPad (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-3gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "a56de6d3668adea63b025dcd.webp",
-      "sha256": "a56de6d3668adea63b025dcd297aba92334afbf4f6a7cedadba27131000376bf",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 3 (CDMA)",
+        "url": "https://ipsw.me/images/devices/616e24cb68ba8006fcb343d06f5cd2dc0509c34c.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "1b9c128c231e7c48a3ec287d.png",
+      "sha256": "1b9c128c231e7c48a3ec287d47a9b290e4f990bc3a2359911a311a5a127c2023",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,3": {
-      "name": "iPad 3 (GSM)",
-      "url": "https://ipsw.me/images/devices/60a206184678cbcbefbf4acb0dbf9081845e2ef4.webp",
+      "name": "iPad (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-3gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "857aea7887f97a8202b71c87.webp",
-      "sha256": "857aea7887f97a8202b71c873bb97f5be8963f7b36771fd37bdf736890444d03",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 3 (GSM)",
+        "url": "https://ipsw.me/images/devices/60a206184678cbcbefbf4acb0dbf9081845e2ef4.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "1b9c128c231e7c48a3ec287d.png",
+      "sha256": "1b9c128c231e7c48a3ec287d47a9b290e4f990bc3a2359911a311a5a127c2023",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,4": {
-      "name": "iPad 4 (WiFi)",
-      "url": "https://ipsw.me/images/devices/bc4deafc7a0aefab4683be2435384c7ba012db38.webp",
+      "name": "iPad (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-4gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c55abf88c5af9513dea37327.webp",
-      "sha256": "c55abf88c5af9513dea37327cf85c0a9f95dd6db5d85acd01e77e7f1c4041de9",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 4 (WiFi)",
+        "url": "https://ipsw.me/images/devices/bc4deafc7a0aefab4683be2435384c7ba012db38.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "e38591fe5704bda9d2f41dd3.png",
+      "sha256": "e38591fe5704bda9d2f41dd3911cfa1f510d10c9c8ba1dd896db09cdf4f458c6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,5": {
-      "name": "iPad 4 (GSM)",
-      "url": "https://ipsw.me/images/devices/adff62a4b066eafde364f376d098b6f4c62a80e5.webp",
+      "name": "iPad (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-4gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "32f0ff3512f5cf6afa175c89.webp",
-      "sha256": "32f0ff3512f5cf6afa175c89b5caeba817a29912350c9177658f8e9916202b47",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 4 (GSM)",
+        "url": "https://ipsw.me/images/devices/adff62a4b066eafde364f376d098b6f4c62a80e5.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "e38591fe5704bda9d2f41dd3.png",
+      "sha256": "e38591fe5704bda9d2f41dd3911cfa1f510d10c9c8ba1dd896db09cdf4f458c6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad3,6": {
-      "name": "iPad 4 (Global)",
-      "url": "https://ipsw.me/images/devices/5e22f81a0e208fcc94d51850ee55805060761b5c.webp",
+      "name": "iPad (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-4gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "32f0ff3512f5cf6afa175c89.webp",
-      "sha256": "32f0ff3512f5cf6afa175c89b5caeba817a29912350c9177658f8e9916202b47",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 4 (Global)",
+        "url": "https://ipsw.me/images/devices/5e22f81a0e208fcc94d51850ee55805060761b5c.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "e38591fe5704bda9d2f41dd3.png",
+      "sha256": "e38591fe5704bda9d2f41dd3911cfa1f510d10c9c8ba1dd896db09cdf4f458c6",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,1": {
-      "name": "iPad Air (WiFi)",
-      "url": "https://ipsw.me/images/devices/b321dbf62c9d247182e466425bba2fc04e34d3e9.webp",
+      "name": "iPad Air (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "2e9d8ecd8167675490d46389.webp",
-      "sha256": "2e9d8ecd8167675490d46389c023c138b42188cd9140b6758b9805e5e06e41ac",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (WiFi)",
+        "url": "https://ipsw.me/images/devices/b321dbf62c9d247182e466425bba2fc04e34d3e9.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "627e988fd2348e0d7cae9d5d.png",
+      "sha256": "627e988fd2348e0d7cae9d5d3659a22ad9bc68e113b781bde6fd0cb7425c186c",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,2": {
-      "name": "iPad Air (Cellular)",
-      "url": "https://ipsw.me/images/devices/59879b4c7cba49d3af70a3bc186f8664f0cfea30.webp",
+      "name": "iPad Air (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "7c1001a25900cb37534fc7f0.webp",
-      "sha256": "7c1001a25900cb37534fc7f0a49b116d16db14a95de87e53d1adbeff50fa5d1a",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (Cellular)",
+        "url": "https://ipsw.me/images/devices/59879b4c7cba49d3af70a3bc186f8664f0cfea30.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "627e988fd2348e0d7cae9d5d.png",
+      "sha256": "627e988fd2348e0d7cae9d5d3659a22ad9bc68e113b781bde6fd0cb7425c186c",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,3": {
-      "name": "iPad Air (China)",
-      "url": "https://ipsw.me/images/devices/cf7c13795a886017eec4ed815a1ef02a5277a74a.webp",
+      "name": "iPad Air (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "2e9d8ecd8167675490d46389.webp",
-      "sha256": "2e9d8ecd8167675490d46389c023c138b42188cd9140b6758b9805e5e06e41ac",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air (China)",
+        "url": "https://ipsw.me/images/devices/cf7c13795a886017eec4ed815a1ef02a5277a74a.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "627e988fd2348e0d7cae9d5d.png",
+      "sha256": "627e988fd2348e0d7cae9d5d3659a22ad9bc68e113b781bde6fd0cb7425c186c",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,4": {
-      "name": "iPad mini 2 (WiFi)",
-      "url": "https://ipsw.me/images/devices/60289d683a6758badc01ba0b884fb3c9f1edbd8f.webp",
+      "name": "iPad mini (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c22eb1a17df5afbddc53d629.webp",
-      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 2 (WiFi)",
+        "url": "https://ipsw.me/images/devices/60289d683a6758badc01ba0b884fb3c9f1edbd8f.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "4b65aee32a84f3f123203358.png",
+      "sha256": "4b65aee32a84f3f1232033583034de2ba89c6c40cec65abd805426dbfb85add0",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,5": {
-      "name": "iPad mini 2 (Cellular)",
-      "url": "https://ipsw.me/images/devices/d71acfdb9558dd885d61e0d5369ed8d32725cb87.webp",
+      "name": "iPad mini (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c22eb1a17df5afbddc53d629.webp",
-      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 2 (Cellular)",
+        "url": "https://ipsw.me/images/devices/d71acfdb9558dd885d61e0d5369ed8d32725cb87.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "4b65aee32a84f3f123203358.png",
+      "sha256": "4b65aee32a84f3f1232033583034de2ba89c6c40cec65abd805426dbfb85add0",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,6": {
-      "name": "iPad mini 2 (China)",
-      "url": "https://ipsw.me/images/devices/a826af5c991f7972c7410b0e60adfba6dedaa25e.webp",
+      "name": "iPad mini (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c22eb1a17df5afbddc53d629.webp",
-      "sha256": "c22eb1a17df5afbddc53d629b7b6245e5063fde32633c5e0c1f89eb717cc0644",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 2 (China)",
+        "url": "https://ipsw.me/images/devices/a826af5c991f7972c7410b0e60adfba6dedaa25e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "4b65aee32a84f3f123203358.png",
+      "sha256": "4b65aee32a84f3f1232033583034de2ba89c6c40cec65abd805426dbfb85add0",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,7": {
-      "name": "iPad mini 3 (WiFi)",
-      "url": "https://ipsw.me/images/devices/0ee41f4526ae6b2e05cee276d05e920c9c0b8f93.webp",
+      "name": "iPad mini (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "f7929148b4fd3d0631f93c41.webp",
-      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 3 (WiFi)",
+        "url": "https://ipsw.me/images/devices/0ee41f4526ae6b2e05cee276d05e920c9c0b8f93.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2403f5cd54d1afd012b8a886.png",
+      "sha256": "2403f5cd54d1afd012b8a886d13d18a306443ebd3169b84ddbdd234c97d4d3ec",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,8": {
-      "name": "iPad mini 3 (Cellular)",
-      "url": "https://ipsw.me/images/devices/2433c3ff04ad3f8b594cf700cf1d26c4b117329e.webp",
+      "name": "iPad mini (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "433192b4c64253c7f37cc7ec.webp",
-      "sha256": "433192b4c64253c7f37cc7ec5f381bc992b7b1a38f8cf7d78fc93c84672e017b",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 3 (Cellular)",
+        "url": "https://ipsw.me/images/devices/2433c3ff04ad3f8b594cf700cf1d26c4b117329e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2403f5cd54d1afd012b8a886.png",
+      "sha256": "2403f5cd54d1afd012b8a886d13d18a306443ebd3169b84ddbdd234c97d4d3ec",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad4,9": {
-      "name": "iPad mini 3 (China)",
-      "url": "https://ipsw.me/images/devices/061f361779ccefd953b021b171299fbd5204ce21.webp",
+      "name": "iPad mini (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini3.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "f7929148b4fd3d0631f93c41.webp",
-      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 3 (China)",
+        "url": "https://ipsw.me/images/devices/061f361779ccefd953b021b171299fbd5204ce21.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "2403f5cd54d1afd012b8a886.png",
+      "sha256": "2403f5cd54d1afd012b8a886d13d18a306443ebd3169b84ddbdd234c97d4d3ec",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad5,1": {
-      "name": "iPad mini 4 (WiFi)",
-      "url": "https://ipsw.me/images/devices/c9c8e135537314e2049ce04fe4c677a1dbb0f376.webp",
+      "name": "iPad mini (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "f7929148b4fd3d0631f93c41.webp",
-      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 4 (WiFi)",
+        "url": "https://ipsw.me/images/devices/c9c8e135537314e2049ce04fe4c677a1dbb0f376.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "42ce991e3dc8f5849214cc8c.png",
+      "sha256": "42ce991e3dc8f5849214cc8ce77cbc41aa1bd0653f06b3e175cfa807bf0e6e72",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad5,2": {
-      "name": "iPad mini 4 (Cellular)",
-      "url": "https://ipsw.me/images/devices/6d0a4172e932ed56ba07ade9bd10995a73094b7a.webp",
+      "name": "iPad mini (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-mini4.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "f7929148b4fd3d0631f93c41.webp",
-      "sha256": "f7929148b4fd3d0631f93c41d8e781004eb9829f75ae00ab983597bb82143af3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad mini 4 (Cellular)",
+        "url": "https://ipsw.me/images/devices/6d0a4172e932ed56ba07ade9bd10995a73094b7a.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "42ce991e3dc8f5849214cc8c.png",
+      "sha256": "42ce991e3dc8f5849214cc8ce77cbc41aa1bd0653f06b3e175cfa807bf0e6e72",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad5,3": {
-      "name": "iPad Air 2 (WiFi)",
-      "url": "https://ipsw.me/images/devices/8a6c5cdc342a9a0e78908bb82bc33a1cc8dd2954.webp",
+      "name": "iPad Air (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4cadd2f139f29e3637db2eaf.webp",
-      "sha256": "4cadd2f139f29e3637db2eaf0a2ae4c24a1835360b0ea155d10ada154bc003e9",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 2 (WiFi)",
+        "url": "https://ipsw.me/images/devices/8a6c5cdc342a9a0e78908bb82bc33a1cc8dd2954.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "62b69b85f294f6e3e6ccc657.png",
+      "sha256": "62b69b85f294f6e3e6ccc6579d46aed2ff89e7124e9b030108af92b14c047b49",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad5,4": {
-      "name": "iPad Air 2 (Cellular)",
-      "url": "https://ipsw.me/images/devices/2f40af2bf1701bc17287009775f8e4a19c1ec959.webp",
+      "name": "iPad Air (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-air2.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "fb7f0fcd2d15ab7910b49e08.webp",
-      "sha256": "fb7f0fcd2d15ab7910b49e082ff696ce8799e8c46f301c30061764db91f2e6a7",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Air 2 (Cellular)",
+        "url": "https://ipsw.me/images/devices/2f40af2bf1701bc17287009775f8e4a19c1ec959.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Apple's Identify your iPad model page supplies this exact generation's front and color lineup; Wi-Fi and Cellular variants share the same product photo.",
+      "filename": "62b69b85f294f6e3e6ccc657.png",
+      "sha256": "62b69b85f294f6e3e6ccc6579d46aed2ff89e7124e9b030108af92b14c047b49",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,11": {
-      "name": "iPad 5 (WiFi)",
-      "url": "https://ipsw.me/images/devices/7507555cb915c6333db8cb03b78e24bfddecf0c6.webp",
+      "name": "iPad (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "b536ecdd9f6f531f676fcdb1.webp",
-      "sha256": "b536ecdd9f6f531f676fcdb181590899109b47f8288e812c616d8db56753c327",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 5 (WiFi)",
+        "url": "https://ipsw.me/images/devices/7507555cb915c6333db8cb03b78e24bfddecf0c6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0629728712ccaa955d7f99cd.png",
+      "sha256": "0629728712ccaa955d7f99cdc983837d7bd88a6d0d0fa4c1a7c70cf76f1efb16",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,12": {
-      "name": "iPad 5 (Cellular)",
-      "url": "https://ipsw.me/images/devices/9ab1a5023a447f9378b33ee545880f82985d8b4d.webp",
+      "name": "iPad (5th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-5gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "b536ecdd9f6f531f676fcdb1.webp",
-      "sha256": "b536ecdd9f6f531f676fcdb181590899109b47f8288e812c616d8db56753c327",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 5 (Cellular)",
+        "url": "https://ipsw.me/images/devices/9ab1a5023a447f9378b33ee545880f82985d8b4d.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (5th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "0629728712ccaa955d7f99cd.png",
+      "sha256": "0629728712ccaa955d7f99cdc983837d7bd88a6d0d0fa4c1a7c70cf76f1efb16",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,3": {
-      "name": "iPad Pro 9.7-inch (WiFi)",
-      "url": "https://ipsw.me/images/devices/367bf008bf9ecf61f1e239a6f6f9967a7796f06b.webp",
+      "name": "iPad Pro 9.7-inch",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "57881f49633aab9652fb49b1.webp",
-      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 9.7-inch (WiFi)",
+        "url": "https://ipsw.me/images/devices/367bf008bf9ecf61f1e239a6f6f9967a7796f06b.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (9.7-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "6c58079a945ef8a31ef3d0ac.png",
+      "sha256": "6c58079a945ef8a31ef3d0ac7fed8c2f73fda8dfab7b6cb99145c4a413ef5e95",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,4": {
-      "name": "iPad Pro 9.7-inch (Cellular)",
-      "url": "https://ipsw.me/images/devices/45f427f8a3098171efb75c12c097fff3d2d97184.webp",
+      "name": "iPad Pro 9.7-inch",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro-9-7.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "306a4380e79b431078b8efd9.webp",
-      "sha256": "306a4380e79b431078b8efd9321cfbb9b2232ff52ac8a903def5e1f6f620762e",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 9.7-inch (Cellular)",
+        "url": "https://ipsw.me/images/devices/45f427f8a3098171efb75c12c097fff3d2d97184.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (9.7-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "6c58079a945ef8a31ef3d0ac.png",
+      "sha256": "6c58079a945ef8a31ef3d0ac7fed8c2f73fda8dfab7b6cb99145c4a413ef5e95",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,7": {
-      "name": "iPad Pro 12.9-inch (WiFi)",
-      "url": "https://ipsw.me/images/devices/3e90454f900084af3bcf23174d06009c95d34f92.webp",
+      "name": "iPad Pro 12.9-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "697d19eb753c7efde6a65799.webp",
-      "sha256": "697d19eb753c7efde6a6579944a90cb256033aeb237c719e6e589e9def6cbcf3",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 12.9-inch (WiFi)",
+        "url": "https://ipsw.me/images/devices/3e90454f900084af3bcf23174d06009c95d34f92.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (12.9-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "4dd1943d979b9236728ecf19.png",
+      "sha256": "4dd1943d979b9236728ecf19c7596b7fd9e34b7c4a6ab702fffc8d379344669a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad6,8": {
-      "name": "iPad Pro 12.9-inch (Cellular)",
-      "url": "https://ipsw.me/images/devices/8f1fff3251704d3c066b33ee722b988c980e5a3d.webp",
+      "name": "iPad Pro 12.9-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/identify-ipad-pro.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "825482dece6183a3cbd0fadc.webp",
-      "sha256": "825482dece6183a3cbd0fadca8a4b60fa3f10aaa5e537be0829e779ce360a812",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 12.9-inch (Cellular)",
+        "url": "https://ipsw.me/images/devices/8f1fff3251704d3c066b33ee722b988c980e5a3d.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (12.9-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "4dd1943d979b9236728ecf19.png",
+      "sha256": "4dd1943d979b9236728ecf19c7596b7fd9e34b7c4a6ab702fffc8d379344669a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,1": {
-      "name": "iPad Pro 2 (12.9-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/86a63f43298a9de30efe4c0be4d7c98b5085180c.webp",
+      "name": "iPad Pro 12.9-inch (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "ecb5017a088dc400788e2ef7.webp",
-      "sha256": "ecb5017a088dc400788e2ef742ff82f9e22809b2167388fd3322c0967be6acec",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 2 (12.9-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/86a63f43298a9de30efe4c0be4d7c98b5085180c.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "2366afab26e3d050cdbfef5c.png",
+      "sha256": "2366afab26e3d050cdbfef5c621e322b76ad146e23f0c1df7fa92fb5eaed742a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,11": {
-      "name": "iPad 7 (WiFi)",
-      "url": "https://ipsw.me/images/devices/c112aa862718877891b810e56ae213259f08760d.webp",
+      "name": "iPad (7th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "7f5641edafb145c901edf63c.webp",
-      "sha256": "7f5641edafb145c901edf63cf2ddc12a048b067e8ad6b0d4faddebb6eef3c137",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 7 (WiFi)",
+        "url": "https://ipsw.me/images/devices/c112aa862718877891b810e56ae213259f08760d.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (7th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "97f1916c1059258b9dc36d4c.png",
+      "sha256": "97f1916c1059258b9dc36d4c071990b03b752d65e491ee23418f1a25f53fb75c",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,12": {
-      "name": "iPad 7 (Cellular)",
-      "url": "https://ipsw.me/images/devices/dce0f0cd21a6cb781123c8d3111d2bfee5592ed6.webp",
+      "name": "iPad (7th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ipad-7th-gen.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "7f5641edafb145c901edf63c.webp",
-      "sha256": "7f5641edafb145c901edf63cf2ddc12a048b067e8ad6b0d4faddebb6eef3c137",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 7 (Cellular)",
+        "url": "https://ipsw.me/images/devices/dce0f0cd21a6cb781123c8d3111d2bfee5592ed6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (7th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "97f1916c1059258b9dc36d4c.png",
+      "sha256": "97f1916c1059258b9dc36d4c071990b03b752d65e491ee23418f1a25f53fb75c",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,2": {
-      "name": "iPad Pro 2 (12.9-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/526de350025cd95b9b398c0c2ed39add0cee33c0.webp",
+      "name": "iPad Pro 12.9-inch (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-12-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "ecb5017a088dc400788e2ef7.webp",
-      "sha256": "ecb5017a088dc400788e2ef742ff82f9e22809b2167388fd3322c0967be6acec",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 2 (12.9-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/526de350025cd95b9b398c0c2ed39add0cee33c0.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "2366afab26e3d050cdbfef5c.png",
+      "sha256": "2366afab26e3d050cdbfef5c621e322b76ad146e23f0c1df7fa92fb5eaed742a",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,3": {
-      "name": "iPad Pro (10.5-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/cdb8869cec199ccdc8f40ee09ee1b6038cfa4b48.webp",
+      "name": "iPad Pro 10.5-inch",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "57881f49633aab9652fb49b1.webp",
-      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (10.5-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/cdb8869cec199ccdc8f40ee09ee1b6038cfa4b48.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (10.5-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "cf06ab3de0e3e10f6fe8f768.png",
+      "sha256": "cf06ab3de0e3e10f6fe8f768cd85cf4ace15219a0b3a7b273bb0963635ed43d7",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,4": {
-      "name": "iPad Pro (10.5-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/39bb3347137a3313f8c9bde8cb56bde7690c6b41.webp",
+      "name": "iPad Pro 10.5-inch",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-ipad-pro-10-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "57881f49633aab9652fb49b1.webp",
-      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro (10.5-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/39bb3347137a3313f8c9bde8cb56bde7690c6b41.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro (10.5-inch) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "cf06ab3de0e3e10f6fe8f768.png",
+      "sha256": "cf06ab3de0e3e10f6fe8f768cd85cf4ace15219a0b3a7b273bb0963635ed43d7",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,5": {
-      "name": "iPad 6 (WiFi)",
-      "url": "https://ipsw.me/images/devices/24148999a3877ee48e9eb3cb79f0073585f650fe.webp",
+      "name": "iPad (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "57881f49633aab9652fb49b1.webp",
-      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 6 (WiFi)",
+        "url": "https://ipsw.me/images/devices/24148999a3877ee48e9eb3cb79f0073585f650fe.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3dad1b76dbf1da7c8366cfc9.png",
+      "sha256": "3dad1b76dbf1da7c8366cfc9c67e33807171bd7ee7fb9cf505ca07bc1f3e0f32",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad7,6": {
-      "name": "iPad 6 (Cellular)",
-      "url": "https://ipsw.me/images/devices/87993140eb4b75d83bc93e54606d27a71504171e.webp",
+      "name": "iPad (6th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios11-3-ipad-9-7-in-2018.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "57881f49633aab9652fb49b1.webp",
-      "sha256": "57881f49633aab9652fb49b19d32fa986e7cd4a5f94ea247701381e782242b77",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad 6 (Cellular)",
+        "url": "https://ipsw.me/images/devices/87993140eb4b75d83bc93e54606d27a71504171e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad (6th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3dad1b76dbf1da7c8366cfc9.png",
+      "sha256": "3dad1b76dbf1da7c8366cfc9c67e33807171bd7ee7fb9cf505ca07bc1f3e0f32",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,1": {
-      "name": "iPad Pro 3 (11-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/f3024852a7bb3126635fd01af8033671f3fa7b20.webp",
+      "name": "iPad Pro 11-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4f5e24918cb9b1965f79bd35.webp",
-      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (11-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/f3024852a7bb3126635fd01af8033671f3fa7b20.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3a458f63042ad3473ec3ed5d.png",
+      "sha256": "3a458f63042ad3473ec3ed5d023b86f4e382f38a66221b1be4b2e510d009381e",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,10": {
-      "name": "iPad Pro 4 (11-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/385f6911c7d3627ec7093fa739f6131fb9dedb38.webp",
+      "name": "iPad Pro 11-inch (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c234f847a336f73f18d30957.webp",
-      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 4 (11-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/385f6911c7d3627ec7093fa739f6131fb9dedb38.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3bea25d5cec3bbc394b47150.png",
+      "sha256": "3bea25d5cec3bbc394b47150aed313c7f7189d20c3e8ba296987fe1f024ad4f8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,11": {
-      "name": "iPad Pro 4 (12.9-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/75c146d576c6ed6579521cd6a447d5dcfb8806e6.webp",
+      "name": "iPad Pro 12.9-inch (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c234f847a336f73f18d30957.webp",
-      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 4 (12.9-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/75c146d576c6ed6579521cd6a447d5dcfb8806e6.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "5ee4260e0689b124956e22bc.png",
+      "sha256": "5ee4260e0689b124956e22bc6bca88dafd23ab8447df762e741a6dbcfa0dd4a8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,12": {
-      "name": "iPad Pro 4 (12.9-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/b9510aa5d2479e88a427e561da32379b7b69f098.webp",
+      "name": "iPad Pro 12.9-inch (4th generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c234f847a336f73f18d30957.webp",
-      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 4 (12.9-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/b9510aa5d2479e88a427e561da32379b7b69f098.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (4th generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "5ee4260e0689b124956e22bc.png",
+      "sha256": "5ee4260e0689b124956e22bc6bca88dafd23ab8447df762e741a6dbcfa0dd4a8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,2": {
-      "name": "iPad Pro 3 (11-inch, WiFi, 1TB Model)",
-      "url": "https://ipsw.me/images/devices/9968042f0dc9bdfd4cf0139684d746387f0efe9a.webp",
+      "name": "iPad Pro 11-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4f5e24918cb9b1965f79bd35.webp",
-      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (11-inch, WiFi, 1TB Model)",
+        "url": "https://ipsw.me/images/devices/9968042f0dc9bdfd4cf0139684d746387f0efe9a.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3a458f63042ad3473ec3ed5d.png",
+      "sha256": "3a458f63042ad3473ec3ed5d023b86f4e382f38a66221b1be4b2e510d009381e",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,3": {
-      "name": "iPad Pro 3 (11-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/4c755c6a9eb559c5bc6566d3aaf9a84bf5526b16.webp",
+      "name": "iPad Pro 11-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4f5e24918cb9b1965f79bd35.webp",
-      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (11-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/4c755c6a9eb559c5bc6566d3aaf9a84bf5526b16.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3a458f63042ad3473ec3ed5d.png",
+      "sha256": "3a458f63042ad3473ec3ed5d023b86f4e382f38a66221b1be4b2e510d009381e",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,4": {
-      "name": "iPad Pro 3 (11-inch, Cellular, 1TB Model)",
-      "url": "https://ipsw.me/images/devices/baa74c7b204b4f75e42bec4865531ebdb1b0e970.webp",
+      "name": "iPad Pro 11-inch (1st generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "4f5e24918cb9b1965f79bd35.webp",
-      "sha256": "4f5e24918cb9b1965f79bd35603a2f6334a4c0544efa01dc8184735e4f429ed8",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (11-inch, Cellular, 1TB Model)",
+        "url": "https://ipsw.me/images/devices/baa74c7b204b4f75e42bec4865531ebdb1b0e970.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3a458f63042ad3473ec3ed5d.png",
+      "sha256": "3a458f63042ad3473ec3ed5d023b86f4e382f38a66221b1be4b2e510d009381e",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,5": {
-      "name": "iPad Pro 3 (12.9-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/317eaf31a9abcafbad9887c4f31439364bd6563e.webp",
+      "name": "iPad Pro 12.9-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3e85b100aa09ae92892567d2.webp",
-      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (12.9-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/317eaf31a9abcafbad9887c4f31439364bd6563e.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "fc060e95fdd5dbd16932d14e.png",
+      "sha256": "fc060e95fdd5dbd16932d14efc294b05d5346fe9c83b25ac096a909718da3abb",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,6": {
-      "name": "iPad Pro 3 (12.9-inch, WiFi, 1TB Model)",
-      "url": "https://ipsw.me/images/devices/455bedc9ca7a8bf4f006b45f8714913171ee9582.webp",
+      "name": "iPad Pro 12.9-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3e85b100aa09ae92892567d2.webp",
-      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (12.9-inch, WiFi, 1TB Model)",
+        "url": "https://ipsw.me/images/devices/455bedc9ca7a8bf4f006b45f8714913171ee9582.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "fc060e95fdd5dbd16932d14e.png",
+      "sha256": "fc060e95fdd5dbd16932d14efc294b05d5346fe9c83b25ac096a909718da3abb",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,7": {
-      "name": "iPad Pro 3 (12.9-inch, Cellular)",
-      "url": "https://ipsw.me/images/devices/ea7e207b4c3ff6ca9055efe448fad28948f45aba.webp",
+      "name": "iPad Pro 12.9-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3e85b100aa09ae92892567d2.webp",
-      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (12.9-inch, Cellular)",
+        "url": "https://ipsw.me/images/devices/ea7e207b4c3ff6ca9055efe448fad28948f45aba.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "fc060e95fdd5dbd16932d14e.png",
+      "sha256": "fc060e95fdd5dbd16932d14efc294b05d5346fe9c83b25ac096a909718da3abb",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,8": {
-      "name": "iPad Pro 3 (12.9-inch, Cellular, 1TB Model)",
-      "url": "https://ipsw.me/images/devices/a6fa76fd3f84d3ccdf084d460464146e231a0e0f.webp",
+      "name": "iPad Pro 12.9-inch (3rd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios12-ipad-pro-12-9-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "3e85b100aa09ae92892567d2.webp",
-      "sha256": "3e85b100aa09ae92892567d2fcd1a82ac3b682be3379a5a4aff32025bfa53835",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 3 (12.9-inch, Cellular, 1TB Model)",
+        "url": "https://ipsw.me/images/devices/a6fa76fd3f84d3ccdf084d460464146e231a0e0f.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 12.9-inch (3rd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "fc060e95fdd5dbd16932d14e.png",
+      "sha256": "fc060e95fdd5dbd16932d14efc294b05d5346fe9c83b25ac096a909718da3abb",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPad8,9": {
-      "name": "iPad Pro 4 (11-inch, WiFi)",
-      "url": "https://ipsw.me/images/devices/d2cc85e219afc0c8fdcd76bb2af8dcfee35893a5.webp",
+      "name": "iPad Pro 11-inch (2nd generation)",
+      "url": "https://cdsassets.apple.com/live/7WUAS350/images/ipad/ipad/ios13-4-ipad-pro-4gen-11-in.png",
+      "provider": "Apple",
+      "source": "Apple product documentation",
+      "page": "https://support.apple.com/en-us/108043",
       "listing": "https://ipsw.me/product/iPad/",
-      "provider": "IPSW.me",
-      "source": "IPSW Downloads product listing",
-      "page": "https://ipsw.me/product/iPad/",
-      "filename": "c234f847a336f73f18d30957.webp",
-      "sha256": "c234f847a336f73f18d3095787dbca39b35cff7d34b1ec28b4c2a232e8b1ff1d",
-      "retrieved_at": "2026-10-23T04:13:24.609161+00:00"
+      "fallback": {
+        "name": "iPad Pro 4 (11-inch, WiFi)",
+        "url": "https://ipsw.me/images/devices/d2cc85e219afc0c8fdcd76bb2af8dcfee35893a5.webp",
+        "listing": "https://ipsw.me/product/iPad/"
+      },
+      "note": "Original Apple model-identification photo under the iPad Pro 11-inch (2nd generation) heading, showing the full device. Wi-Fi and cellular variants share the product photo.",
+      "filename": "3bea25d5cec3bbc394b47150.png",
+      "sha256": "3bea25d5cec3bbc394b47150aed313c7f7189d20c3e8ba296987fe1f024ad4f8",
+      "retrieved_at": "2026-10-23T06:25:28.758393+00:00"
     },
     "iPhone1,1": {
       "name": "iPhone",

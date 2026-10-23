@@ -89,7 +89,7 @@ struct ContentView: View {
                     Label("Open firmware folder", systemImage: "folder").font(.system(size: 11))
                 }.buttonStyle(.plain).foregroundStyle(Palette.ice)
             }.padding(21).frame(maxWidth: .infinity, alignment: .leading).background(.black.opacity(0.12), in: RoundedRectangle(cornerRadius: 12)).padding(14)
-            Text("RESTOREDOCK  /  1.7").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
+            Text("RESTOREDOCK  /  1.7.1").font(.system(size: 8, weight: .medium)).tracking(1.3).foregroundStyle(.white.opacity(0.45)).padding(.horizontal, 26).padding(.bottom, 20)
         }.background(Palette.ink).foregroundStyle(.white)
     }
 
@@ -403,10 +403,11 @@ struct ContentView: View {
                         Label("Supported releases: Apple Software Lookup Service", systemImage: "server.rack")
                         Label("History metadata, checksums & model names: IPSW.me", systemImage: "ipad.and.iphone")
                         Label("Release notes: Apple Support", systemImage: "doc.text")
-                        Label("Bundled product photos: Apple (iPhone) & IPSW.me (iPad)", systemImage: "photo")
+                        Label("Bundled product photos: Apple (iPhone & iPad)", systemImage: "photo")
                         Link("iPhone photos from Apple technical specifications ↗", destination: URL(string: "https://www.apple.com/iphone-17/specs/")!).foregroundStyle(Palette.blue)
                         Link("iPhone photos from Apple model identification pages ↗", destination: URL(string: "https://support.apple.com/en-us/108044")!).foregroundStyle(Palette.blue)
-                        Link("iPad photos from IPSW.me ↗", destination: URL(string: "https://ipsw.me/product/iPad/")!).foregroundStyle(Palette.blue)
+                        Link("iPad photos from Apple technical specifications ↗", destination: URL(string: "https://www.apple.com/ipad-air/specs/")!).foregroundStyle(Palette.blue)
+                        Link("iPad photos from Apple model identification pages ↗", destination: URL(string: "https://support.apple.com/en-us/108043")!).foregroundStyle(Palette.blue)
                     }.font(.system(size: 12)).foregroundStyle(Palette.muted)
                     Divider()
                     Text("To restore, connect the device, select it in Finder, hold Option, and click Restore iPhone or Restore iPad. Choose a matching IPSW from your library. Restoring erases the device; Finder and Apple handle restore authorization.")
